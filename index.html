@@ -137,7 +137,7 @@ function viewAll(){
 function filter_cards(){
 	var loader = document.getElementById("loader-wrapper");
 	loader.style.display = "flex";
-	var stxt = document.getElementById("text2search").value.trim();
+	var stxt = document.getElementById("text2search").value.trim().toLowerCase();
 	var cards = document.getElementsByClassName("card");
 	for (var i = 0; i < cards.length; i++) {
 		var qtxt  = cards[i].innerText;
