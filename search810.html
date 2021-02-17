@@ -150,7 +150,9 @@ p a.viewall{
 	text-decoration:none;
 	color:#4CAF50;
 }
-
+.ques{
+	cursor: pointer;
+}
 .choi{
 	border-top: 1px solid #AAA;
 	padding-top: 10px;
@@ -388,6 +390,13 @@ document.addEventListener("DOMContentLoaded", page_ready);
 	  <a onclick="load_cards_rating(this, 5);" href="#" class="color5">5</a>
 	</div>
 <script type="text/javascript">
+var g_rating_group_counter = [0, 0, 0, 0, 0, 0];
+function update_rating_count(){
+	var list = document.querySelectorAll('.footbar a');
+	for (var i = 1; i < list.length; i++) {
+		list[i].innerText = g_rating_group_counter[i-1];
+	}
+}
 function load_cards_rating(sender, rating){
 	var p = findAncestor(sender,'footbar');
 	for(var i = 0; i<p.children.length; i++){
@@ -432,6 +441,7 @@ function page_ready(){
 			var r = parseInt(state_rating[card.id]||0);
 			card.setAttribute('data-rating', r.toString());
 			card.className = "card cardcolor" + r;
+			g_rating_group_counter[r]++;
 		}
 
 		//card.addEventListener('click', card_click, false);
@@ -442,15 +452,20 @@ function page_ready(){
 			lbls[j].onchange = function(){
 				var c = findAncestor(this, 'card');
 				var rating = parseInt(c.getAttribute('data-rating'));
+				var old_ra = rating;
 				var optval = parseInt(this.getAttribute('data-value'));
 				(optval == 0 ) ? rating++ : rating--;
 				if(rating > 6) rating = 0;
 				if(rating < 0) rating = 0;
 				c.setAttribute('data-rating', rating);
 				c.className = "card cardcolor" + rating;
+				
+				g_rating_group_counter[old_ra] = g_rating_group_counter[old_ra] - 1;
+				g_rating_group_counter[rating] = g_rating_group_counter[rating] + 1;
+				update_rating_count();
 				//c.style.borderColor = (optval != 1)?"#F70000":"#38c172";
-				var a = c.children[3];  
-				a.style.display = (optval == 1)?"block":"none";
+				//var a = c.children[3];  
+				//a.style.display = (optval == 1)?"block":"none";
 				
 				var state_rating = JSON.parse(localStorage.getItem("state_rating"))||{};
 				state_rating[c.id] = rating;
@@ -458,10 +473,11 @@ function page_ready(){
 			};
 		}
 	}
+	update_rating_count();
 	window.scrollTo(0, parseInt(localStorage.getItem("page_scroll_top")||0));
 }
 document.addEventListener("DOMContentLoaded", page_ready);
 window.onscroll = function() {localStorage.setItem("page_scroll_top", window.pageYOffset);};
 </script>
-
-</body></html>
+</body>
+</html>
