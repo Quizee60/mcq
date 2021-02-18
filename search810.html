@@ -290,12 +290,21 @@ function shuffle_cards(){
 	}
 }
 
+function shuffle_choices(card){
+	//https://www.thetopsites.net/article/58361532.shtml
+	var c = card.querySelector('ul');
+	for (var i = c.children.length; i >= 0; i--) {
+		c.appendChild(c.children[Math.random() * i | 0]);
+	}
+}
+
 function viewAll(){
 	var loader = document.getElementById("loader-wrapper");
 	loader.style.display = "flex";
 	shuffle_cards();
 	var cards = document.getElementsByClassName("card");
 	for (var i = 0; i < cards.length; i++) {
+		shuffle_choices(cards[i]);
 		cards[i].style.display = "block";
 	}
 	loader.style.display = "none";
@@ -314,6 +323,7 @@ function filter_cards(){
 			var qtxt  = cards[i].innerText;
 			for(k=0 ; k<chks.length; k++){
 				if(qtxt.toLowerCase().indexOf(chks[k].trim())!= -1){
+					shuffle_choices(cards[i]);
 					cards[i].style.display = "block";
 					found++;
 				}else{
@@ -403,6 +413,7 @@ function load_cards_rating(sender, rating){
 	var cards = document.getElementsByClassName("card");
 	for (var i = 0; i < cards.length; i++) {
 		var rv  = parseInt(cards[i].getAttribute('data-rating'));
+		shuffle_choices(cards[i]);
 		if(rating == -1){
 			cards[i].style.display = "block";
 		}else{
