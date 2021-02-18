@@ -453,7 +453,8 @@ function page_ready(){
 				var rating = parseInt(c.getAttribute('data-rating'));
 				var old_ra = rating;
 				var optval = parseInt(this.getAttribute('data-value'));
-				(optval == 0 ) ? rating++ : rating--;
+				//(optval == 0 ) ? rating++ : rating--;
+				if(optval ==0) rating++;
 				if(rating > 6) rating = 0;
 				if(rating < 0) rating = 0;
 				c.setAttribute('data-rating', rating);
