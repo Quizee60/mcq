@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MCQs Import Markup</title>
+<style type="text/css">
+* {
+  /* So 100% means 100% */
+  box-sizing: border-box;
+}
+html,body { height:100%; margin: 0px; padding: 0px; }
+body{
+	background-color:#AAA;
+}
+.container {
+	box-sizing: border-box;
+	width: 100%;
+	height:100%;
+	padding:10px;	
+}
+.textareaContainer {
+    padding: 0px;
+	width:100%;
+	height: calc(100% - 200px);
+}
+textarea { 
+	color:#FFF;
+	background-color: #333;
+	width: 100%; 
+	height:100%;
+	margin: 0; 
+	padding: 20px; 
+	border-width: 1;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+button.btn{
+	padding: 10px;
+	width:100%;
+}
+</style>
+<script type="text/javascript">
+/**
+ * Shuffles array in place.
+ * @param {Array} a items An array containing the items.
+ */
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
+}
+
+function fn_getCards(sender){
+	var area = document.getElementById("mytextarea");
+	
+	var data = area.value.trim();
+	var a = '\u{F0FE}'; //check sign
+	var b = '\u{F0FD}'; //cross sign
+	var ra = new RegExp(`[${a}]`,'g');
+	data  = data.replace(ra, '+');
+	var rb = new RegExp(`[${b}]`,'g');
+	data  = data.replace(rb, '-');
+	
+	var lines = data.replace(/\r\n/g,"\n").split("\n");
+	var cards = [], cind = 0;
+	if(lines.length < 1) return cards;
+	for (var i=0; i < lines.length; i++) {
+		var line = lines[i].trim();
+		if(line.startsWith("image:http")) continue;
+		var qn = line.search(/^\d+\.\s/i);
+		if(qn != -1){
+			qn = line.match(/^\d+\.\s/i)[0];
+			var q  = line.substring(qn.length).trim();
+			qn     = Number(qn.trim());
+			cards.push({'lblNo': qn, 'topic':q, 'options': [], 'answer':''});
+			cind ++;
+		}else{
+			if(cind == 0) continue;// skip if it does reach question mark by number d.
+			let option = line.trim();
+			// it's also work if option doesn't lead by '-', if has cut it away.
+			if(option.substring(0,1) =='-'){
+				option = line.substring(1).trim();
+			}
+			var optval = 0;
+			if(line.substring(0, 1) == '+') {
+				option = line.substring(1).trim();
+				cards[cind-1].answer = option;
+				optval = 1;
+			}
+			if(option.length>0){
+				cards[cind-1].options.push({'text':option, 'value': optval });
+			} 
+		}
+	}
+	return {'total': cind, 'cards': cards};
+}
+
+function fn_QuizBerryIFormat(cards, optSort=0){
+	var text = '', ftext = '', filter = false;//filter mean: take only mcqs with many options
+	
+	//sort by answer
+	if(optSort==1){
+		cards.sort(function(a, b){
+			return a.answer == b.answer ? 0 : +(a.answer > b.answer) || -1;
+		});
+	}
+	let counter = 0;
+	for (var i=0; i < cards.length; i++) {
+		let t = cards[i].topic;
+		t = t.replace(/<br>|<br\/>/g,", ");
+		t = t.replace(/\d+\./gi, "\\n$&");//find digits with dot and replace with that match by appending \n
+		let sm = t.split("\\n");
+		//t = sm.map(p => p.trim()).join("\n");
+		t = sm.map(p => p.trim()).join("\\n");
+		let ctext = cards[i].lblNo + ". " + t + "\n";
+		var opts = shuffle(cards[i].options);
+		for(var j=0; j < cards[i].options.length; j++){
+			ctext = ctext + (opts[j].value == 1 ? "+ ":"- ") + opts[j].text.trim() + "\n";
+		}
+		text = text + ctext;
+		if(sm.length > 1){
+			counter++;
+			ftext = ftext + ctext;
+		}
+		
+	}
+	if(filter == true){
+		alert("Filter Count: " + counter);
+		text = ftext;
+	}
+	var textArea = document.getElementById("mytextarea");
+	textArea.value = text;
+	textArea.select();
+	document.execCommand('copy');
+}
+
+function fn_QuizletIFormat(cards, optSort=0){
+	var text = '';
+	
+	//sort by answer
+	if(optSort==1){
+		cards.sort(function(a, b){
+			return a.answer == b.answer ? 0 : +(a.answer > b.answer) || -1;
+		});
+	}
+	
+	for (var i=0; i < cards.length; i++) {
+		let t = cards[i].topic;
+		t = t.replace(/<br>|<br\/>/g,"");
+		t = t.split("\\n").map(p => p.trim()).join("\n");
+		text = text + '\nQ: ' + t + "\n";
+		var opts = shuffle(cards[i].options);
+		// or .map(function(elem){ return elem.text; }).join(",");
+		// or add  toString: function(){ return this.text; } to data object in opt
+		text = text + "- " + opts.map(e => e.text.trim()).join("\n- ");
+		text = text + "\n\nQNo.: " + cards[i].lblNo;
+		text = text + "\n##";
+		text = text + "\n- " + cards[i].answer;
+		text = text + "\n&&";
+	}
+	var textArea = document.getElementById("mytextarea");
+	textArea.value = text;
+	textArea.select();
+	document.execCommand('copy');
+}
+
+function btnQuizBerryFormatClick(){
+	var data = fn_getCards();
+	var lblTotal = document.getElementById("totalcards");
+	lblTotal.innerText= data.total;
+	fn_QuizBerryIFormat(data.cards , 0);
+	
+}
+function btnQuizLetFormatClick(){
+	var data = fn_getCards();
+	var lblTotal = document.getElementById("totalcards");
+	lblTotal.innerText= data.total;
+	fn_QuizletIFormat(data.cards , 1);
+	
+}
+</script>
+</head>
+<body>
+	<div id="importcards" class="container">
+		<form name="frmFormat">
+			<button type="button" class="btn" onclick="btnQuizBerryFormatClick()" >Turn into QuizBerry Format</button>
+			<button type="button" class="btn" onclick="btnQuizLetFormatClick()" >Turn into QuizLet Format</button>
+			<br/><hr/>
+			<div>Total: <span id="totalcards"></span> </div>
+			<div class="textareaContainer">
+				<textarea id="mytextarea" name="mytextarea" class="" cols="80" rows="30"></textarea>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
