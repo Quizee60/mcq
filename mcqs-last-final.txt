@@ -176,19 +176,19 @@
 - operant conditioning
 + Modeling
 - Stimulus control
-30. អ្នកជំងឺម្នាក់អាចបញ្ជាក់អំពីសង្វាក់បេះដូងនិងសម្ពាធឈាមរបស់គាត់ដោយគ្រាន់តែ វាស់រួចអានលទ្ធផលនៅលើ monitor  របស់ប្រដាប់វាស់សម្ពាធឈាម។ យន្ដការនៃការសិក្សា របៀបនេះ គឺយកតាមរបៀប៖
+30. អ្នកជំងឺម្នាក់អាចបញ្ជាក់អំពីសង្វាក់បេះដូងនិងសម្ពាធឈាមរបស់គាត់ដោយគ្រាន់តែ វាស់រួចអានលទ្ធផលនៅលើ monitor របស់ប្រដាប់វាស់សម្ពាធឈាម។ យន្ដការនៃការសិក្សា របៀបនេះ គឺយកតាមរបៀប៖
 - Positive reinforcement
 - Modeling
 + Biofeedback
 - Operant conditioning
 - Stimulus control
-1. មនុស្សស្រីម្នាក់អាយុ ២៩ឆ្នាំមានវត្តមាននៅក្នុងផ្នែកសង្គ្រោះបន្ទាន់ ED  (Emergency Department )ដោយមានរបួសផ្នែកក្រោយនៃក្បាល។អ្នកជំងឺត្អូញត្អែថាឈឺក្បាលខ្លាំង ហើយគេបានបញ្ជូនគាត់ទៅផ្នែកថត MRI បង្ហាញថាមានហូរឈាមនៅក្នុងលលាដ៏ក្បាល ហើយ ការធ្វើ CT scan បង្ហាញថាមានបែកលលាដ៏ក្បាល (Skull)។ តើសរសៃឈាមណាដែលទាក់ទងក្នុងការហើម in an epidural hematoma?
+1. មនុស្សស្រីម្នាក់អាយុ ២៩ឆ្នាំមានវត្តមាននៅក្នុងផ្នែកសង្គ្រោះបន្ទាន់ ED (Emergency Department )ដោយមានរបួសផ្នែកក្រោយនៃក្បាល។អ្នកជំងឺត្អូញត្អែថាឈឺក្បាលខ្លាំង ហើយគេបានបញ្ជូនគាត់ទៅផ្នែកថត MRI បង្ហាញថាមានហូរឈាមនៅក្នុងលលាដ៏ក្បាល ហើយ ការធ្វើ CT scan បង្ហាញថាមានបែកលលាដ៏ក្បាល (Skull)។ តើសរសៃឈាមណាដែលទាក់ទងក្នុងការហើម in an epidural hematoma?
 - Posterior communicating artery
 - Anterior cerebara artery
 - Posterior cerebral artery
 + Middle meningeal artery
 - Anterior communicating artery
-2. មនុស្សស្រីម្នាក់អាយុ ២៩ឆ្នាំមានវត្តមាននៅក្នុងផ្នែកសង្គ្រោះបន្ទាន់ ED( Emergency Department ) ដោយមានរបួស ផ្នែកក្រោយនៃក្បាល។ អ្នកជំងឺត្អូញត្អែថាឈឺក្បាលខ្លាំង ហើយគេបានបញ្ជូនគាត់ទៅ  ផ្នែកថត MRI បង្ហាញថាមានហូរឈាម (Bleeding ) នៅក្នុងលលាដ៏ក្បាល  ហើយ CT scan បង្ហាញថាមានបែកលលាដ៏ក្បាល។ រចនសម្ព័ន្ធទាំងអស់ខាងក្រោមមាននៅក្នុង posterior cranial fossa. លើកលែងតែ EXCEPT
+2. មនុស្សស្រីម្នាក់អាយុ ២៩ឆ្នាំមានវត្តមាននៅក្នុងផ្នែកសង្គ្រោះបន្ទាន់ ED( Emergency Department ) ដោយមានរបួស ផ្នែកក្រោយនៃក្បាល។ អ្នកជំងឺត្អូញត្អែថាឈឺក្បាលខ្លាំង ហើយគេបានបញ្ជូនគាត់ទៅ ផ្នែកថត MRI បង្ហាញថាមានហូរឈាម (Bleeding ) នៅក្នុងលលាដ៏ក្បាល ហើយ CT scan បង្ហាញថាមានបែកលលាដ៏ក្បាល។ រចនសម្ព័ន្ធទាំងអស់ខាងក្រោមមាននៅក្នុង posterior cranial fossa. លើកលែងតែ EXCEPT
 + Optic foramen
 - Hypoglossal canal
 - Occipital lobes
@@ -200,7 +200,7 @@
 - Ventral anterior nucleus
 + Ventral lateral nuclei
 - Lateral geniculate. nucleus
-4. មនុស្សស្រីម្នាក់អាយុ ២៩ឆ្នាំ មានវត្តមាននៅក្នុងផ្នែកសង្គ្រោះបន្ទាន់ដោយមានរបួស ផ្នែកក្រោយនៃក្បាល។ អ្នកជំងឺត្អូញត្អែថាឈឺក្បាលខ្លាំង ហើយគេបានបញ្ជូនគាត់ទៅ ផ្នែកថត MRI បង្ហាញថាមានហូរឈាមនៅក្នុងលលាដ៏ក្បាល  ហើយ CT scan បង្ហាញថាមាន បែកលលាដ៏ក្បាល។ សួរថាតើ Cranial nuclei of the thalamus ណាខ្លះដែលពាក់ព័ន្ធទៅនឹង mediating facial senation and pian? ទាំងអស់នៅខាងក្រោមនេះគឺជា Brainstem nuclei ពាក់ព័ន្ធទៅនឹងមុខងារនៃ Crania nerve លើកលែងតែ
+4. មនុស្សស្រីម្នាក់អាយុ ២៩ឆ្នាំ មានវត្តមាននៅក្នុងផ្នែកសង្គ្រោះបន្ទាន់ដោយមានរបួស ផ្នែកក្រោយនៃក្បាល។ អ្នកជំងឺត្អូញត្អែថាឈឺក្បាលខ្លាំង ហើយគេបានបញ្ជូនគាត់ទៅ ផ្នែកថត MRI បង្ហាញថាមានហូរឈាមនៅក្នុងលលាដ៏ក្បាល ហើយ CT scan បង្ហាញថាមាន បែកលលាដ៏ក្បាល។ សួរថាតើ Cranial nuclei of the thalamus ណាខ្លះដែលពាក់ព័ន្ធទៅនឹង mediating facial senation and pian? ទាំងអស់នៅខាងក្រោមនេះគឺជា Brainstem nuclei ពាក់ព័ន្ធទៅនឹងមុខងារនៃ Crania nerve លើកលែងតែ
 - Inferior salivatary nucleus
 - Nucleus of the sotitary tract
 + Ventromedial nucleus
@@ -260,7 +260,7 @@
 + Submandibular
 - Parotid
 - Parapharyngeal.
-14. មនុស្សប្រុសម្នាក់អាយុ ២២ឆ្នាំ មានវត្តមាននៅក្នុងបន្ទប់ព្យាបាលធ្មេញរបស់អ្នក ដើម្បីដកធ្មេញលេខ១៧ ដែលខុសជួរ ។ ទន្តបណ្ឌិតបានដកធ្មេញ ដោយប្រើ ដង្កាប់ Mandibular cowhorn fosceps។ ធ្មេញបានដករួចហើយ  ដោយគ្មាន គុណវិបតិ្តភ្លាមៗនោះទេ។ ការសង្រ្គោះបន្ទាន់ទៅលើអ្នកជំងឺដោយមានការថប់ដង្ហើម(air way obstruction)។ តើគេធ្វើការធ្វើវះកាត់ដើម្បីអោយអ្នកជំងឺដកដង្ហើមបាន (Cricothyrotomy) គឺធ្វើការកាត់ (incising) រវាង
+14. មនុស្សប្រុសម្នាក់អាយុ ២២ឆ្នាំ មានវត្តមាននៅក្នុងបន្ទប់ព្យាបាលធ្មេញរបស់អ្នក ដើម្បីដកធ្មេញលេខ១៧ ដែលខុសជួរ ។ ទន្តបណ្ឌិតបានដកធ្មេញ ដោយប្រើ ដង្កាប់ Mandibular cowhorn fosceps។ ធ្មេញបានដករួចហើយ ដោយគ្មាន គុណវិបតិ្តភ្លាមៗនោះទេ។ ការសង្រ្គោះបន្ទាន់ទៅលើអ្នកជំងឺដោយមានការថប់ដង្ហើម(air way obstruction)។ តើគេធ្វើការធ្វើវះកាត់ដើម្បីអោយអ្នកជំងឺដកដង្ហើមបាន (Cricothyrotomy) គឺធ្វើការកាត់ (incising) រវាង
 - Left 3rd and intercostal muscles, laterally
 + Thyroid cartilage and criciod cartilage
 - Thyroid gland
@@ -284,13 +284,13 @@
 + Coronoid notch.
 - External oblique ridge of the mandible
 - Antilingula
-18. មនុស្សស្រីម្នាក់អាយុ ៥៥ឆ្នាំ មានវត្តមាននៅបន្ទប់ព្យាបាលធ្មេញ ដើម្បីធ្វើ Deep scaling and root planing ដែលជាផ្នែកនៃការព្យាបាល periodontitis ។ ដូចគ្នាទៅនឹងករណី ដែល មានជំងឺ Periodontal គឺ periodontal attachment បាត់បង់យ៉ាងជាក់ច្បាស់។ សួរថាតើ Pricipal collagen fibers of the PDL  ណាដែលរត់ពី Cementum ទៅភ្ជាប់ alveolar bone?
+18. មនុស្សស្រីម្នាក់អាយុ ៥៥ឆ្នាំ មានវត្តមាននៅបន្ទប់ព្យាបាលធ្មេញ ដើម្បីធ្វើ Deep scaling and root planing ដែលជាផ្នែកនៃការព្យាបាល periodontitis ។ ដូចគ្នាទៅនឹងករណី ដែល មានជំងឺ Periodontal គឺ periodontal attachment បាត់បង់យ៉ាងជាក់ច្បាស់។ សួរថាតើ Pricipal collagen fibers of the PDL ណាដែលរត់ពី Cementum ទៅភ្ជាប់ alveolar bone?
 + Horizontal
 - Transseptal
 - Oblique
 - Apical
 - Interradicular
-19. មនុស្សស្រីម្នាក់អាយុ ៥៥ឆ្នាំ មានវត្តមាននៅបន្ទប់ព្យាបាលធ្មេញ ដើម្បីធ្វើ Deep scaling នឹង root planing ដែលជាផ្នែកក្នុងការព្យាបាល periodontitis ។សួរថា តើ  Principal collagen fibers of the PDL នៅរវាង Type of collagen ណា?
+19. មនុស្សស្រីម្នាក់អាយុ ៥៥ឆ្នាំ មានវត្តមាននៅបន្ទប់ព្យាបាលធ្មេញ ដើម្បីធ្វើ Deep scaling នឹង root planing ដែលជាផ្នែកក្នុងការព្យាបាល periodontitis ។សួរថា តើ Principal collagen fibers of the PDL នៅរវាង Type of collagen ណា?
 - Type II only
 - Type II and III
 - Type I only
@@ -302,25 +302,25 @@
 - Cementobasts
 - Lymphocytes
 - Neutrophils
-21. "មនុស្សប្រុសម្នាក់អាយុ ២៦ឆ្នាំ មានវត្តមាននៅផ្នែកសង្រ្គោះបន្ទាន់ ដោយរងនូវការ វាយនឹងរនុក។ គាត់បានបញ្ជាក់ថា គាត់ត្រូវបានគេដាល់ចំភ្នែកស្តាំ ហើយត្អួញត្អែពីការ ឈឺក្បាល។ ទន្តបណ្ឌិងកត់សំគាល់ថា មានហើមនៅភ្នែកស្តាំរបស់អ្នកជំងឺ  ជាងនេះទៀតបានត្អូញត្អែថា  ពេលស្ទាប មានការឈឺមួយចំហៀងមុខផ្នែក Infero-lateral នៃភ្នែកស្តាំ (ធ្វើអោយមានការព្រួយបារម្ភបន្តិច) ឆ្អឹងនិមួយៗនៅខាងក្រោមគឺជាផ្នែកនៃ orbit លើកលែងតែៈ"
+21. "មនុស្សប្រុសម្នាក់អាយុ ២៦ឆ្នាំ មានវត្តមាននៅផ្នែកសង្រ្គោះបន្ទាន់ ដោយរងនូវការ វាយនឹងរនុក។ គាត់បានបញ្ជាក់ថា គាត់ត្រូវបានគេដាល់ចំភ្នែកស្តាំ ហើយត្អួញត្អែពីការ ឈឺក្បាល។ ទន្តបណ្ឌិងកត់សំគាល់ថា មានហើមនៅភ្នែកស្តាំរបស់អ្នកជំងឺ ជាងនេះទៀតបានត្អូញត្អែថា ពេលស្ទាប មានការឈឺមួយចំហៀងមុខផ្នែក Infero-lateral នៃភ្នែកស្តាំ (ធ្វើអោយមានការព្រួយបារម្ភបន្តិច) ឆ្អឹងនិមួយៗនៅខាងក្រោមគឺជាផ្នែកនៃ orbit លើកលែងតែៈ"
 + Temporal
 - Lacrimal
 - Zygoma
 - Ethmoid
 - Frontal
-22. មនុស្សប្រុសម្នាក់អាយុ ២៦ឆ្នាំ មានវត្តមាននៅផ្នែកសង្រ្គោះបន្ទាន់ ដោយរងនូវការវាយ នឹងរនុក។ គាត់បានបញ្ជាក់ថា គាត់ត្រូវបានគេដាល់ចំភ្នែកស្តាំ ហើយធ្វើអោយឈឺក្បាល។ ទន្តបណ្ឌិតមានសំគាល់ថា មានហើមនៅរង្វង់ភ្នែកស្តាំ(periorbital edema) ហើយគាត់បានត្អូញត្អែថា ពេលស្ទាបមានការឈឺមួយចំហៀងមុខនៅផ្នែក Infero-lateral នៅភ្នែកស្តាំរបស់គាត់។ សួរថាតើ Artery ធំចំបងណាដែលផ្តល់ឈាម ដើម្បីចិញ្ចឹម orbit  នឹងភ្នែក?
+22. មនុស្សប្រុសម្នាក់អាយុ ២៦ឆ្នាំ មានវត្តមាននៅផ្នែកសង្រ្គោះបន្ទាន់ ដោយរងនូវការវាយ នឹងរនុក។ គាត់បានបញ្ជាក់ថា គាត់ត្រូវបានគេដាល់ចំភ្នែកស្តាំ ហើយធ្វើអោយឈឺក្បាល។ ទន្តបណ្ឌិតមានសំគាល់ថា មានហើមនៅរង្វង់ភ្នែកស្តាំ(periorbital edema) ហើយគាត់បានត្អូញត្អែថា ពេលស្ទាបមានការឈឺមួយចំហៀងមុខនៅផ្នែក Infero-lateral នៅភ្នែកស្តាំរបស់គាត់។ សួរថាតើ Artery ធំចំបងណាដែលផ្តល់ឈាម ដើម្បីចិញ្ចឹម orbit នឹងភ្នែក?
 - Transverse facial
 - Infraorbital
 - Maxillary
 + Ophthalmic
 - Facial
-23. មនុស្សប្រុសម្នាក់អាយុ ២៦ឆ្នាំមានវត្តមាននៅបន្ទប់សង្រ្គោះបន្ទាន់ ដោយរងនូវការវាយនឹង រនុក ។ គាត់បានបញ្ជាក់ថា គាត់ត្រូវបានវាយយ៉ាងដំណំនៅចំភ្នែកស្តាំ ហើយមានការឈឺ ក្បាល។ យើងបានកត់សំគាល់ថា មានការហើមនៅរង្វង់ភ្នែកស្តាំ ហើយអ្នកជំងឺបានត្អូញត្អែថា ពេលស្ទាប មានការឈឺមួយចំហៀងមុខ នៅ Infero-lateral នៃភ្នែកស្តាំ។តើសាច់ដុំណាមួយ ដែលមានកំណើតពីលើ Zygamatic Process of Maxilla (superfi-ciallyn )  និង Zygamatic arch ( Deep)
+23. មនុស្សប្រុសម្នាក់អាយុ ២៦ឆ្នាំមានវត្តមាននៅបន្ទប់សង្រ្គោះបន្ទាន់ ដោយរងនូវការវាយនឹង រនុក ។ គាត់បានបញ្ជាក់ថា គាត់ត្រូវបានវាយយ៉ាងដំណំនៅចំភ្នែកស្តាំ ហើយមានការឈឺ ក្បាល។ យើងបានកត់សំគាល់ថា មានការហើមនៅរង្វង់ភ្នែកស្តាំ ហើយអ្នកជំងឺបានត្អូញត្អែថា ពេលស្ទាប មានការឈឺមួយចំហៀងមុខ នៅ Infero-lateral នៃភ្នែកស្តាំ។តើសាច់ដុំណាមួយ ដែលមានកំណើតពីលើ Zygamatic Process of Maxilla (superfi-ciallyn ) និង Zygamatic arch ( Deep)
 - Masseter
 + Medial pterygoid
 - Lateral pterygoid
 - Temporalis
 - Buccinator
-24. មនុស្សម្នាក់អាយុ២៦ឆ្នាំមានវត្តមាននៅក្នុងបន្ទប់សង្រ្គោះបន្ទាន់ដោយរងនូវការវាយនឹង រនុក ។ គាត់បានបញ្ជាក់ថាគាត់ត្រូវគេវាយយ៉ាងដំណំចំភ្នែកស្តាំ ហើយបានត្អួញត្អែថា មានការឈឺក្បាល។ យើងកត់សំគាល់ឃើញមានការហើមនៅរង្វង់ភ្នែកស្តាំ និងជាងនេះទៅទៀត បានត្អួញត្អែរថា កាលណាគេស្ទាប មានការឈឺមួយចំហៀងមុខនៅម្តុំ  Infero-Lateral ភ្នែកស្តាំ។ តើ Superior orbital fissure ស្ថិតនៅរវាងឆ្អឹងណាខ្លះ?
+24. មនុស្សម្នាក់អាយុ២៦ឆ្នាំមានវត្តមាននៅក្នុងបន្ទប់សង្រ្គោះបន្ទាន់ដោយរងនូវការវាយនឹង រនុក ។ គាត់បានបញ្ជាក់ថាគាត់ត្រូវគេវាយយ៉ាងដំណំចំភ្នែកស្តាំ ហើយបានត្អួញត្អែថា មានការឈឺក្បាល។ យើងកត់សំគាល់ឃើញមានការហើមនៅរង្វង់ភ្នែកស្តាំ និងជាងនេះទៅទៀត បានត្អួញត្អែរថា កាលណាគេស្ទាប មានការឈឺមួយចំហៀងមុខនៅម្តុំ Infero-Lateral ភ្នែកស្តាំ។ តើ Superior orbital fissure ស្ថិតនៅរវាងឆ្អឹងណាខ្លះ?
 - Lesser wing of sphenoid and ethmoid
 - Greater wing of sphenoid and maxilla
 + Greater wing of sphenoid and lesser wing of sphenoid
@@ -332,7 +332,7 @@
 - Vagus
 - Spinal accessory
 - Glossopharyngeal
-26. តើ layer of fascial ណាដែលមាន  Lymphatic vessels  នៅក្នុងក?
+26. តើ layer of fascial ណាដែលមាន Lymphatic vessels នៅក្នុងក?
 - Investing
 - Nun of the above
 - Prevertebral
@@ -398,7 +398,7 @@
 - Posterior superior alveolar
 - Middle superior alveolar
 + Nasopalatine
-37. Stylomandibular  ligament  មានដើមកំណើតភ្ជាប់មកពីឆ្អឹងណា?
+37. Stylomandibular ligament មានដើមកំណើតភ្ជាប់មកពីឆ្អឹងណា?
 - Occipital
 + Temporal
 - Parietal
@@ -411,11 +411,11 @@
 - None of the above
 + Frontal
 39. សូមមើលការតភ្ជាប់នៃសាច់ដុំ Mylohyoid? សួរថា មួយណាដែលត្រឹមត្រូវ?
-- វាតភ្ជាប់  ខាងលើទៅនឹងគែមកណ្តាលនៃឆ្អឹងធ្គាមក្រោម  ហើយខាងក្រោមតភ្ជាប់ស្នែងតូចនៃឆ្អឹង hyoid.
+- វាតភ្ជាប់ ខាងលើទៅនឹងគែមកណ្តាលនៃឆ្អឹងធ្គាមក្រោម ហើយខាងក្រោមតភ្ជាប់ស្នែងតូចនៃឆ្អឹង hyoid.
 - វាតភ្ជាប់ ខាងលើទៅនឹងគែមខាងនៃឆ្អឹងធ្គាមក្រោម ហើយខាងក្រោមតភ្ជាប់ ដងខ្លួននៃឆ្អឹង hyoid
-- វាតភ្ជាប់ខាងលើទៅនឹងគែមកណ្តាលនៃឆ្អឹងធ្គាមក្រោម   ហើយខាងក្រោមតភ្ជាប់ ស្នែងធំនៃឆ្អឹង hyoid.
+- វាតភ្ជាប់ខាងលើទៅនឹងគែមកណ្តាលនៃឆ្អឹងធ្គាមក្រោម  ហើយខាងក្រោមតភ្ជាប់ ស្នែងធំនៃឆ្អឹង hyoid.
 + វាតភ្ជាប់ ខាងលើទៅនឹងគែមកណ្តាលនៃឆ្អឹងក្រោម ហើយខាងក្រោមតភ្ជាប់ ដងខ្លួននៃឆ្អឹង hyoid
-40. តើ Nerve ណាទៅគ្រប់គ្រង digastric muscle   ( innervates the anterior Belly of the digastric muscle?)
+40. តើ Nerve ណាទៅគ្រប់គ្រង digastric muscle  ( innervates the anterior Belly of the digastric muscle?)
 - Facial nerve
 + Mylohyoid nerve
 - Mental nerve
@@ -445,7 +445,7 @@
 + Mantle dentin
 - Odontoblasts
 - Circumpulpal and radicular dentin
-45. ធ្មេញមួយបានដកមកហើយ  ហើយឬសមួយបានបាក់នៅក្នុង Alveolus ។   តើឬសធ្មេញណាដែលអាចធ្វើអោយរបួសដល់ Maxillary Sinus?
+45. ធ្មេញមួយបានដកមកហើយ ហើយឬសមួយបានបាក់នៅក្នុង Alveolus ។  តើឬសធ្មេញណាដែលអាចធ្វើអោយរបួសដល់ Maxillary Sinus?
 - Root of the maxillary lateral incisor
 - Root of the maxillary canine
 + Lingual root of the maxillary 1st molar
@@ -457,7 +457,7 @@
 - Temporal
 - Frontal
 - Maxilla
-47. ក្មេងស្រីម្នាក់អាយុ ១៨ឆ្នាំមានវត្តមាននៅផ្នែកសង្រ្គោះបន្ទាន់  ត្អូញត្អែរយ៉ាងខ្លាំង ដោយចង្កាជាប់មិនអាចធ្វើចលនាបាន អ្នកបានសន្និដ្ឋានថា ជា Luxation នៃ Mandible។ តើទិសដៅណាដែល Mandible condyle ត្រូវធ្វើចលនាបានល្អធម្មតាវិញ?
+47. ក្មេងស្រីម្នាក់អាយុ ១៨ឆ្នាំមានវត្តមាននៅផ្នែកសង្រ្គោះបន្ទាន់ ត្អូញត្អែរយ៉ាងខ្លាំង ដោយចង្កាជាប់មិនអាចធ្វើចលនាបាន អ្នកបានសន្និដ្ឋានថា ជា Luxation នៃ Mandible។ តើទិសដៅណាដែល Mandible condyle ត្រូវធ្វើចលនាបានល្អធម្មតាវិញ?
 + Anteriorly
 - Posterior and inferior
 - Posterior and superior
@@ -511,7 +511,7 @@
 + Epididymis
 - Seminiferous tubules
 - Testis
-56. ខាងក្រោមនេះជាមុខងារមួយៗរបស់ស្បែក  លើកលែងតែៈ
+56. ខាងក្រោមនេះជាមុខងារមួយៗរបស់ស្បែក លើកលែងតែៈ
 + Synthesis of vitamin E from ultraviolet light
 - Homeostatic regulation of body temperature
 - Excretion via sweat glands
@@ -525,7 +525,7 @@
 - Submental nodes
 58. ទាក់ទងទៅនឹង bone marrow នៃឆ្អឹងថ្គាមលើនិងក្រោម តើឃ្លាណាមួយដែលខុស ?
 - Yellow marrow is the predominant marrow type in the maxilla and mandible.
-+ Red marrow contain fatty cells and is the predominant marrow type in the  mandibular ramus and condyles.
++ Red marrow contain fatty cells and is the predominant marrow type in the mandibular ramus and condyles.
 - It is contained within the medullary spaces of spongy bone.
 - Yellow marrow contains fatty cells.
 - Red marrow contains hematopoietic cells.
@@ -535,13 +535,13 @@
 - Simple cuboidal, simple squamous, simple columnar.
 - Simple squamous, olfactory, simple columnar.
 + Stratified squamous, pseudostratified ciliated columnar, olfactory.
-60. អ្នកជំងឺម្នាក់មានវត្តមាននៅចំពោះមុខអ្នក  ដោយមានការប៉ះទង្គិចនៅចង្កា យើងពិនិត្យឃើញថា ផ្នែកខាងមុខអណ្តាតមានការដាច់ ហើយហូរឈាមយ៉ាងខ្លាំង។ សរសៃនិមួយៗ សុទ្ធនាំឈាមទៅផ្គត់ផ្គង់អណ្តាតលើកលែងតែៈ
+60. អ្នកជំងឺម្នាក់មានវត្តមាននៅចំពោះមុខអ្នក ដោយមានការប៉ះទង្គិចនៅចង្កា យើងពិនិត្យឃើញថា ផ្នែកខាងមុខអណ្តាតមានការដាច់ ហើយហូរឈាមយ៉ាងខ្លាំង។ សរសៃនិមួយៗ សុទ្ធនាំឈាមទៅផ្គត់ផ្គង់អណ្តាតលើកលែងតែៈ
 - Facial artery
 - External carotid artery
 - Ascenting pharyngeal artery
 + Superior laryngeal artery
 - Lingual artery
-61. "អ្នកជំងឺម្នាក់ មានវត្តមាននៅចំពោះមុខអ្នក ដោយមានការប៉ះទង្គិចនៅចង្កា។គេកត់សំគាល់មានការដាច់នៅផ្នែកខាងមុខនៃអណ្តាត ហើយមានការហូរឈាមយ៉ាង អ្នកខ្លាំង។  សាច់ដុំមួយៗសុទ្ធតែទទួលគ្រោះថ្នាក់ លើកលែងតែៈ"
+61. "អ្នកជំងឺម្នាក់ មានវត្តមាននៅចំពោះមុខអ្នក ដោយមានការប៉ះទង្គិចនៅចង្កា។គេកត់សំគាល់មានការដាច់នៅផ្នែកខាងមុខនៃអណ្តាត ហើយមានការហូរឈាមយ៉ាង អ្នកខ្លាំង។ សាច់ដុំមួយៗសុទ្ធតែទទួលគ្រោះថ្នាក់ លើកលែងតែៈ"
 - Transverse
 - Hyoglossus
 - Styloglossus
@@ -577,7 +577,7 @@
 - Monocytes
 - Erythroblasts
 - Granulocytes
-67. ប្រសិនបើអ្នកជំងឺម្នាក់មានកំរិតខ្ពស់នូវ bile pigment ដែលបញ្ចេញដោយថ្លើមតើវាបានបង្កើនឡើងនូវការបំផ្លាញនៃ causative factor  ណា?
+67. ប្រសិនបើអ្នកជំងឺម្នាក់មានកំរិតខ្ពស់នូវ bile pigment ដែលបញ្ចេញដោយថ្លើមតើវាបានបង្កើនឡើងនូវការបំផ្លាញនៃ causative factor ណា?
 - Platelets
 - Neutrophils
 + Erythrocytes
@@ -673,7 +673,7 @@
 + Enamel
 - Cementum
 - Dentin
-83. បន្ទប់សរសៃធ្មេញ (Pulpal Chamber)ដែលមានអាយុច្រើន  ឃ្លានិមួយៗខាងក្រោមត្រឹមត្រូវលើកលែងតែៈ
+83. បន្ទប់សរសៃធ្មេញ (Pulpal Chamber)ដែលមានអាយុច្រើន ឃ្លានិមួយៗខាងក្រោមត្រឹមត្រូវលើកលែងតែៈ
 - Increased calcification
 + Decreased collagen content
 - Decreased sensitivity
@@ -691,7 +691,7 @@
 - Coiled
 - Meissner
 - Spindle
-86. ណាមួយដែលជាសំពាធនៃ  Interdental gingiva  ដែលបានផ្ជាប់  lingual នឹង facial Papillae?
+86. ណាមួយដែលជាសំពាធនៃ Interdental gingiva ដែលបានផ្ជាប់ lingual នឹង facial Papillae?
 - Interdental papilla
 - Alveolar mucosa
 + Gingival col
@@ -709,13 +709,13 @@
 - It lacks dead tracts
 - It lacks hydroxyapatite.
 + Most is produced in the form of intertubular dentin.
-89. ក្នុងកំឡុងពេលនៃ  Amelogenesis តើ Enamel បានថយចុះក្នុងមួយថ្ងៃជាមធ្យមប៉ុន្មាន?
+89. ក្នុងកំឡុងពេលនៃ Amelogenesis តើ Enamel បានថយចុះក្នុងមួយថ្ងៃជាមធ្យមប៉ុន្មាន?
 - 0.1mm
 - 1mm
 - 0.04 µm
 + 4 µm
 - 4mm
-90. ក្នុងរយៈពេល odontogenesis  កោសិកាណាដែលបញ្ជាក់ពីប្រភេទធ្មេញដែលត្រូវកកើត?
+90. ក្នុងរយៈពេល odontogenesis កោសិកាណាដែលបញ្ជាក់ពីប្រភេទធ្មេញដែលត្រូវកកើត?
 - Endoderm
 + Ectomesenchyme
 - Mesoderm
@@ -739,7 +739,7 @@
 - Neural crest
 + Ectoderm
 - Mesoderm
-94. ការបង្កើននូវ Vitamin  D វាមាននៅកន្លែងណា?
+94. ការបង្កើននូវ Vitamin D វាមាននៅកន្លែងណា?
 - Kidney
 - Spleen
 - Liver
@@ -775,7 +775,7 @@
 - Outer cortex of adrenals
 - Parafollicular cells
 - Pars distalis
-100. មួយណានៃ blood elements ខាងក្រោមនេះដែលជា  fragment នៃ megakaryocytic cytoplasm?
+100. មួយណានៃ blood elements ខាងក្រោមនេះដែលជា fragment នៃ megakaryocytic cytoplasm?
 - Promyelocyte
 - Normoblast
 + Platelet
@@ -787,7 +787,7 @@
 - Masseter
 - Lateral pterygoid
 - Digastric
-102. សរសៃដែលផ្តល់ឈាមដល់  walls of large arteries ជាទូទៅត្រូវបានគេស្គាល់ថាជាៈ
+102. សរសៃដែលផ្តល់ឈាមដល់ walls of large arteries ជាទូទៅត្រូវបានគេស្គាល់ថាជាៈ
 - Metarterioles
 - Arterioles
 - Capillaries
@@ -905,8 +905,8 @@
 - Blocking K+ channels
 - Activating K+ channels
 + Blocking Na+ cannels
-- Activating Na+  channels
-122. តើចំលើយមួយណាខាងក្រោមដែលទាក់ទងនឹងOsteonecrosis  of the jawsថ្គាម?
+- Activating Na+ channels
+122. តើចំលើយមួយណាខាងក្រោមដែលទាក់ទងនឹងOsteonecrosis of the jawsថ្គាម?
 - Zolendronate
 - ខាងលើខុសទាំងអស់
 - Pamidronate
@@ -982,7 +982,7 @@
 - Yellow marrow
 - Lymph nodes
 - Thymu
-135. មុខងារ Na+ /K+ pump តាមរយៈការសំរួលភាពបន្សាយ  ព្រោះវាត្រូវការ ATP
+135. មុខងារ Na+ /K+ pump តាមរយៈការសំរួលភាពបន្សាយ ព្រោះវាត្រូវការ ATP
 - ប្រយោគមិនត្រឹមត្រូវតែហេតុផលត្រឹមត្រូវ
 - ប្រយោគនិងហេតុផលមិនត្រឹមត្រូវ
 + ហេតុផលនិងប្រយោគទាំងពីរគឺត្រឹមត្រូវនិងស៊ីចង្វាក់ទាក់ទងគ្នា
@@ -1123,7 +1123,7 @@
 - Adrenal medulla
 - ត្រឹមត្រូវទាំងអស់
 - Posterior pituitary
-159. ដោយផ្អែកទៅលើមេកានិច Frank – Starling  តើចំលើយមួយណាខាងក្រោម ដែលមានសារះ សំខាន់ក្នុងការកត់សំគាល់ ក្នុង Cardiac Output ?
+159. ដោយផ្អែកទៅលើមេកានិច Frank – Starling តើចំលើយមួយណាខាងក្រោម ដែលមានសារះ សំខាន់ក្នុងការកត់សំគាល់ ក្នុង Cardiac Output ?
 - ចង្វាក់បេះដូង
 - សំពាធនៃ Systolic intraventricular
 - Stroke Volume
@@ -1135,7 +1135,7 @@
 + CO2 ដែលអាចរលាយ& Bicarbonate
 - CO2 ដែលអាចរលាយ
 - Bicarbonate
-161. តើជាលិកាណាខ្លះខាងក្រោម មាន Post – ganglionic sympathetic neurons  ដែលជា Cholinergic ?
+161. តើជាលិកាណាខ្លះខាងក្រោម មាន Post – ganglionic sympathetic neurons ដែលជា Cholinergic ?
 + Skeletal muscle vasculature and Sweat glands
 - Sebaceous glands
 - Sweat glands
@@ -1171,7 +1171,7 @@
 - Niacin
 - Thiamine
 - Vitamin E
-167. ដោយមិនរាប់បញ្ចូលប្រសិទ្ធភាពនៃថ្នាំ  Apnea  ដែលកើតឡើងបន្ទាប់ពី មាន Hyperventilation  លើអ្នកជំងឺ ដែលទទួលថ្នាំស្ពឹកហើយគឺ ជាលទ្ធផលនៃ
+167. ដោយមិនរាប់បញ្ចូលប្រសិទ្ធភាពនៃថ្នាំ Apnea ដែលកើតឡើងបន្ទាប់ពី មាន Hyperventilation លើអ្នកជំងឺ ដែលទទួលថ្នាំស្ពឹកហើយគឺ ជាលទ្ធផលនៃ
 - ការធ្លាក់ចុះកំរិត Oxygen
 + ការធ្លាក់ចុះ តង់សុងរបស់Carbon dioxide
 - ការកើនឡើង កំហាប់ អីយុង Hydrogen
@@ -1183,49 +1183,49 @@
 - Vitamin A and D
 - Vitamin E and K
 + Vitamin B12 and folic acid
-169. ខាងក្រោមនេះគឺជាមុខងារសំខាន់របស់ទឺកមាត់  លើកលែងតែ មួយ គឺ
+169. ខាងក្រោមនេះគឺជាមុខងារសំខាន់របស់ទឺកមាត់ លើកលែងតែ មួយ គឺ
 - Facilitates deglutition
 - ធើ្វអោយមានរស់ជាតិ
 - ផ្តល់សកម្មភាព Buffering
 + Initiates protein digestion
 - ការពារ មិនអោយមាន Demineralization
-170. បុរសអាយុ៣០ឆ្នាំម្នាក់ មកកាន់ការិយាល័យរបស់អ្នកដើម្បី ទទួលការព្យាបាលធេ្មញ។ គាត់បាន ត្អូញត្អែរពីការបែកញើសពេលយប់និងអស់កំលាំង ល្ហិនល្ហៃ។ ក្នុងការពិនិត្យ អ្នកបានកត់សំគាល់នូវការ ការឡើង ធំ ច្រើនកន្លែង និងហើម នូវ Node  ដោយការប៉ះ នៅតំបន់ Cervical និង Sub mandibular ។ សប្តាហ៍ក្រោយមក Node  ទាំងនោះមានការរីកទំហំកាន់តែធំ ដែលធ្វើអោយអ្នកសំរេចចិត្ត បញ្ចូល គាត់ ទទួលការធ្វើ Biosy លើ Node នោះ។ តើជំងឺខាងក្រោមនេះ ណាខ្លះដែលបង្ហាញ ពី Reed – Sternberg cell ក្នុងពេល ធើ្វ Cytological Exam ?
+170. បុរសអាយុ៣០ឆ្នាំម្នាក់ មកកាន់ការិយាល័យរបស់អ្នកដើម្បី ទទួលការព្យាបាលធេ្មញ។ គាត់បាន ត្អូញត្អែរពីការបែកញើសពេលយប់និងអស់កំលាំង ល្ហិនល្ហៃ។ ក្នុងការពិនិត្យ អ្នកបានកត់សំគាល់នូវការ ការឡើង ធំ ច្រើនកន្លែង និងហើម នូវ Node ដោយការប៉ះ នៅតំបន់ Cervical និង Sub mandibular ។ សប្តាហ៍ក្រោយមក Node ទាំងនោះមានការរីកទំហំកាន់តែធំ ដែលធ្វើអោយអ្នកសំរេចចិត្ត បញ្ចូល គាត់ ទទួលការធ្វើ Biosy លើ Node នោះ។ តើជំងឺខាងក្រោមនេះ ណាខ្លះដែលបង្ហាញ ពី Reed – Sternberg cell ក្នុងពេល ធើ្វ Cytological Exam ?
 - Acute Lymphocytic Leukemia
 - Non – Hodgkin Lymphoma
 + Hodgkin lymphoma
 - Chronic Myelogenous Leukemia
 - Multiple myeloma
-171. បុរសអាយុ៣០ឆ្នាំម្នាក់ មកកាន់គ្លីនិកធ្មេញរបស់អ្នកដើម្បី ទទួលការព្យាបាលធេ្មញ។ គាត់បាន ត្អូញត្អែរពីការបែកញើសពេលយប់និងអស់កំលាំង ល្ហិនល្ហៃ។ ក្នុងការពិនិត្យ អ្នកបានកត់សំគាល់នូវការ ការឡើង ធំ ច្រើនកន្លែង និងហើម នូវ Node  ដោយការប៉ះ នៅតំបន់ Cervical និង Sub mandibular ។ សប្តាហ៍ក្រោយមក Node  ទាំងនោះមានការរីកទំហំកាន់តែធំ ដែលធ្វើអោយអ្នកសំរេចចិត្ត បញ្ចូល គាត់ ទទួលការធ្វើ Biosy លើ Node នោះ។ ប្រយោគខាងក្រោមនេះ គឹមានលក្ខណះត្រឹមត្រូវ នៃ Cell – immediate Immunity  លើកលែង តែ
+171. បុរសអាយុ៣០ឆ្នាំម្នាក់ មកកាន់គ្លីនិកធ្មេញរបស់អ្នកដើម្បី ទទួលការព្យាបាលធេ្មញ។ គាត់បាន ត្អូញត្អែរពីការបែកញើសពេលយប់និងអស់កំលាំង ល្ហិនល្ហៃ។ ក្នុងការពិនិត្យ អ្នកបានកត់សំគាល់នូវការ ការឡើង ធំ ច្រើនកន្លែង និងហើម នូវ Node ដោយការប៉ះ នៅតំបន់ Cervical និង Sub mandibular ។ សប្តាហ៍ក្រោយមក Node ទាំងនោះមានការរីកទំហំកាន់តែធំ ដែលធ្វើអោយអ្នកសំរេចចិត្ត បញ្ចូល គាត់ ទទួលការធ្វើ Biosy លើ Node នោះ។ ប្រយោគខាងក្រោមនេះ គឹមានលក្ខណះត្រឹមត្រូវ នៃ Cell – immediate Immunity លើកលែង តែ
 - វាជាការប្រឆាំង នឹង Parasite
 - វាជាប់ទាក់ទងនឹង NK Cell និង Macrophage
 + Hemophilia C
 - វាជាការឆ្លើយតបរបស់ Type IV hypersensitivity reaction
 - វាសំខាន់នៅក្នុង Transplant Recjection
-172. បុរសអាយុ១៧ឆ្នាំមា្នក់ មកកាន់ការិយាល័យអ្នក ក្នុងគោលបំណងដកធ្មេញ ថ្គាមធំទី៣ ទាំង៤ ចេញ។ គាត់ មិនបានផ្តល់ពី Medical History  និងក្រោយមកអ្នកចាប់ផ្តើម ការពិនិត្យមុនពេលដកធ្មេញ។ នៅពេលកំពុងចាប់ផ្តើម Intra – venous line ដៃរបស់គាត់ទទួលការមុតដោយចៃដន្យ បន្ទាប់មក គាត់ ចាប់ផ្តើមមានការឈាមខ្លាំង។ តើ ជំងឹ Secondary hemostatic ខាងក្រោមនេះមួយណាដែលអាច មាន
+172. បុរសអាយុ១៧ឆ្នាំមា្នក់ មកកាន់ការិយាល័យអ្នក ក្នុងគោលបំណងដកធ្មេញ ថ្គាមធំទី៣ ទាំង៤ ចេញ។ គាត់ មិនបានផ្តល់ពី Medical History និងក្រោយមកអ្នកចាប់ផ្តើម ការពិនិត្យមុនពេលដកធ្មេញ។ នៅពេលកំពុងចាប់ផ្តើម Intra – venous line ដៃរបស់គាត់ទទួលការមុតដោយចៃដន្យ បន្ទាប់មក គាត់ ចាប់ផ្តើមមានការឈាមខ្លាំង។ តើ ជំងឹ Secondary hemostatic ខាងក្រោមនេះមួយណាដែលអាច មាន
 + Hemophilia A
 - Hemophilia C
 - Thrombocytopenia
 - Bernard – Soulier syndrome
 - Von Willebrand disease
-173. បុរសអាយុ១៧ឆ្នាំមា្នក់ មកកាន់គ្លីនិកធ្មេញ ក្នុងគោលបំណងដកធ្មេញ ថ្គាមធំទី៣ ទាំង៤ ចេញ។ គាត់ មិនបានផ្តល់ពីMedical History និងក្រោយមកអ្នកចាប់ផ្តើម ការពិនិត្យមុនពេលដកធ្មេញ។ នៅពេលកំពុងចាប់ផ្តើម Intra – venous line ដៃរបស់គាត់ទទួលការមុត ដោយចៃដន្យ បន្ទាប់មក គាត់ ចាប់ផ្តើមមានការឈាមខ្លាំង។ ប្រយោគខាងក្រោមទាំងនេះមានភាពត្រឹមត្រូវ ក្នុងការបរិយាយពី ជំងឺ Von Willebrand  លើកលែងតែ
+173. បុរសអាយុ១៧ឆ្នាំមា្នក់ មកកាន់គ្លីនិកធ្មេញ ក្នុងគោលបំណងដកធ្មេញ ថ្គាមធំទី៣ ទាំង៤ ចេញ។ គាត់ មិនបានផ្តល់ពីMedical History និងក្រោយមកអ្នកចាប់ផ្តើម ការពិនិត្យមុនពេលដកធ្មេញ។ នៅពេលកំពុងចាប់ផ្តើម Intra – venous line ដៃរបស់គាត់ទទួលការមុត ដោយចៃដន្យ បន្ទាប់មក គាត់ ចាប់ផ្តើមមានការឈាមខ្លាំង។ ប្រយោគខាងក្រោមទាំងនេះមានភាពត្រឹមត្រូវ ក្នុងការបរិយាយពី ជំងឺ Von Willebrand លើកលែងតែ
 - vWF ផ្តល់អោយមានការស្អិតជាប់ នៃ Platelets នឹង Collagen
 - វាជា ជំងឺAutosomal dominant disorder
 - វាប៉ះពាល់ដល់ Pletelet plug និង Coagu-lation cascade.
 - វាជាការប៉ះពាល់ ដល់ចំនួន Platelet ( Qualitative Platelet defect)
 + vWF functions independent of factor VIII
-174. "បុរសអាយុ១៧ឆ្នាំមា្នក់ មកកាន់គ្លីនិកធ្មេញអ្នក ក្នុងគោលបំណងដកធ្មេញ ថ្គាមធំទី៣ ទាំង៤ ចេញ។ គាត់ មិនបានផ្តល់ពីMedical History  និងក្រោយមកអ្នកចាប់ផ្តើម ការពិនិត្យមុនពេលដកធ្មេញ។ នៅពេលកំពុងចាប់ផ្តើម Intra – venous line ដៃរបស់គាត់ទទួលការ មុតដោយចៃដន្យ បន្ទាប់មក គាត់ ចាប់ផ្តើមមានការឈាមខ្លាំង។  តើប្រយោគ ខាងក្រោមណាមួយមានលក្ខណះត្រឹមត្រូវ ដែលទាក់ទងនឹង ការខ្វះ Vitamin K ?"
+174. "បុរសអាយុ១៧ឆ្នាំមា្នក់ មកកាន់គ្លីនិកធ្មេញអ្នក ក្នុងគោលបំណងដកធ្មេញ ថ្គាមធំទី៣ ទាំង៤ ចេញ។ គាត់ មិនបានផ្តល់ពីMedical History និងក្រោយមកអ្នកចាប់ផ្តើម ការពិនិត្យមុនពេលដកធ្មេញ។ នៅពេលកំពុងចាប់ផ្តើម Intra – venous line ដៃរបស់គាត់ទទួលការ មុតដោយចៃដន្យ បន្ទាប់មក គាត់ ចាប់ផ្តើមមានការឈាមខ្លាំង។ តើប្រយោគ ខាងក្រោមណាមួយមានលក្ខណះត្រឹមត្រូវ ដែលទាក់ទងនឹង ការខ្វះ Vitamin K ?"
 - ថយចុះ PT
 - ចំនួន Platelet មិនធម្មតា
 - បង្កើនសកម្មភាព នៃ Clotting factors II VII IX X
 + បង្កឡើងដោយ ការបាត់បងសកម្មភាពក្នុងការស្រូបយកខ្លាញ
 - មិនមានការផ្លាស់ប្តូរ PTT
-175. បុរសអាយុ១៧ឆ្នាំមា្នក់ មកកាន់គ្លីនិកធ្មេញអ្នក ក្នុងគោលបំណងដកធ្មេញ ថ្គាមធំទី៣ ទាំង៤ ចេញ។ គាត់ មិនបានផ្តល់ពីMedical History  និងក្រោយមកអ្នកចាប់ផ្តើម ការពិនិត្យមុនពេលដកធ្មេញ។ នៅពេលកំពុងចាប់ផ្តើម Intra – venous line ដៃរបស់គាត់ទទួលការមុតដោយចៃដន្យ បន្ទាប់មក គាត់ ចាប់ផ្តើមមានការឈាមខ្លាំង។ ប្រយោគខាងក្រោមនេះពិតជាមានលក្ខណះត្រឹមត្រូវ ចំពោះការជាសះស្បើយនៃមុខ របួសលើកលែងតែ
+175. បុរសអាយុ១៧ឆ្នាំមា្នក់ មកកាន់គ្លីនិកធ្មេញអ្នក ក្នុងគោលបំណងដកធ្មេញ ថ្គាមធំទី៣ ទាំង៤ ចេញ។ គាត់ មិនបានផ្តល់ពីMedical History និងក្រោយមកអ្នកចាប់ផ្តើម ការពិនិត្យមុនពេលដកធ្មេញ។ នៅពេលកំពុងចាប់ផ្តើម Intra – venous line ដៃរបស់គាត់ទទួលការមុតដោយចៃដន្យ បន្ទាប់មក គាត់ ចាប់ផ្តើមមានការឈាមខ្លាំង។ ប្រយោគខាងក្រោមនេះពិតជាមានលក្ខណះត្រឹមត្រូវ ចំពោះការជាសះស្បើយនៃមុខ របួសលើកលែងតែ
 + a large extraction socket heals by primary intention.
 - contact inhibition occurs when migrating epithelial wound margins meet.
 - the inflammatory stage occurs immedi- ately after tissue injury.
 - healing by primary intention occurs at a faster rate than secondary intention.
 - secondary intention wound healing occurs when a sizeable gap exists between margins.
-176. បុរសអាយុ១៧ឆ្នាំមា្នក់ មកកាន់គ្លីនិកធ្មេញអ្នក ក្នុងគោលបំណងដកធ្មេញ ថ្គាមធំទី៣ ទាំង៤ ចេញ។ គាត់ មិនបានផ្តល់ពីMedical History  និងក្រោយមកអ្នកចាប់ផ្តើម ការពិនិត្យមុនពេលដកធ្មេញ។ នៅពេលកំពុងចាប់ផ្តើម Intra – venous line ដៃរបស់គាត់ទទួលការមុតដោយចៃដន្យ បន្ទាប់មក គាត់ ចាប់ផ្តើមមានការឈាមខ្លាំង។ ខាងក្រោមនេះជា Topical antibiotic លើកលែងតែ
+176. បុរសអាយុ១៧ឆ្នាំមា្នក់ មកកាន់គ្លីនិកធ្មេញអ្នក ក្នុងគោលបំណងដកធ្មេញ ថ្គាមធំទី៣ ទាំង៤ ចេញ។ គាត់ មិនបានផ្តល់ពីMedical History និងក្រោយមកអ្នកចាប់ផ្តើម ការពិនិត្យមុនពេលដកធ្មេញ។ នៅពេលកំពុងចាប់ផ្តើម Intra – venous line ដៃរបស់គាត់ទទួលការមុតដោយចៃដន្យ បន្ទាប់មក គាត់ ចាប់ផ្តើមមានការឈាមខ្លាំង។ ខាងក្រោមនេះជា Topical antibiotic លើកលែងតែ
 - Polymyxin B
 - all of the above are topical antibiotics
 - Neomycin
@@ -1245,7 +1245,7 @@
 - Ankylosing spondylitis
 179. ស្ត្រីអាយុ ៥៥ឆ្នាំម្នាក់មកកាន់គ្លីនិកធ្មេញរបស់អ្នក ដើម្បីព្យាបាល Burning mouth ស្ងួតភ្នែក និងមានរមាស់លើមុខរបស់គាត់ ។អ្នកបានពិនិត្យក្នុងមាត់ឃើញមាន Multiple carious lesions និង ការខ្វះទឹកមាត់។ បន្ទាប់មក អ្នកក៏សំរេចចិត្ត យកឈាម របស់គាត់ទៅមន្ទីរពិសោធន៍ដើម្បី ធ្វើ Immunologic marker ជាមុន មុននឹងចាប់ផ្តើមការព្យាបាល។ តើប្រយោគខាងក្រោមនេះមួយណាដែល មិនត្រឹមត្រូវ យោងទៅតាម Stephan curve?
 - Sucrose មានការប៉ះពាល់ខ្លាំង ដល់ pH របស់ទឹកមាត់
-+ Nonfermentable carbohydrates បង្កអោយ ការធ្លាក់ចុះ យ៉ាងឆាប់រហ័ស   នៃ pH របស់ទឺកមាត់
++ Nonfermentable carbohydrates បង្កអោយ ការធ្លាក់ចុះ យ៉ាងឆាប់រហ័ស  នៃ pH របស់ទឺកមាត់
 - វាត្រូវការ៤០នាទី ក្នុងការត្រលប់មកកាន់ pH ធម្មតាវិញបន្ទាប់ ញុំាស្ករហើយ"
 - pH ធម្មតារបស់ ទឹកមាត់ គឺប្រហែល 7.0
 - Enamel អាច Demineralize នៅ pH 5.5
@@ -1303,9 +1303,9 @@
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - Underfilling refers to the complete filling of the canal space, but leaving voids in the pulp chamber for possible recontamination or infection.
 + Underextension refers to the vertica extent of the filling material regardless of its completeness of obturation.
-9. ទាក់ទងទៅសម្ភារៈព្យាបាលឫស  តើមួយណាសមស្រប ?
+9. ទាក់ទងទៅសម្ភារៈព្យាបាលឫស តើមួយណាសមស្រប ?
 + បើសិនជារន្ធឬសកោងត្រូវពត់ Reamers or files ជាមុនសិនមុននឹងដាក់ចូល (If the root canal is curved the instrument must be precurved before insertion).
-- Reamers or files ដាក់ចូលទៅក្នុង canal តាមប្រវែងរន្ធឬសរបស់វា រួចមួលមួយជុំ ហើយដកចេញ រួចលាងសំអាត បន្ទាប់មកធ្វើដូចនេះម្ដងហើយម្ដងទៀត (Reamers or files are placed in the canal to its determined length,  rotated one complete turn, removed, cleaned and the process repeated).
+- Reamers or files ដាក់ចូលទៅក្នុង canal តាមប្រវែងរន្ធឬសរបស់វា រួចមួលមួយជុំ ហើយដកចេញ រួចលាងសំអាត បន្ទាប់មកធ្វើដូចនេះម្ដងហើយម្ដងទៀត (Reamers or files are placed in the canal to its determined length, rotated one complete turn, removed, cleaned and the process repeated).
 - Reamers ប្រើសម្រាប់តែ canals ដែលកោង
 - ការប្រើ reamer ត្រូវតែធ្វើតាមក្រោយ file ដែលមានទំហំប៉ុនគ្នា (Use of a reamer must be followed by use of a corresponding file).
 - Files មានប្រសិទ្ធិភាពជាង reamers ក្នុងការយកចេញនូវកំទេចកំទីរលួយស្អុយចេញពីរន្ធឬស (Files are more effective than reamers for removing necrotic debris from root canals).
@@ -1320,7 +1320,7 @@
 - យកសសៃធ្មេញ១ផ្នែកចេញ (Pulpotomy)
 - យកសសៃធ្មេញទាំងអស់ចេញ (Pulpectomy)
 - ព្យាបាលរន្ធឫស
-- ដាក់ crown  ភ្ជាប់ជាមួយ Calcium hydroxide.
+- ដាក់ crown ភ្ជាប់ជាមួយ Calcium hydroxide.
 12. "ការប្រើ air-water spray ធ្វើឲ្យត្រជាក់ធ្មេញពេលធ្វើ cavity បណ្ដាលឲ្យ៖\n1. បន្ថយគ្រោះថ្នាក់ដល់ pulp\n2. បន្ថយកម្តៅ\n3. ធ្វើឲ្យ cavity ស្អាត\n4. បន្ថយភាពគាំងនៃសម្ភារៈកាត់ឆាប (cutting instruments)"?
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
@@ -1357,19 +1357,19 @@
 - បិទ glass ionomer.
 - លាប fluoride.
 - បិទ amalgam (conservative amalgam restorations).
-18. "ពេលបិទ composite resin, ត្រូវឆាបគែម enamel ឲ្យមានរាងដូចពន្លាក (bevelled margin) ពីព្រោះ៖,\n1. a bevelled margin បង្កើតបានផ្ទៃសមរម្យសម្រាប់ etching.\n2. a bevelled margin ពង្រឹងគែមរបស់ cavity ដែលបិទ composite resine ឲ្យកាន់តែរឹងមាំទៀត \n3. ក្រោយ etching,  bonding agent កាត់បន្ថយការជ្រាបលិច (microleakage).\n4.វិធីនេះលុបបំបាត់ចោលការធ្វើឲ្យរលោងការបិទ (the procedure eliminates the need to polish the restoration)."?
+18. "ពេលបិទ composite resin, ត្រូវឆាបគែម enamel ឲ្យមានរាងដូចពន្លាក (bevelled margin) ពីព្រោះ៖,\n1. a bevelled margin បង្កើតបានផ្ទៃសមរម្យសម្រាប់ etching.\n2. a bevelled margin ពង្រឹងគែមរបស់ cavity ដែលបិទ composite resine ឲ្យកាន់តែរឹងមាំទៀត \n3. ក្រោយ etching, bonding agent កាត់បន្ថយការជ្រាបលិច (microleakage).\n4.វិធីនេះលុបបំបាត់ចោលការធ្វើឲ្យរលោងការបិទ (the procedure eliminates the need to polish the restoration)."?
 - (4) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 + (1) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
-19. "ភាពរឹងមាំរបស់ gold inlay ត្រូវបានបង្កើនដោយ (retention of a gold inlay is improved by) ៖,\n1.  addition of an occlusal dovetail.\n2.  increasing the parallelism of walls.\n3.  lengthening the axial walls.\n4.  placing a gingival bevel."?
+19. "ភាពរឹងមាំរបស់ gold inlay ត្រូវបានបង្កើនដោយ (retention of a gold inlay is improved by) ៖,\n1. addition of an occlusal dovetail.\n2. increasing the parallelism of walls.\n3. lengthening the axial walls.\n4. placing a gingival bevel."?
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
-20. "ពេលប្រើប្រដាប់កាត់ ឬ រ៉ ដែលលឿនបំផុតសម្រាប់ធ្វើ cavity កម្តៅដែលកើនឡើង ទាក់ទងផ្ទាល់ទៅនឹង៖,\n1. រយៈពេលនៃការកាត ឬ រ៉  (duration of cutting).\n2. ទំហំ ល្បឿន និងភាពស្រួចរបស់ bur (size, speed and sharpness of the bur)\n3. ប្រើការបាញ់ខ្យល់និងទឹក (use of air and water spray).\n4. មានមេរោគចូលក្នុងបណ្ដូលធ្មេញ (existing pulp pathology)."?
+20. "ពេលប្រើប្រដាប់កាត់ ឬ រ៉ ដែលលឿនបំផុតសម្រាប់ធ្វើ cavity កម្តៅដែលកើនឡើង ទាក់ទងផ្ទាល់ទៅនឹង៖,\n1. រយៈពេលនៃការកាត ឬ រ៉ (duration of cutting).\n2. ទំហំ ល្បឿន និងភាពស្រួចរបស់ bur (size, speed and sharpness of the bur)\n3. ប្រើការបាញ់ខ្យល់និងទឹក (use of air and water spray).\n4. មានមេរោគចូលក្នុងបណ្ដូលធ្មេញ (existing pulp pathology)."?
 - (1) និង (3) ត្រឹមត្រូវ
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
@@ -1405,7 +1405,7 @@
 - infection.
 + overinstrumentation.
 - pulp tissue left in the root canal.
-26. តើផលវិបាកចំបងក្រោយពេល bleaching a tooth ដែលពុំបានបិទរន្ធឫសត្រឹមត្រូវ   ជាអ្វី?
+26. តើផលវិបាកចំបងក្រោយពេល bleaching a tooth ដែលពុំបានបិទរន្ធឫសត្រឹមត្រូវ  ជាអ្វី?
 - Retrograde pulpitis.
 + Acute apical periodontitis.
 - Fracture.
@@ -1471,7 +1471,7 @@
 - វាមិនមានឥទ្ធិពលដោយសារទំហំនៃ horizontal overjet
 - គឺមួយ ក្នុងចំណោមការកំណត់នៃ articulation
 - នាំ mandible ទៅក្នុង centric relation នៅពេលដែល mandible រុញទៅមុខ
-37. នៅក្នុង partial denture ដែលអាចដោះចេញបាន   palatal strap ត្រូវបានគេប្រើជំនួសឲ្យ narrow bar ដោយសារតែវា៖?
+37. នៅក្នុង partial denture ដែលអាចដោះចេញបាន  palatal strap ត្រូវបានគេប្រើជំនួសឲ្យ narrow bar ដោយសារតែវា៖?
 - កាន់តែងាយស្រួលខាត់រំលីង
 - មានភាពរោលរលាកកាន់តែតិច នៅលើជាលិកាទន់
 - មានអនាម័យល្អជាង
@@ -1489,7 +1489,7 @@
 - អញ្ចាញស្រកចុះ
 - Occlusion មិនល្អដោយការប្រែប្រួល
 - មានភាពស្រៀវសង្គៀខ្លាំង
-40. ក្នុងពេលធ្វើ complete denture ថ្មី  តើមួយណានៃខាងក្រោមនេះ អាចនឹងកែប្រែដើម្បីសំរេចបាននូវ occlusion គួរឲ្យពេញចិត្ត,\n1. Compensating curve\n2. Orientation of the occlusal plane\n3. Cusp inclination\n4. Condylar inclination"	?
+40. ក្នុងពេលធ្វើ complete denture ថ្មី តើមួយណានៃខាងក្រោមនេះ អាចនឹងកែប្រែដើម្បីសំរេចបាននូវ occlusion គួរឲ្យពេញចិត្ត,\n1. Compensating curve\n2. Orientation of the occlusal plane\n3. Cusp inclination\n4. Condylar inclination"	?
 - (2) និង (4) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
@@ -1519,7 +1519,7 @@
 - Nickel
 - Silver
 - Tungsten
-45. ក្នុងការធ្វើ  fixed bridge, occlusal contacts  ដំបូងដ៏សំខាន់នៅនឹងធ្មេញ ក្រៅពីធ្មេញបង្គោល គួរតែ៖?
+45. ក្នុងការធ្វើ fixed bridge, occlusal contacts ដំបូងដ៏សំខាន់នៅនឹងធ្មេញ ក្រៅពីធ្មេញបង្គោល គួរតែ៖?
 - កាត់ចេញ នៅពេលដែល bridge កំពង់ធ្វើ
 + កាត់ចេញ មុននឹង bridge ត្រូវបានធ្វើ
 - មិនត្រូវកាត់ចេញ
@@ -1585,7 +1585,7 @@
 + ធ្វើអោយល្អប្រសើរនូវ contact points
 - ជួយអោយមាន retention នៃ denture
 - ធ្វើអោយ framework រិតតែខ្លាំង
-56. មួយណានៃបព្ហាខាងក្រោមនេះរបស់ permanent fixed bridge ដែលរកឃើញណាត់ជួប  វាអាចបណ្តាលមកពីការធ្វើធ្មេញបណ្តោះអាសន្នមិនបានត្រឹមត្រូវ៖,\n1. hypersensitivity នៃធ្មេញបង្គោលដែលថយចុះបន្ទាប់ពីភ្ជាប់ដោយ permanent cement\n2. gengival margin ចំហរនៅតំបន់ត្រូវការ esthetic\n3. ប៉ះទៅនឹងធ្មេញជិតខាងដែលការពារ seating of the bridge បានពេញលេញ\n4. ត្រូវការសំរាប់ occlusal adjustment យ៉ាងសំខាន់"	?
+56. មួយណានៃបព្ហាខាងក្រោមនេះរបស់ permanent fixed bridge ដែលរកឃើញណាត់ជួប វាអាចបណ្តាលមកពីការធ្វើធ្មេញបណ្តោះអាសន្នមិនបានត្រឹមត្រូវ៖,\n1. hypersensitivity នៃធ្មេញបង្គោលដែលថយចុះបន្ទាប់ពីភ្ជាប់ដោយ permanent cement\n2. gengival margin ចំហរនៅតំបន់ត្រូវការ esthetic\n3. ប៉ះទៅនឹងធ្មេញជិតខាងដែលការពារ seating of the bridge បានពេញលេញ\n4. ត្រូវការសំរាប់ occlusal adjustment យ៉ាងសំខាន់"	?
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
@@ -1627,7 +1627,7 @@
 - ចំណុចរលាយ
 + ភាពរឹងលើផ្ទៃរបស់វា
 - ភាគរយនៃមាសដែលមាននៅក្នុងដុំស្ល
-63. ក្នុងការព្យាបាលរន្ធឫស ថ្នាំដ៏មានប្រសិទ្ធភាពសម្រាប់រំលាយកំទេចកំទី   Organic គឺ៖?
+63. ក្នុងការព្យាបាលរន្ធឫស ថ្នាំដ៏មានប្រសិទ្ធភាពសម្រាប់រំលាយកំទេចកំទី  Organic គឺ៖?
 - sodium chloride.
 - calcium hydroxide.
 - ethylene diamine tetra acetic acid (EDTA).
@@ -1729,7 +1729,7 @@
 - (3) , (4) និង (5) ត្រឹមត្រូវ
 - (2) , (3) និង (4) ត្រឹមត្រូវ
 - (2) , (3) និង (5) ត្រឹមត្រូវ
-80. សកម្មភាពអូសបន្លាយរបស់សារជាតិ Barbiturate ត្រូវបានបញ្ចេញមកតាមរយៈ  សរីរាង្គណា១?
+80. សកម្មភាពអូសបន្លាយរបស់សារជាតិ Barbiturate ត្រូវបានបញ្ចេញមកតាមរយៈ សរីរាង្គណា១?
 - ក្រពេញទឹកមាត់
 - ចម្លើយលើទាំងអស់
 - មិនមែនចម្លើយខាងលើទាំងអស់
@@ -1771,7 +1771,7 @@
 + (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
-87. មូលហេតុចំបងដែលធ្វើអោយ pulp chamber និង root canals រួមត្បៀតតូច បណ្តាលមកពី៖,\n1. អាយុកាន់តែចាស់\n2.  ការបុកប៉ះទង្គិចធ្មេញរ៉ាំរ៉ៃ (Chronic trauma)\n3. Dentinal dysplasia\n4. Taurodontism"?
+87. មូលហេតុចំបងដែលធ្វើអោយ pulp chamber និង root canals រួមត្បៀតតូច បណ្តាលមកពី៖,\n1. អាយុកាន់តែចាស់\n2. ការបុកប៉ះទង្គិចធ្មេញរ៉ាំរ៉ៃ (Chronic trauma)\n3. Dentinal dysplasia\n4. Taurodontism"?
 - (2) និង (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
@@ -1993,7 +1993,7 @@
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
-124. តើសញ្ញាត្អូញត្អែររបស់អ្នកជំងឺណាមួយ ដែលបញ្ជាក់អំពីការរលាកសសៃ     បណ្តូលធ្មេញ ស្រួចហើយមានខ្ទុះ?,\n1. ការឈឺចាប់ខ្ទោកៗដោយឯកឯង\n2. ការឈឺចាប់អូសបន្លាយដែលផ្តើមឡើងដោយប៉ះកំដៅ\n3. ការឈឺចាប់កាន់តែកើនឡើងនៅពេល អោនក្បាលចុះ\n4. ការឈឺចាប់កាន់តែកើនឡើងនៅពេលប៉ះត្រជាក់?
+124. តើសញ្ញាត្អូញត្អែររបស់អ្នកជំងឺណាមួយ ដែលបញ្ជាក់អំពីការរលាកសសៃ   បណ្តូលធ្មេញ ស្រួចហើយមានខ្ទុះ?,\n1. ការឈឺចាប់ខ្ទោកៗដោយឯកឯង\n2. ការឈឺចាប់អូសបន្លាយដែលផ្តើមឡើងដោយប៉ះកំដៅ\n3. ការឈឺចាប់កាន់តែកើនឡើងនៅពេល អោនក្បាលចុះ\n4. ការឈឺចាប់កាន់តែកើនឡើងនៅពេលប៉ះត្រជាក់?
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 + (1) , (2) និង (3) ត្រឹមត្រូវ
@@ -2088,7 +2088,7 @@
 - ការបុកប៉ះទង្គិចនៅខាងក្រៅមាត់
 + ជំងឺជាលិកាជុំវិញឬសធ្មេញ
 - រោគពុកធ្មេញ
-- ការប្រើប្រាស់ក្រាស់ធ្មេញស្និតផ្នែកៗ  ដោះចុះដោះឡើង
+- ការប្រើប្រាស់ក្រាស់ធ្មេញស្និតផ្នែកៗ ដោះចុះដោះឡើង
 140. ការថតយករូបភាពវិទ្យុសាស្ត្ររៀបចំមុនធ្វើការព្យាបាលរន្ធឫសធ្មេញ នឹងបង្ហាញ អំពី៖?
 + ទំហំនៃបន្ទប់បណ្តូលធ្មេញ និងរន្ធឬសធ្មេញ
 - ភាពរស់រានមានជីវិតរបស់បណ្តូលធ្មេញ
@@ -2146,7 +2146,7 @@
 149. ក្នុងការរលាកជាលិកាអញ្ចាញដែលមានសភាពស្រួចស្រាវ វាបណ្តាលឲ្យកើនឡើងនូវ៖?
 - ចំនួននៃMast cells and កម្រិតនៃ Histamine
 - កម្រិតនៃ Histamine
-+ ចំនួននៃ Mast cells and  Plasma cells
++ ចំនួននៃ Mast cells and Plasma cells
 - ចំនួននៃ Plasma cells
 - ចំនួននៃ Mast cells
 150. ការព្យាបាលដោយចាក់ Morphine តាមសាច់ដុំ អាចធ្វើឲ្យមាន៖,\n1. ការទល់លាមក\n2. ភាពសប្បាយរីករាយ\n3. ការស្មុគស្មាញស្មារតី\n4. ទុក្ខព្រួយ
@@ -2189,7 +2189,7 @@
 - Subgingival calculus
 - Spontaneuos bleeding
 - Horizonal loss of alveolar bone
-+ Enalargement of the marginal gingiva, Horizonal loss of alveolar bone និង  Subgingival calculus
++ Enalargement of the marginal gingiva, Horizonal loss of alveolar bone និង Subgingival calculus
 - Enalargement of the marginal gingiva
 157. "តើឃ្លាខាងក្រោមនេះ ណាមួយដែលឃើញញឹកញាប់នៅក្នុងករណី Gingival និង Periodontal pockets?\n1. Apical migration of junctional epithelium\n2. Fibrotic enlargement of marginal tissue\n3. មានឈាមពេលធ្វើ Probing\n4. កើនជម្រៅ pocket ពេលធ្វើ probing,
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
@@ -2203,7 +2203,7 @@
 - (1) និង (3) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-159. Maxillary removable partial denture  major connector គួរតែមាន 3-6mm ពីគែមអញ្ចាញដើម្បីអោយ?
+159. Maxillary removable partial denture major connector គួរតែមាន 3-6mm ពីគែមអញ្ចាញដើម្បីអោយ?
 + កាត់បន្ថយការប៉ះទង្គិចនៅនឹងគែមអញ្ចាញ (Reduce irritation of the marginal gingival)
 - មានប្រវែងល្មមគ្រប់គ្រាន់សម្រាប់ minor connectors
 - អំណោយផលដល់ចលនារបស់អណ្តាត និងការបញ្ចេញសំលេង
@@ -2221,7 +2221,7 @@
 - ធ្មេញមុខខាងក្រោមដែលចង្អៀត
 - ទំនាក់ទំនង Class II ចំពោះធ្មេញថ្គាម
 - ធ្មេញមុខជំហៀងខាងលើដុះខុសទីតាំង (Malposition of the maxillary lateral incisor)
-162. ការបាត់បង់ធ្មេញ primary  maxillary second molar មុនពេលកំណត់ តែងតែបង្កើតឲ្យមាន malocclusion in permanent dentition ដែលកំណត់ដោយ៖?
+162. ការបាត់បង់ធ្មេញ primary maxillary second molar មុនពេលកំណត់ តែងតែបង្កើតឲ្យមាន malocclusion in permanent dentition ដែលកំណត់ដោយ៖?
 - Anterior crowding (ធ្មេញដុះបញ្ជ្រៀតគ្នាផ្នែកខាងមុខ)
 - ធ្មេញចង្កូមខាងលើដុះមកផ្នែក labial
 - ពន្យាពេលដុះធ្មេញថ្គាមស្រុកទី1 (delayed eruption of the permanent first molar)
@@ -2242,7 +2242,7 @@
 165. ក្មេងអាយុ 8ឆ្នាំ ដែលធ្មេញថ្គាមព្រៃរួមជាមួយនឹងធ្មេញថ្គាមស្រុកទី1 ដែលមានទំនាក់ទំនងកំណាំធ្មេញនៅមានវត្តមាន Cusp-to-cusp ។ ដំណោះស្រាយសម្រាប់បញ្ហានេះគឺ៖?
 - បញ្ជូនអ្នកជំងឺទៅផ្នែកពត់តម្រង់ធ្មេញ ដើម្បីធ្វើការពិភាក្សាតាមលក្ខណៈធម្មជាតិ
 + តាមដាន
-- គំរោង  Serial extraction (ដកធ្មេញតាមលំដាប់លំដោយ) ដើម្បីបន្ថយនូវកំណាំធ្មេញ
+- គំរោង Serial extraction (ដកធ្មេញតាមលំដាប់លំដោយ) ដើម្បីបន្ថយនូវកំណាំធ្មេញ
 - រំលីងនៅផ្ទៃ Distal របស់ធ្មេញថ្គាមព្រៃខាងក្រោមទី2 ដើម្បីឲ្យបម្រែបម្រួលទីតាំងរបស់ធ្មេញថ្គាមធំស្រុក
 - ពាក់ឧបករណ៍ Cervical Headgear ដើម្បីតម្រូវទីតាំងធ្មេញថ្គាមធំខាងលើ
 166. ការប្រើកម្លាំងដើម្បីធ្វើចលនាធ្មេញខ្លាំងជ្រុលពេក អាចបណ្តាលឲ្យ៖\n1. មាន Hyalinization\n2. មានការរីកឫសធ្មេញ\n3. ដាច់សរសៃជាលិកាជុំវិញធ្មេញ\n4. ធ្មេញមានចលនាមិនត្រឹមត្រូវ,
@@ -2275,19 +2275,19 @@
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-171. ការបើក Mucoperiosteal គួរតែ៖,\n1. មើលឃើញច្បាសល្អ  provide for visual access.\n2. ងាយប្រើប្រាស់សម្ភារៈ provide for instrument access.\n3. អនុញ្ញាតឲ្យការបិទគ្របលើឆ្អឹងបានល្អ permit repositioning over a solid bone base\n4. be semilunar in shape?
+171. ការបើក Mucoperiosteal គួរតែ៖,\n1. មើលឃើញច្បាសល្អ provide for visual access.\n2. ងាយប្រើប្រាស់សម្ភារៈ provide for instrument access.\n3. អនុញ្ញាតឲ្យការបិទគ្របលើឆ្អឹងបានល្អ permit repositioning over a solid bone base\n4. be semilunar in shape?
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-172. ក្នុងចំនោមកត្តាខាងក្រោមនេះ តើកត្តាណាខ្លះដែលចាំបាច់នៅពេលដែលយើងប្រើ Spherical  alloy ជាជាង  Admix alloy សំរាប់  Amalgam restoration?\n1. Condenser ដ៏ធំ1\n2. ឈើស្ទៀត (Wedge)\n3. កាត់បន្ថយកំលាំងសង្កត់\n4. Soft matrix band,
+172. ក្នុងចំនោមកត្តាខាងក្រោមនេះ តើកត្តាណាខ្លះដែលចាំបាច់នៅពេលដែលយើងប្រើ Spherical alloy ជាជាង Admix alloy សំរាប់ Amalgam restoration?\n1. Condenser ដ៏ធំ1\n2. ឈើស្ទៀត (Wedge)\n3. កាត់បន្ថយកំលាំងសង្កត់\n4. Soft matrix band,
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
-173. តើ Benzodiazepine  មានឥទ្ធិពលអ្វីខ្លះ?\n1. Anxiolytic\n2. Sedative\n3. Anti convulsant\n4. Analgesic",
+173. តើ Benzodiazepine មានឥទ្ធិពលអ្វីខ្លះ?\n1. Anxiolytic\n2. Sedative\n3. Anti convulsant\n4. Analgesic",
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
@@ -2298,14 +2298,14 @@
 - ឆាប់យកពុម្ពចេញពីមាត់ពេក
 - កំរាស់មិនស្មើ
 + ទុកឲ្យបឺតទឹកទៀត ក្រោយពេលដែលរឹង
-- ប៉ះជាមួយជាតិជ័រ   Latex
-175. ការដកធ្មេញមិនត្រូវធ្វើលើអ្នកជំងឺដែលមាន៖,\n1. ជំងឺបេះដូង (myocardial infection ) 2 ខែមុន\n2. ខ្សោយក្រពេញ  Thyroid (hypothyroid)\n3. មាន  Factor VIII deficiency\n4. មាន Pregnant 4 ខែ?
+- ប៉ះជាមួយជាតិជ័រ  Latex
+175. ការដកធ្មេញមិនត្រូវធ្វើលើអ្នកជំងឺដែលមាន៖,\n1. ជំងឺបេះដូង (myocardial infection ) 2 ខែមុន\n2. ខ្សោយក្រពេញ Thyroid (hypothyroid)\n3. មាន Factor VIII deficiency\n4. មាន Pregnant 4 ខែ?
 - (4) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 + (1) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
-176. ការដាក់etching លើ dentin ដែលមានជាតិអាសីត phosphoric 10-15% រយះពេល 15-20 s អាច។,\n1. យកស្រទាប់ស្តើងៗ ចេញឬកំទេចកំទីតូចៗ ចេញ\n2. បង្កើននូវ ការជ្រាបរបស់ Dentine\n3. បើក Dentinal tubules\n4. ធ្វើឲ្យ Inter tubularនិង per tubular លែងធ្វើ  calcification"?
+176. ការដាក់etching លើ dentin ដែលមានជាតិអាសីត phosphoric 10-15% រយះពេល 15-20 s អាច។,\n1. យកស្រទាប់ស្តើងៗ ចេញឬកំទេចកំទីតូចៗ ចេញ\n2. បង្កើននូវ ការជ្រាបរបស់ Dentine\n3. បើក Dentinal tubules\n4. ធ្វើឲ្យ Inter tubularនិង per tubular លែងធ្វើ calcification"?
 - (4) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
@@ -2313,29 +2313,29 @@
 - (1) និង (3) ត្រឹមត្រូវ
 177. បន្ទាប់ពីធ្វើ acid-etc hed លើ enamel ហើយប្រើ bonding នោះនាំឲ្យ៖?
 + កាត់បន្ថយការខ្វះចន្លោះតូចៗ
-- កាត់បន្ថយស្នាមស្រាំរបស់  enamel
-- កាត់បន្ថយចន្លោះខ្វះខាតរបស់  resin
+- កាត់បន្ថយស្នាមស្រាំរបស់ enamel
+- កាត់បន្ថយចន្លោះខ្វះខាតរបស់ resin
 - បន្ថែមនូវកំលាំងធន់របស់ lomposite ទៅនឹងភាពសឺក
 - លុបបំបាត់ចោលការស្រៀវធ្មេញក្រោយប៉ះហើយ
-178. ក្នុងចំនោមសីម៉ង់ខាងក្រោម តើសីម៉ង់1ណាដែលអាចភ្ជាប់ទៅនឹង  enamel,\n1. Zine phosphate cement\n2. Poly carboxyl ate cement\n3. Ethoxy benzoic acid cement\n4. Glass ionomer cement"?
+178. ក្នុងចំនោមសីម៉ង់ខាងក្រោម តើសីម៉ង់1ណាដែលអាចភ្ជាប់ទៅនឹង enamel,\n1. Zine phosphate cement\n2. Poly carboxyl ate cement\n3. Ethoxy benzoic acid cement\n4. Glass ionomer cement"?
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 + (2) និង (4) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 179. ប្រើ Pin ជា retention ៖?
-- កាត់បន្ថយកំលាំងសង្កត់របស់  Amalgam
-- បង្កើនកំលាំងធន់របស់  Amalgam
+- កាត់បន្ថយកំលាំងសង្កត់របស់ Amalgam
+- បង្កើនកំលាំងធន់របស់ Amalgam
 - ការពារការរហែកលើ cuspid ដែលមិនបានប៉ះ
-- កាត់បន្ថយការខ្វះខាត ឬចន្លោះតូចៗដោយ  pin  ភ្ជាប់ទៅនិង  Amalgam
+- កាត់បន្ថយការខ្វះខាត ឬចន្លោះតូចៗដោយ pin ភ្ជាប់ទៅនិង Amalgam
 + បង្កើតឲការប៉ះមានការរឹងមាំ
-180. តើជាលិការប្រភេទណាដែលគ្ប់ដណ្តប់លើផ្ទៃសន្លាក់  tempera mandibular   របស់មនុស្ស។?
+180. តើជាលិការប្រភេទណាដែលគ្ប់ដណ្តប់លើផ្ទៃសន្លាក់ tempera mandibular  របស់មនុស្ស។?
 - Hyaline cartilage
-- Connective tissue ដែលជា  fibrous  ក្រាស់ណែនគ្មានសសៃឈាម។
+- Connective tissue ដែលជា fibrous ក្រាស់ណែនគ្មានសសៃឈាម។
 - Epithelium
 - Fibrous connective tissue ដែលធូរលុងតែមានសសៃឈាម។
 + Fibro cartilage
-1. ដើម្បីមានភាពរឹងមាំល្អ និង មានសោភណ័ភាព porcelain ដែលមានគ្រោងជា metal ត្រូវមាន  margin ដែល,\n1. កំរាស់ 0,8-1,2  រាង shoulder\n2. មានខ្សែបន្ទាត់មុំ aio gingival រាងច្បាស់ហើយស្មើរ\n3. មានតែម Cavo surface 90-100\n4. មាន limit cervical ក្រោមអញ្ជាញ 2mm
+1. ដើម្បីមានភាពរឹងមាំល្អ និង មានសោភណ័ភាព porcelain ដែលមានគ្រោងជា metal ត្រូវមាន margin ដែល,\n1. កំរាស់ 0,8-1,2 រាង shoulder\n2. មានខ្សែបន្ទាត់មុំ aio gingival រាងច្បាស់ហើយស្មើរ\n3. មានតែម Cavo surface 90-100\n4. មាន limit cervical ក្រោមអញ្ជាញ 2mm
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
@@ -2347,31 +2347,31 @@
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
-3. នៅពេលហើមមានការឈឺ ពិបាកទំពារ  trismus  និងការផ្លាស់ទីរបស់ក្រឡើត។ តើទាំងនេះជាសញ្ញានៃការបង្ករមេរោគនៅតំបន់ណា?
+3. នៅពេលហើមមានការឈឺ ពិបាកទំពារ trismus និងការផ្លាស់ទីរបស់ក្រឡើត។ តើទាំងនេះជាសញ្ញានៃការបង្ករមេរោគនៅតំបន់ណា?
 - Submasseteric
 + Lateral parapharyngeal
 - Sublingual
 - Submandibular
 - Deep temporal
-4. អ្នកជំងឺទឹកនោមផ្អែមម្នាក់ ភេទប្រុស អាយុ 22ឆ្នាំ មកគ្លីនិក របស់អ្នក។ គាត់មានការគ្រប់គ្រងជាតិ insulin បានល្អ ប៉ុន្តែក្រោយពីចាក់ថ្នាំស្ពឹក lidocain ដែលមានចំនុះ1,8ml  កំហាប់ 2% និងមានជាតិ  epinephrine 1: 10000 រួចមក គាត់មានអារម្មណ៍វីលមុខ និងខ្សោយ។ គាត់មានសភាពស្លេកស្លាំងទោះបីគេដាក់ស្ករលើថ្ងាស់និង  បបូមាត់ខាងលើរបស់គាត់ក៏ដោយ។ វិធីចំបងក្នុងការគ្រប់គ្រងអ្នកជំងឺនេះនៅពេលនេះគឺ៖
+4. អ្នកជំងឺទឹកនោមផ្អែមម្នាក់ ភេទប្រុស អាយុ 22ឆ្នាំ មកគ្លីនិក របស់អ្នក។ គាត់មានការគ្រប់គ្រងជាតិ insulin បានល្អ ប៉ុន្តែក្រោយពីចាក់ថ្នាំស្ពឹក lidocain ដែលមានចំនុះ1,8ml កំហាប់ 2% និងមានជាតិ epinephrine 1: 10000 រួចមក គាត់មានអារម្មណ៍វីលមុខ និងខ្សោយ។ គាត់មានសភាពស្លេកស្លាំងទោះបីគេដាក់ស្ករលើថ្ងាស់និង បបូមាត់ខាងលើរបស់គាត់ក៏ដោយ។ វិធីចំបងក្នុងការគ្រប់គ្រងអ្នកជំងឺនេះនៅពេលនេះគឺ៖
 - ដាក់ថ្នាំ Glucagon 1 mg
-+ លើកជើងគាត់ឲខ្ពស់ ហើយបញ្ចូល O²  100%
-- ដាក់ Epinephrine  0.5  mg
-- ប្រើថ្នាំ Benadryl  ( dipheny dramine )  50  mg
-- ហៅឡានពេទ្យ 119 និងចាប់ផ្តើម  CPR
++ លើកជើងគាត់ឲខ្ពស់ ហើយបញ្ចូល O² 100%
+- ដាក់ Epinephrine 0.5 mg
+- ប្រើថ្នាំ Benadryl ( dipheny dramine ) 50 mg
+- ហៅឡានពេទ្យ 119 និងចាប់ផ្តើម CPR
 5. តើសាច់ដុំាណាមួយ ដែលនៅក្រាលនៅបាតរបស់មាត់ មនុស្សយើង?
 - stylohyoid
 + mylohyoid
 - Genio hyoid
 - Platysma
 - Digastric
-6. ក្មេងអាយុ 8ឆ្នាំ ម្នាក់មានប្រឡោះច្នោចនៅធ្មេញមុច ប្រវែង 8mm តើមកពីមូលហេតុអ្វីខ្លះដែលអាចបណ្ដាលវាកើតមានឡើង?,\n1.  ហ្រ្វាំងមាត់\n2.  គីស\n3.  ធ្មេញ mesiodens\n4. ជាការលូតលាស់ធ្មេញ
+6. ក្មេងអាយុ 8ឆ្នាំ ម្នាក់មានប្រឡោះច្នោចនៅធ្មេញមុច ប្រវែង 8mm តើមកពីមូលហេតុអ្វីខ្លះដែលអាចបណ្ដាលវាកើតមានឡើង?,\n1. ហ្រ្វាំងមាត់\n2. គីស\n3. ធ្មេញ mesiodens\n4. ជាការលូតលាស់ធ្មេញ
 - (1) និង (2) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
-7. ការព្យាបាលដែលសមស្របបំផុត ក្រោយពីការដកធ្មេញ ធ្គាមទឹកដោះ ទី1 ចំពោះក្មេងអាយុ  4ឆ្នាំ នោះគឺៈ
+7. ការព្យាបាលដែលសមស្របបំផុត ក្រោយពីការដកធ្មេញ ធ្គាមទឹកដោះ ទី1 ចំពោះក្មេងអាយុ 4ឆ្នាំ នោះគឺៈ
 + ប្រើ space maintainer
 - ដកធ្មេញដែលនៅជាប់នឹងវា
 - ការតាមដានកាវិវឌ្ឍន៍ អ័ក្សឆ្មេញ អោយទៀងទាត់
@@ -2395,7 +2395,7 @@
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
-11. ពេលយកពុម្ភធ្មេញពីមាត់ អ្នកជំងឺ ជួនកាលមានម្សៅធ្លាក់ចូលបំពង់ករ ដែលធ្វើអោយអ្នកជំងឺ  ក្អក និង ពិបាក ដកដង្ហើម & អ្នកគួរតែ៖
+11. ពេលយកពុម្ភធ្មេញពីមាត់ អ្នកជំងឺ ជួនកាលមានម្សៅធ្លាក់ចូលបំពង់ករ ដែលធ្វើអោយអ្នកជំងឺ ក្អក និង ពិបាក ដកដង្ហើម & អ្នកគួរតែ៖
 + អោយអ្នកជំងឺ ប្រឹងក្អក
 - អោយគាត់ផឹក ទឹកត្រជាក់ ដោយមិនដកដង្ហើម
 - យកដៃរុញពោះគាត់ ប្ដុំសន្ទះទ្រូង 6 ទៅ 10 ដង
@@ -2425,7 +2425,7 @@
 - (1) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-16. ក្នងចំនោមថ្នាំខាងក្រោម តើថ្នាំមួយានាដែលមានប្រសិទ្ធភាពជាង គេក្នុងការព្យាបាល Angular  cheilosis ?"
+16. ក្នងចំនោមថ្នាំខាងក្រោម តើថ្នាំមួយានាដែលមានប្រសិទ្ធភាពជាង គេក្នុងការព្យាបាល Angular cheilosis ?"
 - Penicillin
 - Erythromycin
 + Nystatin
@@ -2461,7 +2461,7 @@
 + Acetylsalicylic acid
 - Codeine
 - Clindamycin
-22. Sensitivity ដែលទាក់ទងទៅនឹងកធ្មេញដែលគ្មាន caries  គឺល្អបំផុតដោយពន្យល់ថា៖
+22. Sensitivity ដែលទាក់ទងទៅនឹងកធ្មេញដែលគ្មាន caries គឺល្អបំផុតដោយពន្យល់ថា៖
 + តាមទ្រឹស្តី hydrodynamic
 - យន្តការតាមច្រកកោសិការ
 - ដំណើរនៃការបង្កើត dentin (dentonogenesis)
@@ -2509,13 +2509,13 @@
 - ការខកខាននៃ ការកកើតរបស់ enamel matri
 - ការរាលដាលនៃការរលាក pulp បន្ទាប់ពី pulp ងាប់
 + ការចុះខ្សោយរបស់ cystic នៃ stellate reticulum មុនពេលកកើតនៃធ្មេញ
-30. ការព្យាបាលសមគួរបំផុតនៃ necrotizing ulcerative periodontitis (NUP) ចំពោះអ្នកជម្ងឺដែលមិនមានគ្រុនក្តៅ និងមិនមានជម្ងឺ lymphadenopathy គឺ៖,\n1.  ការលាងសំអាត ជាលិកាជុំវិញធ្មេញ periodontal debridement\n2.  ព្យាបាលដោយ antibiotic\n3.  ការអប់រំអនាម័យមាត់ធ្មេញ\n4.  ព្យាបាលដោយ topical steroid
+30. ការព្យាបាលសមគួរបំផុតនៃ necrotizing ulcerative periodontitis (NUP) ចំពោះអ្នកជម្ងឺដែលមិនមានគ្រុនក្តៅ និងមិនមានជម្ងឺ lymphadenopathy គឺ៖,\n1. ការលាងសំអាត ជាលិកាជុំវិញធ្មេញ periodontal debridement\n2. ព្យាបាលដោយ antibiotic\n3. ការអប់រំអនាម័យមាត់ធ្មេញ\n4. ព្យាបាលដោយ topical steroid
 + (1) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
-31. នៅក្នុងការព្យាបាលជាលិកាជុំវិញធ្មេញ“ guided tissue regeneration” គឺមានជោគជ័យបំផុតដោយព្យាបាល,\n1.  ការបាត់បង់ horizontal bone\n2.  a 3-walled infrabony defect\n3.  ទាក់ទងទៅនឹងa mandibular Class III furcation\n4.  ទាក់ទងទៅនឹង a mandibular Class II furcation
+31. នៅក្នុងការព្យាបាលជាលិកាជុំវិញធ្មេញ“ guided tissue regeneration” គឺមានជោគជ័យបំផុតដោយព្យាបាល,\n1. ការបាត់បង់ horizontal bone\n2. a 3-walled infrabony defect\n3. ទាក់ទងទៅនឹងa mandibular Class III furcation\n4. ទាក់ទងទៅនឹង a mandibular Class II furcation
 - (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
@@ -2527,25 +2527,25 @@
 - ចំលើយទាំងអស់ខាងលើមិនត្រឹមត្រូវ
 + មុនថ្គាមធំទី២ធ្មេញស្រុកខាងលើ (maillary second permanent molar)
 - មុនថ្គាមតូចទី១ ខាងលើ (maillary first premolar)
-33. មួយណានៃខាងក្រោមនេះ ទាក់ទងជាមួយនឹងធ្មេញដែលមិនដុះចេញ (unerupted tooth),\n1.  Odontogenic adenomatoid tumor\n2.  Periapical cemental dysplasia\n3.  Calcifying epithelial odontogenic tumor\n4.  Cementoblastoma
+33. មួយណានៃខាងក្រោមនេះ ទាក់ទងជាមួយនឹងធ្មេញដែលមិនដុះចេញ (unerupted tooth),\n1. Odontogenic adenomatoid tumor\n2. Periapical cemental dysplasia\n3. Calcifying epithelial odontogenic tumor\n4. Cementoblastoma
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 + (1) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-34. ភាពធ្ងន់ធ្ងរនៃការរលាកជាលិកាជុំវិញធ្មេញ (periodontitis) គឺអាស្រ័យទៅនឹង,\n1.  ភាពធន់បាននៃអ្នកទទួលរង\n2.  ការមានលំនឹងនៃ occlusion (balancing occlusal)\n3.  ការរំខាន (interferences)\n4.  ភាពធ្ងន់ធ្ងរនៃ បាក់តេរី (bacterial virulence)
+34. ភាពធ្ងន់ធ្ងរនៃការរលាកជាលិកាជុំវិញធ្មេញ (periodontitis) គឺអាស្រ័យទៅនឹង,\n1. ភាពធន់បាននៃអ្នកទទួលរង\n2. ការមានលំនឹងនៃ occlusion (balancing occlusal)\n3. ការរំខាន (interferences)\n4. ភាពធ្ងន់ធ្ងរនៃ បាក់តេរី (bacterial virulence)
 - (1) និង (3) ត្រឹមត្រូវ
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-35. កោសិកាខាងក្រោមមួយណាដែលទាក់ទងទៅនឹងការឆ្លើយតបនៃភាពស៊ាំ (immune response) ទៅនឹងplaque នៅក្នុង periodontal pocket,\n1.  Macrophages\n2.  Plasma cells\n3.  Lymphocytes\n4.  Neutrophils
+35. កោសិកាខាងក្រោមមួយណាដែលទាក់ទងទៅនឹងការឆ្លើយតបនៃភាពស៊ាំ (immune response) ទៅនឹងplaque នៅក្នុង periodontal pocket,\n1. Macrophages\n2. Plasma cells\n3. Lymphocytes\n4. Neutrophils
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
-36. Organism (s) ដ៏សំខាន់ ចូលរួមជាមួយ chronic (adult) periodontitis គឺ៖,\n1.  Prevotella intermedia\n2.  Pseudomonas aeruginosa\n3.  Porphyromonas gingivalis\n4.  Heliobacter pilori
+36. Organism (s) ដ៏សំខាន់ ចូលរួមជាមួយ chronic (adult) periodontitis គឺ៖,\n1. Prevotella intermedia\n2. Pseudomonas aeruginosa\n3. Porphyromonas gingivalis\n4. Heliobacter pilori
 - (2) និង (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
@@ -2557,7 +2557,7 @@
 + សសៃឈាមជុំវិញរួមតូច
 - ស្នាមប្រលាក់ចេះតែមាន
 - មានការរលាកសើៗដល់កោសិកាដោយសារការជក់បារី
-38. Gingival hyperplasia អាចជួបប្រទះនៅលើអ្នកជម្ងឺដែលប្រើ,\n1.  cyclosporine\n2.  nifedipine\n3.  phenytoin\n4.  carbamazepine
+38. Gingival hyperplasia អាចជួបប្រទះនៅលើអ្នកជម្ងឺដែលប្រើ,\n1. cyclosporine\n2. nifedipine\n3. phenytoin\n4. carbamazepine
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
@@ -2569,7 +2569,7 @@
 - epithelial rests of Malassez
 + epithelium នៃ oral mucosa
 - ស្រទាប់ Odontoblastic
-40. ការព្យាបាលសមគួរបំផុតនៃជម្ងឺ necrotizing ulcerative gingivitis លើអ្នកជំងឺដែលមាន lymphadenopathy គឺ៖,\n1.  លាងសំអាត ជាលិកាជុំវិញធ្មេញ (periodontal debridement)\n2.  តំរូវ ផ្នែកផ្ទៃទំពារ (occlusal adjustment)\n3.  ណែនាំអោយមានអនាម័យមាត់ធ្មេញ\n4.  ព្យាបាលដោយ antibiotic
+40. ការព្យាបាលសមគួរបំផុតនៃជម្ងឺ necrotizing ulcerative gingivitis លើអ្នកជំងឺដែលមាន lymphadenopathy គឺ៖,\n1. លាងសំអាត ជាលិកាជុំវិញធ្មេញ (periodontal debridement)\n2. តំរូវ ផ្នែកផ្ទៃទំពារ (occlusal adjustment)\n3. ណែនាំអោយមានអនាម័យមាត់ធ្មេញ\n4. ព្យាបាលដោយ antibiotic
 - (4) ត្រឹមត្រូវ
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
@@ -2578,7 +2578,7 @@
 41. ប្រភេទមួយណានៃកំណាំធ្មេញមិនធម្មតា (malocclusion) គួរតែត្រូវបានកែតំរូវភ្លាមៗតាមដែលអាចធ្វើទៅបាន៖
 - Class II Division 2 រួមជាមួយ anterior overbite ខ្លាំង
 + Anterior open bite រួមជាមួយនឹងទំលាប់នៃការខាំបបូរមាត់រឺ ការជពា្ជក់ម្រាមដៃ
-- Cross-bite រួមជាមួយនឹងការផ្លាស់ប្តូរមុខងារនៃ mandible ពីការប៉ះដំបូងទៅនឹង maimum   intercuspation
+- Cross-bite រួមជាមួយនឹងការផ្លាស់ប្តូរមុខងារនៃ mandible ពីការប៉ះដំបូងទៅនឹង maimum  intercuspation
 - Class II Division 1 រួមជាមួយ an anterior open bite
 - Class III រួមជាមួយ an anterior open bite
 42. ការបិទចន្លោះចំហរនៃ (maillary midline diastema) 2mm ដោយវិធីពុតធ្មេញ គឺបានសម្រេចល្អបំផុត៖
@@ -2593,13 +2593,13 @@
 - មិនមានភាពខុសគ្នាទេ
 - មានការពង្រីកកាន់តែច្រើននៃ skeletal និង មានការពង្រីកធ្មេញកាន់តែយឺត
 - មានការពង្រីកកាន់តែយឺត នៃ skeletal និង មានការពង្រីកធ្មេញកាន់តែច្រើន
-44. ដៃនៃដង្កៀបដែលមានកំលាំងទៅវិញទៅមក (reciprocal clasp arm) ដែលប្រើនៅលើ partial denture ដែលអាចដោះដាក់បាន វានឹងផ្តល់អោយនូវ៖,\n1.  ការទប់ទល់នឹងកម្លាំងផ្តេក\n2.  ការជាប់ដោយប្រយោល\n3.  លំនឹង\n4.  ការជាប់ដោយផ្ទាល់
+44. ដៃនៃដង្កៀបដែលមានកំលាំងទៅវិញទៅមក (reciprocal clasp arm) ដែលប្រើនៅលើ partial denture ដែលអាចដោះដាក់បាន វានឹងផ្តល់អោយនូវ៖,\n1. ការទប់ទល់នឹងកម្លាំងផ្តេក\n2. ការជាប់ដោយប្រយោល\n3. លំនឹង\n4. ការជាប់ដោយផ្ទាល់
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 + (1) និង (3) ត្រឹមត្រូវ
-45. មួយណានៃខាងក្រោមនេះដែលតម្រូវអោយយើងដកចេញថ្គាមទាល់ខាងក្រោម ( mandibular third molars),\n1.  pericoronitis កើតឡើងផ្ទួនៗ\n2.  ការពារការចង្អៀតណែននៃធ្មេញមុខខាងក្រោម (mandibular incisors)\n3.  ការឈឺចាប់\n4.  វាត្រូវកប់នៅក្នុងឆ្អឹង
+45. មួយណានៃខាងក្រោមនេះដែលតម្រូវអោយយើងដកចេញថ្គាមទាល់ខាងក្រោម ( mandibular third molars),\n1. pericoronitis កើតឡើងផ្ទួនៗ\n2. ការពារការចង្អៀតណែននៃធ្មេញមុខខាងក្រោម (mandibular incisors)\n3. ការឈឺចាប់\n4. វាត្រូវកប់នៅក្នុងឆ្អឹង
 - (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
@@ -2623,25 +2623,25 @@
 + មានការបង្កររោគពីធ្មេញលេខ៥៥ នៅពេលដែលធ្មេញលេខ១៥ដុះចេញមក
 - ខ្វះវិតាមីន D
 - កត្តាតំនពូជ
-49. បើសិនអ្នកជម្ងឺបាត់បង់ធ្មេញថ្គាមទីមួយលើមុនអាយុ១១ឆ្នាំ,\n1.  premolar រំកិលទៅផ្នែក distally\n2.  ធ្មេញថ្គាមធំទី២លើ ដុះឡើងហើយរំកិលទៅ mesially\n3.  ធ្មេញដែលឈមដុះទៅក្នុងចន្លោះដែលបង្កើតឡើង\n4.  កើនឡើង overbite
+49. បើសិនអ្នកជម្ងឺបាត់បង់ធ្មេញថ្គាមទីមួយលើមុនអាយុ១១ឆ្នាំ,\n1. premolar រំកិលទៅផ្នែក distally\n2. ធ្មេញថ្គាមធំទី២លើ ដុះឡើងហើយរំកិលទៅ mesially\n3. ធ្មេញដែលឈមដុះទៅក្នុងចន្លោះដែលបង្កើតឡើង\n4. កើនឡើង overbite
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 + (1) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-50. តើថ្នាំមួយណានៃខាងក្រោមនេះ ដែលអាចទប់ទល់នឹងការឈឺចាប់ហើយជួយកាត់បន្ថយការរលាក?,\n1.  Acetylsalicylic acid\n2.  Acetaminophen\n3.  Ibuprofen\n4.  Meperidine HCl
+50. តើថ្នាំមួយណានៃខាងក្រោមនេះ ដែលអាចទប់ទល់នឹងការឈឺចាប់ហើយជួយកាត់បន្ថយការរលាក?,\n1. Acetylsalicylic acid\n2. Acetaminophen\n3. Ibuprofen\n4. Meperidine HCl
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
-51. "តើវិធីណាមួយដែលគួរប្រើដើម្បីកាត់បន្ថយគ្រោះថ្នាក់នៃការប៉ះទៅនឹងចំហាយបារ៉ត (mercury vapour),\n1.  ការអប់រំដល់បុគ្គលិក\n2.  ការប្រើរបាំងប្លាស្ទិក (Rubber dam)\n3.  ការបឺតស្រូបយ៉ាងរហ័ស\n4.  ម៉ាស់ពាក់"
+51. "តើវិធីណាមួយដែលគួរប្រើដើម្បីកាត់បន្ថយគ្រោះថ្នាក់នៃការប៉ះទៅនឹងចំហាយបារ៉ត (mercury vapour),\n1. ការអប់រំដល់បុគ្គលិក\n2. ការប្រើរបាំងប្លាស្ទិក (Rubber dam)\n3. ការបឺតស្រូបយ៉ាងរហ័ស\n4. ម៉ាស់ពាក់"
 + (1) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
-52. "អ្នកជម្ងឺម្នាក់អាយុ ៤៥ឆ្នាំ មានទឹកនោមផ្អែម dependent diabetes mellitus ហើយត្រូវណាត់ជួបព្រឹកនេះដើម្បីមើលធ្មេញ។ ក្នុង ពេលពិនិត្យ គាត់បានត្អូញ  ត្អែរថា មានការឈឺក្បាលតិចៗ ហើយខ្សោយ គ្រូពេទ្យឃើញគាត់បែកញើស។ អ្នកជម្ងឺម្នាក់នេះអាចនឹងមាន៖"
+52. "អ្នកជម្ងឺម្នាក់អាយុ ៤៥ឆ្នាំ មានទឹកនោមផ្អែម dependent diabetes mellitus ហើយត្រូវណាត់ជួបព្រឹកនេះដើម្បីមើលធ្មេញ។ ក្នុង ពេលពិនិត្យ គាត់បានត្អូញ ត្អែរថា មានការឈឺក្បាលតិចៗ ហើយខ្សោយ គ្រូពេទ្យឃើញគាត់បែកញើស។ អ្នកជម្ងឺម្នាក់នេះអាចនឹងមាន៖"
 - hyperglycemia
 - cerebrovascular accident
 - syncope
@@ -2653,7 +2653,7 @@
 - cephalosporin
 - ampicillin
 - metronidazole
-54. "ទំរង់ជាសង្ខេបនៃការបិត amalgamនៅក្នុង pit និង fissure ត្រូវបានគេត្រួត     ពិនិត្យដោយចំនុចទាំងអស់ខាងក្រោមនេះលើកលែងតែ ៖"
+54. "ទំរង់ជាសង្ខេបនៃការបិត amalgamនៅក្នុង pit និង fissure ត្រូវបានគេត្រួត   ពិនិត្យដោយចំនុចទាំងអស់ខាងក្រោមនេះលើកលែងតែ ៖"
 - ការរាលដាលនៃ caries ទៅតាម dentino-enamel junction
 - ទំហំដែលត្រូវទំលាយចោលនៃ enamelដោយសាររោគពិកធ្មេញ
 - ទំហំដែល enamelមួយ ពាក់ពន្ធ័ដោយដំនើរនៃរោគពុកធ្មេញ
@@ -2671,19 +2671,19 @@
 + ក្រពេញ sebaceous
 - ការបង្ករជាគីស (cyst formation)
 - ក្រពេញញើស
-57. "Epinephrine ត្រូវបានបន្ថែមទៅលើ local anesthetic formulations ដើម្បីៈ,\n1.  បង្កើនរយៈពេលនៃ anesthesia\n2.  បង្កើនជម្រៅនៃ anesthesia\n3.  បន្ថយនូវភាពទំនាក់ទំនងទៅជា systemic toicity\n4.  បន្ថយនូវភាពទំនាក់ទំនងទៅជា ប្រតិកម្ម allergic "
+57. "Epinephrine ត្រូវបានបន្ថែមទៅលើ local anesthetic formulations ដើម្បីៈ,\n1. បង្កើនរយៈពេលនៃ anesthesia\n2. បង្កើនជម្រៅនៃ anesthesia\n3. បន្ថយនូវភាពទំនាក់ទំនងទៅជា systemic toicity\n4. បន្ថយនូវភាពទំនាក់ទំនងទៅជា ប្រតិកម្ម allergic "
 - (1) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 58. "អ្នកជម្ងឺអាយុ ៤៥ឆ្នាំ មាន៣២ធ្មេញដែលមិនធ្លាប់បានជួសជុល។ បញ្ហាដែលមានតែ ស្នាមប្រឡាក់យ៉ាងជ្រៅតាមចង្អូរធ្មេញខាងក្រោយ។ តាមការពិនិត្យគ្លីនិកបានអោយដឹងថា មិនមាន caries នៅតាមចង្អូរធ្មេញនោះទេ។ តើត្រូវជ្រើសរើសការព្យាបាលបែបណា៖ "
-- ធ្វើ cyanoacrylate pit រឺ  fissure sealants
-- ធ្វើ BIS-GMA pit និង  fissure sealants
+- ធ្វើ cyanoacrylate pit រឺ fissure sealants
+- ធ្វើ BIS-GMA pit និង fissure sealants
 - ប៉ះ Class I amalgams រក្សាទុក
 + មិនមានការព្យាបាលអ្វីទាំងអស់
 - prophylactic odontotomy
-59. "Oral signs រឺក៏ symptoms នៃការខ្វះវិតាមីនសេធ្ងនើធ្ងរ មានៈ,\n1.  ការឈឺចាប់\n2.  angular cheilitis\n3.  ហូរឈាមដោយឯកឯងតាមអញ្ចាញធ្មេញ\n4.  ជំងឺស្ងូតមាត់"
+59. "Oral signs រឺក៏ symptoms នៃការខ្វះវិតាមីនសេធ្ងនើធ្ងរ មានៈ,\n1. ការឈឺចាប់\n2. angular cheilitis\n3. ហូរឈាមដោយឯកឯងតាមអញ្ចាញធ្មេញ\n4. ជំងឺស្ងូតមាត់"
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
@@ -2701,7 +2701,7 @@
 + មាន periodontal pocketing
 - papillae “ Punched-out” ដោយមានដំបៅសករលួយ ( necrotic slough)
 - ខ្យល់ដង្ហើមមានក្លិនមិនល្អ
-62. "មេរោគនៃរោគពុកធ្មេញ (caries) គឺ,\n1.  streptococcus mutans\n2.  staphylococcus aureus\n3.  lactobacillus acidophilus\n4.  B-hemolytic streptococci"
+62. "មេរោគនៃរោគពុកធ្មេញ (caries) គឺ,\n1. streptococcus mutans\n2. staphylococcus aureus\n3. lactobacillus acidophilus\n4. B-hemolytic streptococci"
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 + (1) និង (3) ត្រឹមត្រូវ
@@ -2713,7 +2713,7 @@
 - lymphocytes
 - eosinophils
 - monocytes
-64. "Epinephrine នៅក្នុងថ្នាំស្ពឹកសំរាប់ចាក់ឡូកាល់ (local anesthetic solution)នឹងៈ,\n1.  ថយចុះនូវការជ្រាបចូលថ្នាំស្ពឹក  (absorption of the anesthetic)\n2.  ជួយឃាត់ឈាមនៅកន្លែងដែលចាក់\n3.  បន្តសកម្មភាព anesthetic អោយបានយូរ\n4.  ជួយធ្វើអោយជាសះ ក្រោយពេលប្រតិបត្តិការ"
+64. "Epinephrine នៅក្នុងថ្នាំស្ពឹកសំរាប់ចាក់ឡូកាល់ (local anesthetic solution)នឹងៈ,\n1. ថយចុះនូវការជ្រាបចូលថ្នាំស្ពឹក (absorption of the anesthetic)\n2. ជួយឃាត់ឈាមនៅកន្លែងដែលចាក់\n3. បន្តសកម្មភាព anesthetic អោយបានយូរ\n4. ជួយធ្វើអោយជាសះ ក្រោយពេលប្រតិបត្តិការ"
 - (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
@@ -2731,13 +2731,13 @@
 - Lateral periodontal cyst
 - Periapical cemental dysplasia
 + Dentigerous cyst
-67. "មួយណានៃខាងក្រោមនេះ ដែលអ្នកមិនត្រូវចេញវេជ្ជបញ្ជារអោយអ្នកជម្ងឺដែលប្រើ Warfarin (Coumadin®)?,\n1.  Acetylsalicylic acid\n2.  Metronidazole\n3.  Erythromycin\n4.  Codine"
+67. "មួយណានៃខាងក្រោមនេះ ដែលអ្នកមិនត្រូវចេញវេជ្ជបញ្ជារអោយអ្នកជម្ងឺដែលប្រើ Warfarin (Coumadin®)?,\n1. Acetylsalicylic acid\n2. Metronidazole\n3. Erythromycin\n4. Codine"
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
-68. "biopsy ដែលកាត់ចេញមកនៃ nodule ទំហំ  diameter ៥មម កាត់ពីគែមខាងនៃអណ្តាតដែលរោគវិនិច្ឆ័យជា fibroma។ អ្នកជម្ងឺនេះគួរតែៈ "
+68. "biopsy ដែលកាត់ចេញមកនៃ nodule ទំហំ diameter ៥មម កាត់ពីគែមខាងនៃអណ្តាតដែលរោគវិនិច្ឆ័យជា fibroma។ អ្នកជម្ងឺនេះគួរតែៈ "
 - បញ្ចាំងកាំរស្មីជុំវិញកន្លែង biopsy នោះ
 - ធ្វើ radiotherapy នៅកន្លែង biopsy
 - កាត់អណ្តាត១ចំហៀង (hemisection)
@@ -2749,13 +2749,13 @@
 - Internal pulpal
 - Ankylosis
 + រលាក (Inflammatory)
-70. "ការេរៀបចំដ៏សមរម្យលើធ្មេញមួយដែលធ្លាប់មានការបះទង្គិចពីមុនអោយទៅជាធ្មេញមួយដែលជាពី apical  resorption គឺៈ"
+70. "ការេរៀបចំដ៏សមរម្យលើធ្មេញមួយដែលធ្លាប់មានការបះទង្គិចពីមុនអោយទៅជាធ្មេញមួយដែលជាពី apical resorption គឺៈ"
 - ការដកវាចេញ និងដាក់ជំនួសដោយ prosthesis ដែលដាក់ជាប់ ឬ អាចដោះចេញបាន
 - ការដកវាចេញ, កាត់ apical ចោល, បំពេញថ្នាំតាម ape និង ដាំឡើងវិញ
 - ការអង្កេតមើលរយះពេល ៦ខែ សំរាប់ resorption ទៅពេលខាងមុខ
 + បំពេញ instrumentations និងថ្នាំ ជាមួយនឹង calcium hydroide បិទទៅក្នុងរន្ធរឹស
 - បំពេញ instrumentations ភ្លាមៗ បន្ទាប់ពី apical curretage
-71. "Crown margin អាចពង្រីកទៅក្នុងអញ្ចាញបាន (etended  subgingivally) នៅពេលដែលត្រូវការៈ,\n1. សំរាប់សោភ័ណភាព\n2.  ដើម្បីបង្កើន retention\n3.  ដើម្បីអោយមានរចនាសម្ព័ន្ធធ្មេញបានល្អ (toreach sound tooth structure)\n4.  សំរាប់ការពារទប់ស្កាត់ caries"
+71. "Crown margin អាចពង្រីកទៅក្នុងអញ្ចាញបាន (etended subgingivally) នៅពេលដែលត្រូវការៈ,\n1. សំរាប់សោភ័ណភាព\n2. ដើម្បីបង្កើន retention\n3. ដើម្បីអោយមានរចនាសម្ព័ន្ធធ្មេញបានល្អ (toreach sound tooth structure)\n4. សំរាប់ការពារទប់ស្កាត់ caries"
 - (2) និង (4) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 + (1) , (2) និង (3) ត្រឹមត្រូវ
@@ -2773,7 +2773,7 @@
 + Lidocaine 2%, ជាមួយ epinephrine 1:100,000.
 - Articaine 4%, ជាមួយ epinephrine 1:100,000.
 - Prilocaine 4%, ជាមួយ epinephrine 1:200,000.
-74. "អ្នកជម្ងឺម្នាក់ឈឺធ្មេញដោយភាពក្តៅ និងត្រជាក់រយៈពេល ៣សបា្តហ៍ហើយ។ ៣ថ្ងៃមុននេះ រោគសញ្ញាមានការផ្លាស់ប្តូរទៅជាឈឺចាប់មធ្យមនៅពេលខាំ     រួមជាមួយនឹងការឈឺស្ទំៗ និងឈឺដោយឯកឯងដោយភាពត្រជាក់។តើរោគវិនិច្ឆ័យមួយណាដែលសមរម្យបំផុតៈ"
+74. "អ្នកជម្ងឺម្នាក់ឈឺធ្មេញដោយភាពក្តៅ និងត្រជាក់រយៈពេល ៣សបា្តហ៍ហើយ។ ៣ថ្ងៃមុននេះ រោគសញ្ញាមានការផ្លាស់ប្តូរទៅជាឈឺចាប់មធ្យមនៅពេលខាំ   រួមជាមួយនឹងការឈឺស្ទំៗ និងឈឺដោយឯកឯងដោយភាពត្រជាក់។តើរោគវិនិច្ឆ័យមួយណាដែលសមរម្យបំផុតៈ"
 + pulpal necrosis
 - a cracked tooth
 - reversible pulpitis
@@ -2785,7 +2785,7 @@
 + ភាពសនិង opaque enamel disturbances អាចត្រូវបានគេសន្មតថាមានការការជ្រាបចូលនៃ fluoride ហួសកំរិត
 - មិនមានការកើនឡើងនូវបញ្ហា fluorosis ពេលដែលក្មេងលេបថ្នាំដុសធ្មេញដែលមានជាតិ fluoride
 - ការលាប topical fluoride ជា gel vehicle នឹងនាំអោយមាន fluorosis
-76. "វត្តមាននៃ periodontal pockets, វាបន្កើននៃភាពងាប់នៃធ្មេញ   ការក៏ខ្ទុះ និង ខ្យល់ដង្ហើមមិនល្អ ជារឿយៗបំផុតមានការរួមផ្សំជាមួយនឹងៈ"
+76. "វត្តមាននៃ periodontal pockets, វាបន្កើននៃភាពងាប់នៃធ្មេញ  ការក៏ខ្ទុះ និង ខ្យល់ដង្ហើមមិនល្អ ជារឿយៗបំផុតមានការរួមផ្សំជាមួយនឹងៈ"
 - aplastic anemia
 - កង្វះវិតាមីន B comple
 - advanced chronic periodontitis
@@ -2809,13 +2809,13 @@
 - Cytotoics
 - ថ្នាំសំលាប់ពួកផ្សិត (antifungals)
 - ថ្នាំសំលាប់ពួកជំងឺគ្រុនចាញ់ (antimalarials)
-80. "អ្នកជំងឺម្នាក់អាយុ ១៧ឆ្នាំ រអ៊ូរទាំអំពីគ្រុនក្តៅ អស់កំលាំង និងរលាកបំពង់ក។ ការពិនិត្យតាមគ្លីនិកបង្ហាញថាអ្នកជំងឺមានជំងឺឡើងកូនកណ្តុរទាំងសងខាង។ អ្នកកត់សំគាល់ឃើញថាមានឡើងពងក្រហមដ៏ច្រើនលើក្រអូមមាត់ទន់ និង មានការរីកប៉ោងត្រង់អណ្តាត និង Orapharyngeal ។  តើរោគវិនិច្ឆ័យនៃរោគសញ្ញាទាំងនេះទំនងជាអ្វី?"
+80. "អ្នកជំងឺម្នាក់អាយុ ១៧ឆ្នាំ រអ៊ូរទាំអំពីគ្រុនក្តៅ អស់កំលាំង និងរលាកបំពង់ក។ ការពិនិត្យតាមគ្លីនិកបង្ហាញថាអ្នកជំងឺមានជំងឺឡើងកូនកណ្តុរទាំងសងខាង។ អ្នកកត់សំគាល់ឃើញថាមានឡើងពងក្រហមដ៏ច្រើនលើក្រអូមមាត់ទន់ និង មានការរីកប៉ោងត្រង់អណ្តាត និង Orapharyngeal ។ តើរោគវិនិច្ឆ័យនៃរោគសញ្ញាទាំងនេះទំនងជាអ្វី?"
 - Non- hodgkin’s lymphoma
 - Herpangine
 - Acute lymphonodula pharyngitis
 - Primary herpetic gingivostomatitis
 + Infectious mononucleosis
-81. "អ្នកជំងឺម្នាក់អាយុ ៤២ឆ្នាំ មានអារម្មណ៍រវើរវាយ រអ៊ូរទាំអំពីការទល់លាមក    ចុះខ្យោយអស់កំលាំង។ ការពិនិត្យគ្លីនិករកឃើញមានស្បែកស្ងួត ហើមមុខ និងមានរីកប៉ោងធំផ្នែកអណ្តាត។ តើរោគវិនិច្ឆ័យនៃជំងឺនេះទំនងជាអ្វី?"
+81. "អ្នកជំងឺម្នាក់អាយុ ៤២ឆ្នាំ មានអារម្មណ៍រវើរវាយ រអ៊ូរទាំអំពីការទល់លាមក  ចុះខ្យោយអស់កំលាំង។ ការពិនិត្យគ្លីនិករកឃើញមានស្បែកស្ងួត ហើមមុខ និងមានរីកប៉ោងធំផ្នែកអណ្តាត។ តើរោគវិនិច្ឆ័យនៃជំងឺនេះទំនងជាអ្វី?"
 - Hyperparathyroidism
 + Hypothyroidism
 - Addison’s Disease
@@ -2861,7 +2861,7 @@
 - ជ្រមុជក្នុងទឹកក្តៅកំពុងពុះ រយៈពេល ១០ នាទី
 + ដាក់ចូលក្នុង Autoclave សីតុណ្ហភាព ១២០ អង្សាសេ រយៈពេល ២០ នាទី
 - ជ្រមុជក្នុងសូលុយស្យុង Disinfection ក្នុងសីតុណ្ហភាព ១០០ អង្សាសេរយៈពេល ១៥នាទី
-- ដាក់ចូលក្នុងឆ្នាំងកំដៅស្ងួត oven សីតុណ្ហភាព ១២០ អង្សាសេ រយៈពេល   ២០នាទី
+- ដាក់ចូលក្នុងឆ្នាំងកំដៅស្ងួត oven សីតុណ្ហភាព ១២០ អង្សាសេ រយៈពេល  ២០នាទី
 - ដាក់ចូលក្នុងឆ្នាំងកំដៅសើម Oven សីតុណ្ហភាព ១០០ អង្សាសេ រយៈពេល ១៥នាទី
 89. "ការប្រឈមគ្រោះថ្នាក់នៃការឆ្លងជំងឺរលាកថ្លើមប្រភេទ B វាមានលក្ខណៈធំធេងជាងជម្ងឺអេដស៍ (HIV) ដោយសារវីរុសជម្ងឺថ្លើមប្រភេទ B វា៖,\n1. ធន់ទ្រាំរស់នៅជាង វីរុស ហ៊ីវ\n2. ឆ្លងតាមរយៈទឹកមាត់\n3. មានចំនួនដ៏ច្រើនលើសលុបក្នុងឈាមជាងវីរុសហ៊ីវ\n4. វាធន់ទ្រាំនឹងកំដៅ Autoclave"
 - (1) និង (3) ត្រឹមត្រូវ
@@ -2983,7 +2983,7 @@
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 + (1) និង (3) ត្រឹមត្រូវ
-109. "រយៈពេលខ្លីបន្ទាប់ពីបានចាក់ block ទៅលើបណ្តុំសសៃប្រសាទផ្នែកខាងក្រោយ (inferior alveolar nerve block) មកមនុស្សចាស់ដែលមានសុខភាពល្អ       ប្រែប្រួលយ៉ាងលឿនលើស្ថានភាពមុខរបស់គាត់ឡើងគគ្រើមដាស់ផ្ទៃមុខ។ តើសញ្ញាគ្លីនិក និងសញ្ញាត្អូញត្អែរមួយណាដែលគេប្រទះមុនពេលចាប់ផ្តើម គម្រោងព្យាបាលធ្មេញ?,\n1. ឡើងស្លេកស្លាំង និងបែកញើសយ៉ាងច្រើន\n2. សង្វាក់ដង្ហើមខ្លីៗ\n3. ការដកដង្ហើមចេញចូល ថយចុះពីធម្មតា\n4. ការហើម នៅលើបបូរមាត់"
+109. "រយៈពេលខ្លីបន្ទាប់ពីបានចាក់ block ទៅលើបណ្តុំសសៃប្រសាទផ្នែកខាងក្រោយ (inferior alveolar nerve block) មកមនុស្សចាស់ដែលមានសុខភាពល្អ    ប្រែប្រួលយ៉ាងលឿនលើស្ថានភាពមុខរបស់គាត់ឡើងគគ្រើមដាស់ផ្ទៃមុខ។ តើសញ្ញាគ្លីនិក និងសញ្ញាត្អូញត្អែរមួយណាដែលគេប្រទះមុនពេលចាប់ផ្តើម គម្រោងព្យាបាលធ្មេញ?,\n1. ឡើងស្លេកស្លាំង និងបែកញើសយ៉ាងច្រើន\n2. សង្វាក់ដង្ហើមខ្លីៗ\n3. ការដកដង្ហើមចេញចូល ថយចុះពីធម្មតា\n4. ការហើម នៅលើបបូរមាត់"
 - (1) និង (3) ត្រឹមត្រូវ
 + (2) និង (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
@@ -3013,7 +3013,7 @@
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
-114. "តើកត្តាខាងក្រោមណាខ្លះដែលសំខាន់ចំពោះការប៉ះ  Amalgam នៅពេលប្រើ Sperical alloy ឬ alloy ដែលគេលាយបន្ថែម?,\n1. ចុង Condenser ដែលធំ\n2. ប្រើឈើស្ទៀត\n3. ប្រើ Matri band ស្តើង\n4. ប្រើចុង Condenser ដែលមុខមានធ្មេញ"
+114. "តើកត្តាខាងក្រោមណាខ្លះដែលសំខាន់ចំពោះការប៉ះ Amalgam នៅពេលប្រើ Sperical alloy ឬ alloy ដែលគេលាយបន្ថែម?,\n1. ចុង Condenser ដែលធំ\n2. ប្រើឈើស្ទៀត\n3. ប្រើ Matri band ស្តើង\n4. ប្រើចុង Condenser ដែលមុខមានធ្មេញ"
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
@@ -3073,7 +3073,7 @@
 - (1) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
-124. "គេប្រើ Epinephrine ទៅលើអ្នកជំងឺ Acute anaphylactic reaction (ប្រតិកម្ម allergy ប្រភេទ1)  ព្រោះវាអាចៈ\n1. កាត់បន្ថយចង្វាក់បេះដូងលោត\n2. សំរាក សាចដុំស្លត\n3. កាត់បន្ថយ សំពាធឈាម Systolic\n4. ធ្វើអោយសរសៃឈាមរួមតូច"
+124. "គេប្រើ Epinephrine ទៅលើអ្នកជំងឺ Acute anaphylactic reaction (ប្រតិកម្ម allergy ប្រភេទ1) ព្រោះវាអាចៈ\n1. កាត់បន្ថយចង្វាក់បេះដូងលោត\n2. សំរាក សាចដុំស្លត\n3. កាត់បន្ថយ សំពាធឈាម Systolic\n4. ធ្វើអោយសរសៃឈាមរួមតូច"
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
@@ -3085,7 +3085,7 @@
 - (2) និង (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
-126. "សមាសភាពនៃពួក Glutaraldehyde រួមបញ្ចូលទាំង៖,\n1. ធ្វើអោយមានការឆាប់កើតនូវមុខតំនភ្ជាប់ដែលអាចកំណត់ចំនួន ការជ្រាបចូលនៃជាលិកាបន្តូលិកាបន្តូលធ្មេញ                                                            ២. មានផលប៉ះពាល់តិចដល់ជាលិការបណ្តួលធ្មេញ                                                                                             ៣. ភ្នាក់ងារបំបាត់រោគដ៏ល្អបំផុតចំពោបាក់តេរីក្នុងមាត់\n4. មានប្រសិទ្ធិភាពតិចតួចទប់ទល់វីរុស និងស្ពររបស់វា"
+126. "សមាសភាពនៃពួក Glutaraldehyde រួមបញ្ចូលទាំង៖,\n1. ធ្វើអោយមានការឆាប់កើតនូវមុខតំនភ្ជាប់ដែលអាចកំណត់ចំនួន ការជ្រាបចូលនៃជាលិកាបន្តូលិកាបន្តូលធ្មេញ \n២. មានផលប៉ះពាល់តិចដល់ជាលិការបណ្តួលធ្មេញ\n៣. ភ្នាក់ងារបំបាត់រោគដ៏ល្អបំផុតចំពោបាក់តេរីក្នុងមាត់\n4. មានប្រសិទ្ធិភាពតិចតួចទប់ទល់វីរុស និងស្ពររបស់វា"
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
@@ -3169,7 +3169,7 @@
 - (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-140. "ក្នុងនាមជាពេទ្យធ្មេញ១រូបនៃប្រទេសកម្ពុជា តាមលក្ខណៈក្រមសីលធម៌     ការបដិសេធមិនព្យាបាលអ្នកជំងឺ គឺផ្អែកលើៈ,\n1. ជំនឿសាសនា\n2. ជំងឺឆ្លង\n3. ពិការភាព\n4. ការមិនស្ទាត់ជំនាញផ្នែកវជ្ជាជីវៈ"
+140. "ក្នុងនាមជាពេទ្យធ្មេញ១រូបនៃប្រទេសកម្ពុជា តាមលក្ខណៈក្រមសីលធម៌   ការបដិសេធមិនព្យាបាលអ្នកជំងឺ គឺផ្អែកលើៈ,\n1. ជំនឿសាសនា\n2. ជំងឺឆ្លង\n3. ពិការភាព\n4. ការមិនស្ទាត់ជំនាញផ្នែកវជ្ជាជីវៈ"
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 + (4) ត្រឹមត្រូវ
@@ -3217,7 +3217,7 @@
 + ស្ត្រីមានផ្ទៃពោះ
 - អ្នកមានអាយុលើសពី ៥០ឆ្នាំ
 - អ្នកជំងឺកំពុងលេបថ្នាំ Corticosteroids
-148. "ការរៀបចំបិទ Amalgam Class I គឺកំនត់ដោយកត្តាខាងក្រោមទាំងអស់   លើកលែងតែ៖"
+148. "ការរៀបចំបិទ Amalgam Class I គឺកំនត់ដោយកត្តាខាងក្រោមទាំងអស់  លើកលែងតែ៖"
 - លាតសន្ធឹងលើផ្ទៃ Enamel ដែលពុក
 - ការរាលដាលជំងឺពុកធ្មេញពីចំហៀងតាមបណ្តោយ Dentino enamel junction
 - ការរីករាលដារជំងឺពុកធ្មេញនៅក្រោម enamel
@@ -3277,7 +3277,7 @@
 - posteriorly to the maillary molars.
 + from the symphysis to the ramus of the mandible
 - in the maillary premolar area
-158. "អ្នកជំងឺអាយុ២២ឆ្នាំម្នាក់ ធ្លាប់មានការល្ហិតល្ហៃអស់កំលាំង គ្រុណក្ដៅ ឈឺក និង ក្អករយៈពេល១សប្ដាហ៏។ មានដំបៅជាច្រើនលើភ្នាសទន់ក្នុងមាត់ ពងបែកលើបបូរមាត់ និងដំបៅមានគែមរង្វង់មូលព៌តក្រហមនៅលើដៃ។                         តើរោគវិនិច្ឆ័យជាអ្វី? "
+158. "អ្នកជំងឺអាយុ២២ឆ្នាំម្នាក់ ធ្លាប់មានការល្ហិតល្ហៃអស់កំលាំង គ្រុណក្ដៅ ឈឺក និង ក្អករយៈពេល១សប្ដាហ៏។ មានដំបៅជាច្រើនលើភ្នាសទន់ក្នុងមាត់ ពងបែកលើបបូរមាត់ និងដំបៅមានគែមរង្វង់មូលព៌តក្រហមនៅលើដៃ។             តើរោគវិនិច្ឆ័យជាអ្វី? "
 - AIDS
 - infectious mononucleosis
 - acute herpetic gingivostomatitis
@@ -3359,7 +3359,7 @@
 - decrease eposure time
 - improve detail
 - decrease scatter radiation
-- increase the quantity of -rays necessary to produce a certain photographic effect on         silve
+- increase the quantity of -rays necessary to produce a certain photographic effect on     silve
 + None of the above
 172. "Periapical osteofibrosis (cementoma) ច្រើនកើតនៅៈ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
@@ -3391,7 +3391,7 @@
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
-177. "ការឈឺចាប់ Lancinating paroysmal នៅផ្នែកខាងក្រោយនៃងណ្ដាត tonsil  nasopharyn និង pharyn គឺភាគច្រើនជារោគវិនិច្ឆ័យនៃៈ
+177. "ការឈឺចាប់ Lancinating paroysmal នៅផ្នែកខាងក្រោយនៃងណ្ដាត tonsil nasopharyn និង pharyn គឺភាគច្រើនជារោគវិនិច្ឆ័យនៃៈ
 - Meniere's disease
 - trigeminal neuralgia
 + glossopharyngeal neuralgia
@@ -3529,7 +3529,7 @@
 + Cemento-enamel junction
 - Cemental tear
 - Calculus
-200. "Basal cell carcinoma  ៖
+200. "Basal cell carcinoma ៖
 + does not normally metastasizes
 - metastasizes to the cervical lymph nodes
 - metastasizes to the submental lymph nodes
@@ -3595,7 +3595,7 @@
 + herpangina
 - aphthous stomatitis
 - thrush
-211. "Squamous cell carcinomas នៃបបូរមាត់  កើតឡើងញឹកញាប់បំផុតនៅលើ៖
+211. "Squamous cell carcinomas នៃបបូរមាត់ កើតឡើងញឹកញាប់បំផុតនៅលើ៖
 - commissures
 - inner surface of upper lip
 - inner surface of lower lip
@@ -3649,7 +3649,7 @@
 - Dentigerous cyst
 + Chronic periradicular periodontitis
 - Pulp polyp
-220. ការព្យាបាលដ៏សមរម្យនៃ avascular white lesion ទំហំ 5  3mm ដែលបានកើតមាននៅលើ buccal mucosa រយៈពេល៦ខែ ហើយថ្មីៗបានក្លាយទៅជាដំបៅនោះគឺៈ
+220. ការព្យាបាលដ៏សមរម្យនៃ avascular white lesion ទំហំ 5 3mm ដែលបានកើតមាននៅលើ buccal mucosa រយៈពេល៦ខែ ហើយថ្មីៗបានក្លាយទៅជាដំបៅនោះគឺៈ
 - aspiration biopsy
 - cytologic eamination
 - incisional biopsy
@@ -3793,13 +3793,13 @@
 + Trauma to the maillary primary central incisor.
 - Endocrine deficiency.
 - Tetracycline therapy.
-244. "នៅពេលថតហ្វីលកាំរស្មីអិក្សលើកុមារអាយុ១០ឆ្នាំ ណាមួយនៃខាងក្រោមដែល គួរតែយកមកប្រើ ដើម្បី radiation eposure?,\n1.  A lead apron.\n2.  A decrease of the kilovoltage to 50kVp.\n3.  Use of high speed film.\n4.  Application of a radiation protection badge"
+244. "នៅពេលថតហ្វីលកាំរស្មីអិក្សលើកុមារអាយុ១០ឆ្នាំ ណាមួយនៃខាងក្រោមដែល គួរតែយកមកប្រើ ដើម្បី radiation eposure?,\n1. A lead apron.\n2. A decrease of the kilovoltage to 50kVp.\n3. Use of high speed film.\n4. Application of a radiation protection badge"
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 + (1) និង (3) ត្រឹមត្រូវ
-245. "ការផ្លាស់ប្ដូរនៃអ៊ីយ៉ុងកាល់ស្យូម រវាងទឹកមាត់ និង កាចាធ្មេញគឺ,\n1.  affected by fluoride.\n2.  a component of remineralization and demineralization.\n3.  important in maintenance of tooth structure.\n4.  pH dependent.
+245. "ការផ្លាស់ប្ដូរនៃអ៊ីយ៉ុងកាល់ស្យូម រវាងទឹកមាត់ និង កាចាធ្មេញគឺ,\n1. affected by fluoride.\n2. a component of remineralization and demineralization.\n3. important in maintenance of tooth structure.\n4. pH dependent.
 - (2) និង (4) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
@@ -3811,7 +3811,7 @@
 - lactobacillus.
 - actinomyces.
 + streptococcus.
-247. ក្មេងប្រុសអាយុ ១០ឆ្នាំ ម្នាក់បានបាក់ធ្មេញថ្គាមក្រោមទឹកដោះទី១ មួយ។    ការព្យាបាលដែលសមរម្យបំផុតនោះ ៖
+247. ក្មេងប្រុសអាយុ ១០ឆ្នាំ ម្នាក់បានបាក់ធ្មេញថ្គាមក្រោមទឹកដោះទី១ មួយ។  ការព្យាបាលដែលសមរម្យបំផុតនោះ ៖
 - an acrylic unilateral partial denture.
 + no treatment.
 - a band and loop space maintainer.
@@ -3826,28 +3826,28 @@
 249. "A labial frenum បណ្ដាលឲ្យមាន diastema នៅចន្លោះរវាង maillary permanent central incisors ទាំងពីរ។ lateral incisors និង canines មិនទាន់បានដុះនៅឡើយទេ។ ការព្យាបាលដែល សមរម្យបំផុតនោះ គឺ៖
 - close the space with an elastic band.
 - close the space with an orthodontic appliance.
-+ observe the case until the eruption of maillary permanent lateral  incisors and canines.
++ observe the case until the eruption of maillary permanent lateral incisors and canines.
 - close the space after the eruption of the lateral incisors.
 - perform a frenectomy.
-250. អ្នកជំងឺអាយុ 10ឆ្នាំ ម្នាក់បានត្អូញត្អែអំពីការលំបាកនៅលើធ្មេញថ្គាមទឹកទី2លើ ពេលទំពារចំណីអាហារ។ ធ្មេញរង្គើរ ហើយមានប៉ះអាម៉ាលហ្គាមយ៉ាងធំនៅ mesio-occlusal ។ អ្នកសង្ស័យថា  ៖
+250. អ្នកជំងឺអាយុ 10ឆ្នាំ ម្នាក់បានត្អូញត្អែអំពីការលំបាកនៅលើធ្មេញថ្គាមទឹកទី2លើ ពេលទំពារចំណីអាហារ។ ធ្មេញរង្គើរ ហើយមានប៉ះអាម៉ាលហ្គាមយ៉ាងធំនៅ mesio-occlusal ។ អ្នកសង្ស័យថា ៖
 + traumatic occlusion.
 - an acute pulpitis.
 - a hyperemic pulp.
 - a hyperplastic pulp.
 - an efoliating tooth.
-251. "ការបាត់បង់ធ្មេញចង្កូមទឹកដោះយ៉ាងលឿនមុនពេលកំណត់ នៅក្នុងករណីយ៏ Class I និង Class II បណ្ដាលឲ្យមានការកើនឡើង,\n1.  overjet.\n2.  arch width.\n3.  overbite.\n4.  leeway space."
+251. "ការបាត់បង់ធ្មេញចង្កូមទឹកដោះយ៉ាងលឿនមុនពេលកំណត់ នៅក្នុងករណីយ៏ Class I និង Class II បណ្ដាលឲ្យមានការកើនឡើង,\n1. overjet.\n2. arch width.\n3. overbite.\n4. leeway space."
 + (1) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-252. នៅលើ mandibular dental arch របស់ក្មេងប្រុសអាយុ ១២ឆ្នាំម្នាក់, ធ្មេញ permanent first molars បានប៉ះគ្នាជាមួយ first premolars និងក្បាលធ្មេញនៃ second premolars ដែលបានដុះងាកមកខាង lingual។  មូលហេតុនោះបណ្ដាលមកពី ៖
+252. នៅលើ mandibular dental arch របស់ក្មេងប្រុសអាយុ ១២ឆ្នាំម្នាក់, ធ្មេញ permanent first molars បានប៉ះគ្នាជាមួយ first premolars និងក្បាលធ្មេញនៃ second premolars ដែលបានដុះងាកមកខាង lingual។ មូលហេតុនោះបណ្ដាលមកពី ៖
 - lack of space.
 - teeth too large for the dental arch.
 - faulty lingual eruption of the second premolars.
 - ankylosis of the mandibular second premolars.
 + premature loss of deciduous second molars.
-253. ការបៀមមេដៃ(Thumbsucking)នៅក្នុងករណីភាគច្រើនមិនបណ្ដាលឲ្យមានគ្រោះថ្នាក់ជា ប្រចាំ ទៅដល់ដំណុះធ្មេញ ប្រសិនបើទម្លាប់នេះ   ៖
+253. ការបៀមមេដៃ(Thumbsucking)នៅក្នុងករណីភាគច្រើនមិនបណ្ដាលឲ្យមានគ្រោះថ្នាក់ជា ប្រចាំ ទៅដល់ដំណុះធ្មេញ ប្រសិនបើទម្លាប់នេះ  ៖
 - practised only at night.
 - គ្មានចម្លើយណាមួយត្រឹមត្រូវ
 - discontinued before eight years of age.
@@ -3859,25 +3859,25 @@
 - maillary incisor crowding.
 - insufficient tooth size.
 + inequity between tooth size and supporting bone.
-255. "តើណាមួយនៃខាងក្រោម ដែលសំខាន់នៅពេលប្រើ (ប៉ះ) spherical ជាជាង admi alloy ចំពោះការប្រើអាម៉ាលហ្គាមសំរាប់បិទប៉ះប្រចាំថ្ងៃ?,\n1.  a larger diameter condenser.\n2.  an anatomical wedge.\n3.  decreased condensing pressure.\n4.  a dead soft matri band. "
+255. "តើណាមួយនៃខាងក្រោម ដែលសំខាន់នៅពេលប្រើ (ប៉ះ) spherical ជាជាង admi alloy ចំពោះការប្រើអាម៉ាលហ្គាមសំរាប់បិទប៉ះប្រចាំថ្ងៃ?,\n1. a larger diameter condenser.\n2. an anatomical wedge.\n3. decreased condensing pressure.\n4. a dead soft matri band. "
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
-256. "តើការប្រែប្រួលនៃ oral mucosa ណា១ ដែលអាចជា side effects របស់ chemotherapy? ,\n1.  Atrophic thinning.\n2.  Ulceration.\n3.  Necrosis.\n4.  Spontaneous bleeding."
+256. "តើការប្រែប្រួលនៃ oral mucosa ណា១ ដែលអាចជា side effects របស់ chemotherapy? ,\n1. Atrophic thinning.\n2. Ulceration.\n3. Necrosis.\n4. Spontaneous bleeding."
 - (4) ត្រឹមត្រូវ
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
-257. "តើនៅក្នុងណាមួយនៃស្ថានភាពដូចខាងក្រោម ដែលការបន្ថែមជាតិ fluoride ត្រូវតម្រូវឲ្យធ្វើ?,\n1.  A 4 year old child with active caries.\n2.  A child with active caries living where drinking water contains ?\n0.7 ppm.\n3.  A 75 year old patient with active caries who takes erostomic medications.\n4.  A 1 year old toddler living in a non-fluoridated community.
+257. "តើនៅក្នុងណាមួយនៃស្ថានភាពដូចខាងក្រោម ដែលការបន្ថែមជាតិ fluoride ត្រូវតម្រូវឲ្យធ្វើ?,\n1. A 4 year old child with active caries.\n2. A child with active caries living where drinking water contains ? 0.7 ppm.\n3. A 75 year old patient with active caries who takes erostomic medications.\n4. A 1 year old toddler living in a non-fluoridated community.
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-258. "ក្មេងអាយុ៧ឆ្នាំ ទើបនឹងបាក់ធ្មេញអចិន្រ្ដៃយ៏មុខកណ្ដាលលើ១ ដោយសារការប៉ះទង្គិច។ ធ្មេញបាត់រកមិនឃើញ។ ការព្យាបាលជាជំរើសនោះគឺ៖,\n1.  order a chest -ray.\n2.  place an implant.\n3.  maintain space with a removable appliance.\n4.  observe and measure the space for 6 months."
+258. "ក្មេងអាយុ៧ឆ្នាំ ទើបនឹងបាក់ធ្មេញអចិន្រ្ដៃយ៏មុខកណ្ដាលលើ១ ដោយសារការប៉ះទង្គិច។ ធ្មេញបាត់រកមិនឃើញ។ ការព្យាបាលជាជំរើសនោះគឺ៖,\n1. order a chest -ray.\n2. place an implant.\n3. maintain space with a removable appliance.\n4. observe and measure the space for 6 months."
 - (2) និង (4) ត្រឹមត្រូវ
 + (1) និង (3) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
@@ -3889,7 +3889,7 @@
 - infrabony pockets.
 - osseous craters.
 + suprabony pockets.
-260. "តំហែទាំលើអ្នកជំងឺដែលបានព្យាបាលជំងឺជាលិការជំវិញឬសធ្មេញ រួមបញ្ចូលទាំងការប៉ាន់ប្រមាណមើល ដោយទៀងកំណត់ពេលនូវ   ៖,\n1.  tooth mobility.\n2.  gingival sulcus depth.\n3.  signs of gingival inflammation.\n4.  oral hygiene status.
+260. "តំហែទាំលើអ្នកជំងឺដែលបានព្យាបាលជំងឺជាលិការជំវិញឬសធ្មេញ រួមបញ្ចូលទាំងការប៉ាន់ប្រមាណមើល ដោយទៀងកំណត់ពេលនូវ  ៖,\n1. tooth mobility.\n2. gingival sulcus depth.\n3. signs of gingival inflammation.\n4. oral hygiene status.
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
@@ -3913,13 +3913,13 @@
 - concentration of fluoride in public water supplies.
 - total amount of fluoride ingested.
 - opposition to fluoridation by citizens' groups.
-264. "តើណាមួយនៃ cells ខាងក្រោមដែលជា immunologic response ទៅនឹង plaque នៅក្នុង sulcus កើតឡើងនៅក្នុងករណីរលាគរាំរ៉ៃ នៃជំងឺជាលិកាជំវិញធ្មេញ?,\n1.  Mast cells.\n2.  Macrophages.\n3.  Plasma cells.\n4.  Neutrophils.\n5.  Lymphocytes."
+264. "តើណាមួយនៃ cells ខាងក្រោមដែលជា immunologic response ទៅនឹង plaque នៅក្នុង sulcus កើតឡើងនៅក្នុងករណីរលាគរាំរ៉ៃ នៃជំងឺជាលិកាជំវិញធ្មេញ?,\n1. Mast cells.\n2. Macrophages.\n3. Plasma cells.\n4. Neutrophils.\n5. Lymphocytes."
 - (3) និង (5) ត្រឹមត្រូវ
 - (3) និង (4) ត្រឹមត្រូវ
 + (2) , (3) និង (5) ត្រឹមត្រូវ
 - (1) , (2) និង (4) ត្រឹមត្រូវ
 - (1) , (3) និង (5) ត្រឹមត្រូវ
-265. វត្ថុរាវនៃអញ្ចាញធ្មេញ(Gingival crevicular fluid = gingival fluid)  ៖
+265. វត្ថុរាវនៃអញ្ចាញធ្មេញ(Gingival crevicular fluid = gingival fluid) ៖
 - is derived from mast cells.
 - never varies in volume.
 + is a transudate and is an eudate.
@@ -3949,7 +3949,7 @@
 + response to a vitality test.
 - intensity of pain.
 - type of eudate.
-270. "A furcation invasion ដែលក្នុងនោះឆ្អឹងស្រកដែលអនុញ្ញាតិឲ្យ probe ពង្វាតយ៉ាង ពេញទំហ៊ឹងឆ្លងកាត់ furcation ត្រូវបានគេចាត់ថ្នាក់ជាៈ(A furcation invasion in which bone loss allows the probe to etend completely through the furcation is classified as)  "
+270. "A furcation invasion ដែលក្នុងនោះឆ្អឹងស្រកដែលអនុញ្ញាតិឲ្យ probe ពង្វាតយ៉ាង ពេញទំហ៊ឹងឆ្លងកាត់ furcation ត្រូវបានគេចាត់ថ្នាក់ជាៈ(A furcation invasion in which bone loss allows the probe to etend completely through the furcation is classified as) "
 - incipient.
 - chronic.
 + Class III.
@@ -3967,13 +3967,13 @@
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 + (2) និង (4) ត្រឹមត្រូវ
-273. ពេលដែលមាស ឬ លោហៈធាតុដែលផ្សំពីមាស ផ្លាស់ប្តូរពីរាវទៅជារឹង      ស្ថានភាពវានឹង៖
+273. ពេលដែលមាស ឬ លោហៈធាតុដែលផ្សំពីមាស ផ្លាស់ប្តូរពីរាវទៅជារឹង   ស្ថានភាពវានឹង៖
 - អាចច្រេះបាន
 - ក្លាយទៅជាផុយស្រួយ
 - កាន់តែរឹង
 + រួញខ្លី
 - រីក
-274. ការឈូស enamel នៅ gingival cavosurface ដើម្បីរៀបចំ  cavity amalgame Class II នៅលើធ្មេញស្រុកមួយ៖
+274. ការឈូស enamel នៅ gingival cavosurface ដើម្បីរៀបចំ cavity amalgame Class II នៅលើធ្មេញស្រុកមួយ៖
 - ត្រូវបានគេហាមធ្វើពីព្រោះតែភាពមាំនៃគែម amalgam តិច
 - លទ្ធផលគួរអោយមានបញ្ជិតវែង ( long bevel)
 + គួរតែយល enamel ចេញដែលអាចអោយបែក
@@ -4015,7 +4015,7 @@
 - verruca vulgaris.
 - a sebaceous cyst.
 - an epulis.
-281. "ហ្វីលដែលលាងហើយមានសភាពខ្មៅងងឹត វាបណ្តាលមកពី៖,\n1. លាងហ្វីលមិនទាន់បានល្អ\n2. ត្រូវពន្លឺច្រើនពេក\n3. ដាក់ខាងខ្នងនៃហ្វីល\n4. មាន  milliamperage ខ្លាំងពេក"
+281. "ហ្វីលដែលលាងហើយមានសភាពខ្មៅងងឹត វាបណ្តាលមកពី៖,\n1. លាងហ្វីលមិនទាន់បានល្អ\n2. ត្រូវពន្លឺច្រើនពេក\n3. ដាក់ខាងខ្នងនៃហ្វីល\n4. មាន milliamperage ខ្លាំងពេក"
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
@@ -4045,13 +4045,13 @@
 - សភាពដែលអាចរួញបាននៃអញ្ចាញ
 - ដំបៅស៊ីរូង
 - ហើម
-286. ការសំអាតធ្មេញដំបូងនិងការណែនាំអោយមានអនាម័យក្នុងការព្យាបាល  periodontitis អោយផលទាំងអស់ដូចខាងក្រោមនេះ  លើកលែងតែ ៖
+286. ការសំអាតធ្មេញដំបូងនិងការណែនាំអោយមានអនាម័យក្នុងការព្យាបាល periodontitis អោយផលទាំងអស់ដូចខាងក្រោមនេះ លើកលែងតែ ៖
 + កែតំរូវការរំកិលនៃធ្មេញដោយសារជំងឺ
-- ការរូញនៃ pocket  (pocket shrinkage)
+- ការរូញនៃ pocket (pocket shrinkage)
 - ឆាប់ជាសះស្បើយ បន្ទាប់ពីការវះកាត់
 - បន្ថយការហូរឈាមក្នុងកំឡុងពេលវះកាត់
 - ការវាយតំលៃទៅលើការដឹងហេតុផលនៃអ្នកជម្ងឺ
-287. បន្ទាប់ពីធ្វើ root planning និងណែនាំអោយសំអាត  plaque អ្នកជម្ងឺអាយុ២២ឆ្នាំនៅតែបង្ហាញពីអការៈហើមមានសភាពប៉ោងៗនៃអញ្ចាញនិង edematous ដោយមាន pocket ជំរៅ ៣ មម និង ៤ទៅ ៦មម នៃ band of attached gingiva។ ការព្យាបាលដ៏សមរម្យបំផុតនោះគឺ៖
+287. បន្ទាប់ពីធ្វើ root planning និងណែនាំអោយសំអាត plaque អ្នកជម្ងឺអាយុ២២ឆ្នាំនៅតែបង្ហាញពីអការៈហើមមានសភាពប៉ោងៗនៃអញ្ចាញនិង edematous ដោយមាន pocket ជំរៅ ៣ មម និង ៤ទៅ ៦មម នៃ band of attached gingiva។ ការព្យាបាលដ៏សមរម្យបំផុតនោះគឺ៖
 - កែតំរូវ occlusal
 - an apically repositioned full thickness flap
 - កាត់អញ្ចាញធ្មេញ
@@ -4081,13 +4081,13 @@
 + (1) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
-292. "មន្ទីរពិសោធន៍ធ្មេញបញ្ជូនត្រឡប់មកនូវគ្រោង (framework)  removal partial denture សំរាប់ពាក់ដោះ។ គ្រោងនោះត្រូវល្អនៅក្នុងពុម្ព តែក្នុងមាត់បែរជាមិននឹងល្អ។ បញ្ហាដែលកើតឡើងនោះគឺ៖,\n1. វៀចនៅពេលខាំពុម្ពចុងក្រោយ\n2. ខ្វះខាតនូវភាពជាប់\n3. ចាក់ពុម្ពតៅក្នុង master cast មិនបានត្រឹមត្រូវ\n4. casting មានបញ្ហា"
+292. "មន្ទីរពិសោធន៍ធ្មេញបញ្ជូនត្រឡប់មកនូវគ្រោង (framework) removal partial denture សំរាប់ពាក់ដោះ។ គ្រោងនោះត្រូវល្អនៅក្នុងពុម្ព តែក្នុងមាត់បែរជាមិននឹងល្អ។ បញ្ហាដែលកើតឡើងនោះគឺ៖,\n1. វៀចនៅពេលខាំពុម្ពចុងក្រោយ\n2. ខ្វះខាតនូវភាពជាប់\n3. ចាក់ពុម្ពតៅក្នុង master cast មិនបានត្រឹមត្រូវ\n4. casting មានបញ្ហា"
 + (1) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-293. "ក្នុងកំឡុងពេលព្យាបាលធ្មេញ, អ្នកជម្ងឺទឹកនោមផ្អែមមានអាយុ៦២ឆ្នាំ ភ្លាមៗនោះគាត់មានការត្អូញត្អែរដោយឈឺនៅ crushing, retrosternal pain។ការងាររៀបចំនេះដំបូងគួរតែផ្អាកការព្យាបាលនិង  ៖,\n1. ប្រើ nitroglycerin បៀមនៅក្រោមអណ្តាត (sublingual nitroglycerin)\n2. ប្រើ 100% oygen\n3. ត្រួតពិនិត្រអ្នកជម្ងឺ\n4. ដាក់សេរូម detrose 50% "
+293. "ក្នុងកំឡុងពេលព្យាបាលធ្មេញ, អ្នកជម្ងឺទឹកនោមផ្អែមមានអាយុ៦២ឆ្នាំ ភ្លាមៗនោះគាត់មានការត្អូញត្អែរដោយឈឺនៅ crushing, retrosternal pain។ការងាររៀបចំនេះដំបូងគួរតែផ្អាកការព្យាបាលនិង ៖,\n1. ប្រើ nitroglycerin បៀមនៅក្រោមអណ្តាត (sublingual nitroglycerin)\n2. ប្រើ 100% oygen\n3. ត្រួតពិនិត្រអ្នកជម្ងឺ\n4. ដាក់សេរូម detrose 50% "
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
@@ -4099,13 +4099,13 @@
 - hybrid composite resin
 - silver amalgam
 + glass ionomer cement
-295. Koilonychia  គឺ៖
+295. Koilonychia គឺ៖
 - mulberry molars
 - ankyloglossia
 + spoon-shaped (concave) nails
 - bifid uvula
 - auricular tags
-296. ធ្មេញមួយណានៃខាងក្រោម ដែលប្រឈមតៅនឹងការបាក់ឫសយ៉ាងច្រើន   បើសិនកំលាំងបង្វិលត្រូវបានប្រើក្នុងកំឡុងពេលដកធ្មេញ៖
+296. ធ្មេញមួយណានៃខាងក្រោម ដែលប្រឈមតៅនឹងការបាក់ឫសយ៉ាងច្រើន  បើសិនកំលាំងបង្វិលត្រូវបានប្រើក្នុងកំឡុងពេលដកធ្មេញ៖
 - Upper lateral incisor
 - Upper canine
 - Lower canine
@@ -4132,16 +4132,16 @@
 300. A Class II Division I malocclusion អាចគ្នាពី a Class II Division II malocclusion ដោយផ្អែកទៅលើ៖
 - ភាពធ្ងន់ធ្ងរនៃ the Class II malocclusion
 - ទំនាក់ទំនងធ្មេញថ្គាមធំ (molar relationship)
-+ ភាពទេរនៃ  maillary incisors
++ ភាពទេរនៃ maillary incisors
 - ទំហំនៃ overbite
 - ទំហំនៃ crowding ដែលមាន
-301. មួយណានៃខាងក្រោមនេះដែលមិនរាប់បញ្ចូលនៃរោគវិនិច្ឆ័យ acute necrotizing  ulcerative gingivitis (ANUG) ៖
+301. មួយណានៃខាងក្រោមនេះដែលមិនរាប់បញ្ចូលនៃរោគវិនិច្ឆ័យ acute necrotizing ulcerative gingivitis (ANUG) ៖
 - ការហូរឈាមពីអញ្ចាញ
 - Fetor oris
 + Periodontal pocketing
 - papillae មានប្រហោងៗនិងសំណកដែលរលួយ
 - Metallic taste
-302. "លក្ខណៈគី្លនីកជាទូទៅបំផុតនៃ buccolingual functional crossbite  គឺ៖,\n1.mandibular រំកិលពី ការប៉ះដំបូង (initial contact) ទៅ maimum intercuspation\n2. អក្សធ្មេញអត់ស៊ីមេទ្រី\n3. បន្ទាត់កណ្តាលវៀច (midline deviation)\n4. ធ្មេញបាត់បង់ជាច្រើន (several missing teeth)"
+302. "លក្ខណៈគី្លនីកជាទូទៅបំផុតនៃ buccolingual functional crossbite គឺ៖,\n1.mandibular រំកិលពី ការប៉ះដំបូង (initial contact) ទៅ maimum intercuspation\n2. អក្សធ្មេញអត់ស៊ីមេទ្រី\n3. បន្ទាត់កណ្តាលវៀច (midline deviation)\n4. ធ្មេញបាត់បង់ជាច្រើន (several missing teeth)"
 + (1) , (2) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
@@ -4153,19 +4153,19 @@
 - Lymphadenopathy
 - Pharyngitis
 - Petechiae of the palate
-304. ស្ថេរភាពរយៈពេលយូរនៃការពត់តំរង់ធ្មេញ orthodontic correction ករណី  deep anterior overbite មានភាពប្រសើរជាង៖
+304. ស្ថេរភាពរយៈពេលយូរនៃការពត់តំរង់ធ្មេញ orthodontic correction ករណី deep anterior overbite មានភាពប្រសើរជាង៖
 + ក្នុងពេលដែល non-etraction case ទល់និង etraction cases
 - ចំពោះអ្នកជម្ងឺដែលមាន mandibular plane angle ខ្ពស់
 - ពេលកែតំរង់ គឺសម្រេចបានដោយ protrusion និង intrusion នៃធ្មេញក្រោមខាងមុខ
 - ពេលដែលមុំ interincisal ដែលទាបគឺត្រូវបានគេបង្កើតបានហើយ វាជាលទ្ធផលនៃការពុតតំរង់ធ្មេញ
 - ក្មេងដែលកំពុងលូតប្រៀបធៀបទៅនឹងយុវវ័យ
-305. "បើមនុស្សធ្លាក់ពីលើកង់ ចង្កាឡើងរួញ, ទំនងជាកន្លែងនៃឆ្អឹងថ្គាមក្រោម    បានបាក់៖,\n1. Symphysis\n2. Condylar necks\n3. Mid-body\n4. Angles of the mandible
+305. "បើមនុស្សធ្លាក់ពីលើកង់ ចង្កាឡើងរួញ, ទំនងជាកន្លែងនៃឆ្អឹងថ្គាមក្រោម  បានបាក់៖,\n1. Symphysis\n2. Condylar necks\n3. Mid-body\n4. Angles of the mandible
 - (1) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 + (4) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
-306. នៅក្នុងចាក់ទៅលើ inferior alveolar nerve block  trimus អាចកើតមានឡើងបើសិនជាម្ជុលជ្រៀតចូលទៅក្នុង ៖
+306. នៅក្នុងចាក់ទៅលើ inferior alveolar nerve block trimus អាចកើតមានឡើងបើសិនជាម្ជុលជ្រៀតចូលទៅក្នុង ៖
 - Internal pterygoid muscle
 - Superior constrictor muscle lateral to the pterygomandibular raphe
 - Buccinator muscle mesdial to the pterygomandibular raphe
@@ -4183,7 +4183,7 @@
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-309. អ្នកជម្ងឺដែលមានដំបៅ ulcere ប្រវែង ៣ សម នៅលើផ្ទៃគែមខាងនៃអណ្តាត  ហើយអ្នកនឹង៖
+309. អ្នកជម្ងឺដែលមានដំបៅ ulcere ប្រវែង ៣ សម នៅលើផ្ទៃគែមខាងនៃអណ្តាត ហើយអ្នកនឹង៖
 - យក រំអិល ទៅធ្វើ cytologic eamination
 - កាត់ជាដំបៅនោះចេញទាំងមូល
 + តាមសង្កេតមើលរយៈពេល ១៤ថ្ងៃ សិនក្រែងដំបៅនោះជា
@@ -4191,7 +4191,7 @@
 - ចាត់ចែងធ្វើការវះកាត់យកទៅធ្វើ biopsy
 310. ដំបៅពណ៌ស ឃ្លាតៗពីគ្នា ២cm នៅលើ buccal mucosa មិនអាចដោះស្រាយបានដោយមានការរលាករោលរាលនៅនឹងកន្លែង។ ការគ្រប់គ្រងដ៏សមរម្យបំផុតនោះគឺ ៖
 - ព្យាបាលដោយដុតវា
-- លាប  toluidine blue staining
+- លាប toluidine blue staining
 - បញ្ចូនអ្នកជំងឺទៅគ្រូពេទ្យប្រចាំគ្រួសារ
 + អនុវត្តការកាត់យកទៅធ្វើ biopsy
 - ពិនិត្រឡើងវិញរាល់ ៦ខែ ម្តង
@@ -4219,13 +4219,13 @@
 - lichen planus
 - erythema multiforme
 + pemphigus
-315. អ្នកជម្ងឺអាយុ ៦៥ឆ្នាំ មានទំនោរទៅរកជម្ងឺគ្រួសក្នុងតំរង់នោម។ ពិនិត្យតាម      ហ្វិលថតនៃ maillae បានបង្ហាញថា បាត់បង់ជាទូទៅនៃ lamina dura និង  “groud glass” នៃឆ្អឹង។ រោគវិនិច្ឆ័យនេះគឺជាអ្វី?
+315. អ្នកជម្ងឺអាយុ ៦៥ឆ្នាំ មានទំនោរទៅរកជម្ងឺគ្រួសក្នុងតំរង់នោម។ ពិនិត្យតាម   ហ្វិលថតនៃ maillae បានបង្ហាញថា បាត់បង់ជាទូទៅនៃ lamina dura និង “groud glass” នៃឆ្អឹង។ រោគវិនិច្ឆ័យនេះគឺជាអ្វី?
 - Hyperthyroidism
 - Hypothyroidism
 - Hypoparathyroidism
 - Addison’s disease
 + Hyperparathyroidism
-316. ស្រ្តីអាយុ ៣៧ឆ្នាំ ម្នាក់មានទំលាប់ព្យាបាលធ្មេញដូចធម្មតា។ គាត់មានដំនើរ  ញរ័ៗ , ញ័រទ្រូង ហើយមានបែកញើសខ្លាំង។ ស្បែករបស់គាត់ គឺរលោងហើយ  ក្តៅស្ទិញៗជានិច្ច។ គាត់ត្អូញត្អែរថា ស្រកទម្ងន់ ហើយរាគទៀត។                 តើរោគវិនិច្ឆ័យនេះគឺជាអ្វី?
+316. ស្រ្តីអាយុ ៣៧ឆ្នាំ ម្នាក់មានទំលាប់ព្យាបាលធ្មេញដូចធម្មតា។ គាត់មានដំនើរ ញរ័ៗ , ញ័រទ្រូង ហើយមានបែកញើសខ្លាំង។ ស្បែករបស់គាត់ គឺរលោងហើយ ក្តៅស្ទិញៗជានិច្ច។ គាត់ត្អូញត្អែរថា ស្រកទម្ងន់ ហើយរាគទៀត។         តើរោគវិនិច្ឆ័យនេះគឺជាអ្វី?
 - Crohn’s disease
 + Hyperthyroidism
 - Viral hepatitis
@@ -4255,7 +4255,7 @@
 - rheumatoid arthritis
 - ulcerative colitis
 - mitral valve prolapse
-321. "ស្រ្តីអ្នកជម្ងឺអាយុ ២០ឆ្នាំ សង្ស័យថាមានជំងឺហូបច្រើន (bulimia) ។  រោគសញ្ញាខាងក្រោមនេះមួយណាដែលនឹងជួយបញ្ជាក់ពីរោគវិនិច្ឆ័យ ៖,\n1. សឹក enamel ធ្មេញមុខខាងលើ\n2. រីកធំនៃក្រពេញ thyroid gland\n3. ស្បែកក្រិននៅលើខ្នងនៃម្រាមដៃ\n4. ខោអាវរលុងបញ្ជាក់ពីការចុះទំងន់"
+321. "ស្រ្តីអ្នកជម្ងឺអាយុ ២០ឆ្នាំ សង្ស័យថាមានជំងឺហូបច្រើន (bulimia) ។ រោគសញ្ញាខាងក្រោមនេះមួយណាដែលនឹងជួយបញ្ជាក់ពីរោគវិនិច្ឆ័យ ៖,\n1. សឹក enamel ធ្មេញមុខខាងលើ\n2. រីកធំនៃក្រពេញ thyroid gland\n3. ស្បែកក្រិននៅលើខ្នងនៃម្រាមដៃ\n4. ខោអាវរលុងបញ្ជាក់ពីការចុះទំងន់"
 - (1) និង (3) ត្រឹមត្រូវ
 + ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
@@ -4285,7 +4285,7 @@
 - បន្ថែម amylase ទៅលើទឹកមាត់
 - ទំរង់ជួយនៃ hypertonic saliva (ទាក់ទងទៅនឹង serum)
 - ផ្លាស់ប្តូរ K+ ions ពីទឹកមាត់
-326. "និតិវិធីមួយណា ដែលត្រូវការថ្នាំបង្ការសំរាប់អ្នកជម្ងឺដែលងាយរងទៅនឹងជំងឺ  bacterial endocarditis ៖,\n1. ការខាំពុម្ពធ្វើ partial dentures\n2. ការកាត់ចេស\n3. ការចាក់ថ្នាំស្ពឹក regional\n4. ការវះកាត់អញ្ចាញ"
+326. "និតិវិធីមួយណា ដែលត្រូវការថ្នាំបង្ការសំរាប់អ្នកជម្ងឺដែលងាយរងទៅនឹងជំងឺ bacterial endocarditis ៖,\n1. ការខាំពុម្ពធ្វើ partial dentures\n2. ការកាត់ចេស\n3. ការចាក់ថ្នាំស្ពឹក regional\n4. ការវះកាត់អញ្ចាញ"
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 + (4) ត្រឹមត្រូវ
@@ -4321,13 +4321,13 @@
 - white plaques
 + vesicles and bullae
 - candidiasis (candidosis)
-332. "ប្រសិទ្ធភាពអ្វី អាចឲ្យទំនាក់ទំនង Bolton មាននៅលើ Class I malocclusion ៖,\n1.  overbite កាន់តែជ្រៅ\n2. ភាពជ្រួសណែននៃធ្មេញលើ\n3. overjet ថយចុះ\n4. overjet កើនឡើង"
+332. "ប្រសិទ្ធភាពអ្វី អាចឲ្យទំនាក់ទំនង Bolton មាននៅលើ Class I malocclusion ៖,\n1. overbite កាន់តែជ្រៅ\n2. ភាពជ្រួសណែននៃធ្មេញលើ\n3. overjet ថយចុះ\n4. overjet កើនឡើង"
 - (1) និង (3) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 + (2) និង (4) ត្រឹមត្រូវ
-333. "ការរៀបចំសំរាប់ porcelain fused to metal crown ដែលមាន porcelain butt ជាប់នឹង margin គួរតែមាន,\n1. 90o cavosurface margin\n2. subgingival finish line\n3.\n1.2 mm shoulder\n4. 90o aiogingival angle"
+333. "ការរៀបចំសំរាប់ porcelain fused to metal crown ដែលមាន porcelain butt ជាប់នឹង margin គួរតែមាន,\n1. 90o cavosurface margin\n2. subgingival finish line\n3.1.2 mm shoulder\n4. 90o aiogingival angle"
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (4) ត្រឹមត្រូវ
@@ -4363,7 +4363,7 @@
 - posterior mandible , អាយុ ២០ឆ្នាំ
 - anterior mandible , អាយុ ៤០ឆ្នាំ
 - anterior mandible , អាយុ ៦០ឆ្នាំ
-339. អ្នកជម្ងឺអាយុ ២៩ឆ្នាំ មានប្រវត្ត ហើមក ខាងស្តាំ និងឈឺមុនការហូបអារហារ   បន្តិច។ តាមការពិនិត្យនៅគ្លីនីក តើវិធីសាស្រ្តមួយណាក្នុងការរក diagnostic ដែលចង្អុរបង្ហាញប្រាប់ ៖
+339. អ្នកជម្ងឺអាយុ ២៩ឆ្នាំ មានប្រវត្ត ហើមក ខាងស្តាំ និងឈឺមុនការហូបអារហារ  បន្តិច។ តាមការពិនិត្យនៅគ្លីនីក តើវិធីសាស្រ្តមួយណាក្នុងការរក diagnostic ដែលចង្អុរបង្ហាញប្រាប់ ៖
 - C.T. scan
 - កាត់ជាលិកាយកទៅធ្វើ biopsy (Ecisional biopsy)
 - Panoramic radiograph
@@ -4400,7 +4400,7 @@
 - បំណែកនៃទឹករំអិល (mucous patch)
 + ទាមឡា រឺ ដំបៅរលួយ (Chancre)
 345. "leukoptakia បានត្រូវព្យាបាលយ៉ាងល្អបំផុតដោយៈ
-- ឆាបយកបំណះ Amalgam ចេញ ជំនួសវិញដោយសំភារៈប៉ះធ្មេញផ្សេងទៀត  (replacement of amalgam restorations)
+- ឆាបយកបំណះ Amalgam ចេញ ជំនួសវិញដោយសំភារៈប៉ះធ្មេញផ្សេងទៀត (replacement of amalgam restorations)
 - សកម្មភាពរបស់ Carbon dioide.
 - ការតាមដានពិនិត្យមើល (Observation)
 - ផ្លាស់ប្តូររបបអាហារ (Changes in diet)
@@ -4453,7 +4453,7 @@
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
-354. "ចាក់ថ្នាំស្ពឹក IANB រឺ IDB ថ្គាមក្រោមខាងស្តាំមួយគេឃើញមាន Paralysis នៃមុខផ្នែកខាងស្តាំ។ ក្នុងស្ថានភាពនេះ គឺបណ្តាលមកពីការចាក់ចូលដោយអចេតនាទៅក្នុង  ៖"
+354. "ចាក់ថ្នាំស្ពឹក IANB រឺ IDB ថ្គាមក្រោមខាងស្តាំមួយគេឃើញមាន Paralysis នៃមុខផ្នែកខាងស្តាំ។ ក្នុងស្ថានភាពនេះ គឺបណ្តាលមកពីការចាក់ចូលដោយអចេតនាទៅក្នុង ៖"
 - Sublingual gland
 - Pterysgopatine fossa.
 - Submandibular region
@@ -4465,7 +4465,7 @@
 - រឹងមាំជាង (Compressive strength ក្នុងរយៈពេល 24ម៉ោង)
 - ត្រូវការពេល កិនលំអិត(triuration) នោះខ្លីជាង
 - ឆាប់ស្រអាប់ជាង (Tarnish more)
-356. ប្រភេទនៃ Amalgam ដែលត្រូវការចំណុះនៃបារ៉តតិចបំផុត  ដើម្បីធ្វើប្រតិកម្មឲ្យរឹងរបស់វាគឺៈ
+356. ប្រភេទនៃ Amalgam ដែលត្រូវការចំណុះនៃបារ៉តតិចបំផុត ដើម្បីធ្វើប្រតិកម្មឲ្យរឹងរបស់វាគឺៈ
 - lathe cut
 - ស្ពាន់តិច (low copper)
 - ស្ពាន់ច្រើន (high copper)
@@ -4531,7 +4531,7 @@
 - incisive block
 + posterior superior alveolar block
 - inferior alveolar block ( IDB )
-367. "អំពី incision នឹង drainage នៃ acute apical abscess តើប្រយោគណាដូចខាង ក្រោម ដែលត្រឹមត្រូវ (is/are true statements) ៖,\n1. កាត់កៅស៊ូ  ញាត់ចូលហើយដេរដើម្បីជាជំនួយក្នុងការបង្ហូរខ្ទុះនេះ\n2. ជាដំណាក់ការនៅសំរាប់តែធ្វើនៅនឹងកន្លែងហើមហើយទន់ (Fluctuant swelling)\n3. ការចាក់ថ្នាំស្ពឹកចូលជ្រៅទៅក្នុងកន្លែងដែលត្រូវធ្វើការវះកាត់ គឺតែងតែមិនអាចធ្វើទៅកើតទេ\n4. ភាពធូរស្រាលនូវតំណឹងនឹងការឈឺចាប់កើតមានភ្លាមៗក្រោយពីការព្យាបាល"
+367. "អំពី incision នឹង drainage នៃ acute apical abscess តើប្រយោគណាដូចខាង ក្រោម ដែលត្រឹមត្រូវ (is/are true statements) ៖,\n1. កាត់កៅស៊ូ ញាត់ចូលហើយដេរដើម្បីជាជំនួយក្នុងការបង្ហូរខ្ទុះនេះ\n2. ជាដំណាក់ការនៅសំរាប់តែធ្វើនៅនឹងកន្លែងហើមហើយទន់ (Fluctuant swelling)\n3. ការចាក់ថ្នាំស្ពឹកចូលជ្រៅទៅក្នុងកន្លែងដែលត្រូវធ្វើការវះកាត់ គឺតែងតែមិនអាចធ្វើទៅកើតទេ\n4. ភាពធូរស្រាលនូវតំណឹងនឹងការឈឺចាប់កើតមានភ្លាមៗក្រោយពីការព្យាបាល"
 - (1) , (2) និង (3) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
@@ -4543,7 +4543,7 @@
 + (2) និង (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
-369. "អ្នកជម្ងឺម្នាក់បានមកត្អូញត្អែរ ពណ៌ធ្មេញមិនល្អ នៅលើធ្មេញ upper central incisor ដែលពីមុនមកមិនធ្លាប់ប៉ះបិទអីសោះ។ មើលតាមហ្ចីល -ray សក្ខីភាពណាមួយបញ្ជាក់ថាមាន Caries  និង periodontal ligament pace លេចរូបរាងឡើង ណានៅធម្មតានេះទេ។ ការព្យាបាលដែលសក្កិសមបំផុតនោះនឹង:
+369. "អ្នកជម្ងឺម្នាក់បានមកត្អូញត្អែរ ពណ៌ធ្មេញមិនល្អ នៅលើធ្មេញ upper central incisor ដែលពីមុនមកមិនធ្លាប់ប៉ះបិទអីសោះ។ មើលតាមហ្ចីល -ray សក្ខីភាពណាមួយបញ្ជាក់ថាមាន Caries និង periodontal ligament pace លេចរូបរាងឡើង ណានៅធម្មតានេះទេ។ ការព្យាបាលដែលសក្កិសមបំផុតនោះនឹង:
 - ធ្វើ root canal treatment និងបង្កើត post ដាក់ porcelain fused to mental crown
 - បង្កើតជា a porcelain fused to metal crown
 - ធ្វើ root canal treatment និង nonvital bleaching
@@ -4579,15 +4579,15 @@
 + Mandibular third molar
 - Maillary third molar.
 - Mandibular lateral incisor.
-375. "Antibiotic ជាជំរើសសំរាប់ព្យាបាលបូសនៅជុំវិញឬសធ្មេញ(a periradicular dental abscess) គឺ៖    "
+375. "Antibiotic ជាជំរើសសំរាប់ព្យាបាលបូសនៅជុំវិញឬសធ្មេញ(a periradicular dental abscess) គឺ៖  "
 + penicillin V
 - ampicillin
 - cephalosporin
 - erythromycin
 - metronidzole
-376. អ្នកជំងឺម្នាក់អាយុ 15ឆ្នាំ មានកាចាក្រហីងក្រហូងខុសពីធម្មតា (hypoplastic enamel) លើធ្មេញលេខ 15 តែធ្មេញផ្សេងទៀតល្អជាប្រក្រតីមូលហេតុដែលប្រហាក់ប្រហែលបំផុតនោះ  មកពី៖
+376. អ្នកជំងឺម្នាក់អាយុ 15ឆ្នាំ មានកាចាក្រហីងក្រហូងខុសពីធម្មតា (hypoplastic enamel) លើធ្មេញលេខ 15 តែធ្មេញផ្សេងទៀតល្អជាប្រក្រតីមូលហេតុដែលប្រហាក់ប្រហែលបំផុតនោះ មកពី៖
 - កត្តាតំណរពូជ ( hereditary factor )
-- ការខ្វះវីតាមីន  D
+- ការខ្វះវីតាមីន D
 - ការខ្វះ calcium ទូទៅ (generaliged calcium deficiency)
 + មាន infection លើធ្មាញ 55 នៅអំឡុងពេលកំពុងរីកលូតលាស់ធ្មេញលេខ15
 - គ្រុនក្តៅកើតឡើងពេលអ្មកជំងឺមានជំងឺកញ្រ្ជិលនៅអាយុ 3 ឆ្នាំ
@@ -4597,7 +4597,7 @@
 - an apical radiolucency
 - រលាគឆ្អឺងស្រួចស្រាវ (acute osteitis)
 - root resorption
-378. អ្នកជំងឺអាយុ ៤៥ឆ្នាំ មានធ្មេញចំនួន ៣២ នៅល្អមិនដែលធ្លាប់បិទប៉ះ អ្វីដែលមាននៅលើធ្មេញក្រោយទាំងនោះគឺ grooves ជ្រៅៗនឹងមាន stian ទៀតផង។តាមការពិនិត្យគ្លីនីក គ្មានសក្ខីភាពណាបញ្ជាក់ថា grooves ទាំងនោះមាន  caries ទេ។ ជំរើសនៃការព្យាបាលដ៍ល្អនោះគឺ៖
+378. អ្នកជំងឺអាយុ ៤៥ឆ្នាំ មានធ្មេញចំនួន ៣២ នៅល្អមិនដែលធ្លាប់បិទប៉ះ អ្វីដែលមាននៅលើធ្មេញក្រោយទាំងនោះគឺ grooves ជ្រៅៗនឹងមាន stian ទៀតផង។តាមការពិនិត្យគ្លីនីក គ្មានសក្ខីភាពណាបញ្ជាក់ថា grooves ទាំងនោះមាន caries ទេ។ ជំរើសនៃការព្យាបាលដ៍ល្អនោះគឺ៖
 - បិទប៉ះដោយ resin ដើម្បីការពារ (preventive resin restoration)
 + no treat ment
 - បិតប៉ះដោយ amalgam class I ដើម្បីការពារ (conservative class I amalgams)
@@ -4663,7 +4663,7 @@
 - ចំលើយទាំងអស់ត្រឹមត្រូវ
 - ចាក់ថ្នាំសន្លប់ (The use of general anaesthetic)
 + Preoperative assessment
-389. A malignant lesion នៅក្នុងឆ្អឹងអាចរួមបញ្ចូលនូវសញ្ញាដូចខាងក្រោម     លើកលែងតែ៖
+389. A malignant lesion នៅក្នុងឆ្អឹងអាចរួមបញ្ចូលនូវសញ្ញាដូចខាងក្រោម   លើកលែងតែ៖
 - Tooth resorption
 - Tooth displacement
 + Soft mobile regional lymph nodes
@@ -4771,7 +4771,7 @@
 - (4) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 - (1) និង (3) ត្រឹមត្រូវ
-407. "តើប្រយោគណា ដែលត្រឹមត្រូវ? (which of the following statements is/are true?),\n1. Radiographs មិនអាចមើលឃើញភាពខុសប្លែកគ្នារវាង infected និង non-infected periapical lesions បានឡើយ\n2. រោគវិនិច្ឆ័យមួយច្បាស់លាស់នៃ apical lession មួយ មិនអាចធ្វើទៅបានត្រឹមតែលើ radiography ប៉ុណ្ណោះបានឡើយ\n3. periapical radiolucencies មិនមែនរាល់ពេលសុទ្ធតែបញ្ជាក់អោយដឹងថា   ងាប់បណ្តូលធ្មេញនោះទេ\n4. periapical radiograph បានត្រូវគេប្រើដើម្បីមើលឃើញនូវ buccal bone level."
+407. "តើប្រយោគណា ដែលត្រឹមត្រូវ? (which of the following statements is/are true?),\n1. Radiographs មិនអាចមើលឃើញភាពខុសប្លែកគ្នារវាង infected និង non-infected periapical lesions បានឡើយ\n2. រោគវិនិច្ឆ័យមួយច្បាស់លាស់នៃ apical lession មួយ មិនអាចធ្វើទៅបានត្រឹមតែលើ radiography ប៉ុណ្ណោះបានឡើយ\n3. periapical radiolucencies មិនមែនរាល់ពេលសុទ្ធតែបញ្ជាក់អោយដឹងថា  ងាប់បណ្តូលធ្មេញនោះទេ\n4. periapical radiograph បានត្រូវគេប្រើដើម្បីមើលឃើញនូវ buccal bone level."
 - (1) និង (3) ត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ
 + (1) , (2) និង (3) ត្រឹមត្រូវ
@@ -4795,7 +4795,7 @@
 - Aphthous ulcers
 - ANUG
 - Pemphigus
-411. "នៅពេលប្រើ ultra high speed សំភារៈឆាប (កាត់) ធ្មេញ ក្នុងការធ្វើ cavity preparation កំដៅធ្វើអោយកើតឡើងផ្ទាល់ ទាក់ទងទៅនឹង៖,\n1. រយៈពេលនៃការឆាប រឺ កាត់\n2.ទំហំ ល្បឿន និង ភាពមុតនៃ Bur\n3.ការប្រើប្រាស់  spray ខ្យល់ និង ទឹក\n4. Eisting pulp pathology "
+411. "នៅពេលប្រើ ultra high speed សំភារៈឆាប (កាត់) ធ្មេញ ក្នុងការធ្វើ cavity preparation កំដៅធ្វើអោយកើតឡើងផ្ទាល់ ទាក់ទងទៅនឹង៖,\n1. រយៈពេលនៃការឆាប រឺ កាត់\n2.ទំហំ ល្បឿន និង ភាពមុតនៃ Bur\n3.ការប្រើប្រាស់ spray ខ្យល់ និង ទឹក\n4. Eisting pulp pathology "
 - (1) និង (3) ត្រឹមត្រូវ
 - ចម្លើយទាំងអស់ខាងលើត្រឹមត្រូវ
 - (2) និង (4) ត្រឹមត្រូវ

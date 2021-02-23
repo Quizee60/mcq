@@ -153,9 +153,12 @@ p a.viewall{
 .ques{
 	cursor: pointer;
 }
-.choi{
+p.choi{
 	border-top: 1px solid #AAA;
 	padding-top: 10px;
+	display:none;
+}
+span.choi{
 	display:none;
 }
 
@@ -281,6 +284,17 @@ p a.viewall{
 	border-radius: 50%;
 	background: #62C46E;
 }
+.card {
+	margin: 20px auto;
+	transition: all 1s linear;
+	transition-property: opacity, height;
+	position: relative;
+	overflow:hidden;
+}
+.card.fade {
+  opacity: 0;
+  height: 0px!important;
+}
 </style>
 <?php
 /*
@@ -393,15 +407,31 @@ function shuffle_choices(card){
 		c.appendChild(c.children[Math.random() * i | 0]);
 	}
 }
-
+function showCard(card){
+	shuffle_choices(card);
+	if(card.style.display != "block"){
+		card.style.display = "block";
+		card.style.height = card.clientHeight+"px";
+		var radios = card.getElementsByTagName('input');
+		for(i=0; i<radios.length; i++ ) {
+			radios[i].checked = false;
+		}
+	}
+}
+function hideCard(card){
+	card.classList.toggle('fade');
+	card.addEventListener('transitionend', function(e) {
+		card.style.display = "none";
+		card.classList.toggle('fade');
+	}, { capture: false, once: true, passive: false });
+}
 function viewAll(){
 	var loader = document.getElementById("loader-wrapper");
 	loader.style.display = "flex";
-	shuffle_cards();
+	//shuffle_cards();
 	var cards = document.getElementsByClassName("card");
 	for (var i = 0; i < cards.length; i++) {
-		shuffle_choices(cards[i]);
-		cards[i].style.display = "block";
+		showCard(cards[i]);
 	}
 	loader.style.display = "none";
 }
@@ -417,11 +447,10 @@ function filter_cards(){
 		var chks  = stxt.split('+');
 		for (var i = 0; i < cards.length; i++) {
 			var bfound = false;
-			var qtxt  = cards[i].innerText;
+			var qtxt  = cards[i].textContent;
 			for(k=0 ; k<chks.length; k++){
 				if(qtxt.toLowerCase().indexOf(chks[k].trim())!= -1){
-					shuffle_choices(cards[i]);
-					cards[i].style.display = "block";
+					showCard(cards[i]);
 					if(!bfound) found++;
 					bfound = true;
 				}
@@ -473,17 +502,14 @@ document.addEventListener("DOMContentLoaded", page_ready);
 </head>
 <body>
 	<div class="container">
-		<!--p style="text-align: center">This page only available until 12th Oct 2020</p>
-		<p style="text-align: center">R-Click and "save as" to keep a backup</p-->
 		<?php 
 		echo '<div onclick="shuffle_cards();" style="cursor:pointer">';
 		echo '<h2 style="color:#FFF; text-align: center;">SHUFFLE ALL '.count($cards).'</h2>';
 		echo '</div>';
-		//echo '<p style="text-align: center; margin-top:0px"><a class="viewall" href="#" onclick="viewAll()">View All</a></p>';
 		?>
 		<div class="textarea-wrapper">
-			<input placeholder="Find 1+Find 2+Find 3+....+Find N" id="text2search" onclick="this.select();" onkeydown="search()"/>
-			<button onclick="filter_cards()">Search</button>
+			<input placeholder="@answer or find 1+find 2+find 3+...+find n" id="text2search" onclick="this.select();" onkeydown="search()"/>
+			<button onclick="filter_cards()">SEARCH</button>
 		</div>
 		<div id="loader-wrapper"><div class="loader"></div></div>
 		<p style="display:none" id="search-result"></p>
@@ -497,7 +523,7 @@ document.addEventListener("DOMContentLoaded", page_ready);
 				return strcmp($a[3], $b[3]);
 			}); */
 			foreach($cards as $ind => $card){
-				echo '<div id="'.$ind.'" data-cardid="'.$ind.'" class="card" data-rating="0" style="display:none">';
+				echo '<div id="'.$ind.'" data-cardid="'.$ind.'" class="card" data-rating="0">';
 				$q = str_replace("\\n","<br/>",$card[1]);
 				if(!empty($card[4])) echo '<div class="imgwrapper"><img src="images/'.$card[4].'"/></div>';
 				echo '<p class="ques">'.($ind+1).': '.$card[0].'. '.$q.'</p>';
@@ -515,7 +541,7 @@ document.addEventListener("DOMContentLoaded", page_ready);
 					if($opt['value']==1) $ans = $opt["text"];
 				}
 				echo "</ul>";
-				echo '<p class="choi">'. $ans.'</p>';
+				echo '<p class="choi">@'.$ans.'</p>';
 				echo '</div>';
 			}
 			?>
@@ -547,12 +573,11 @@ function load_cards_rating(sender, rating){
 	var cards = document.getElementsByClassName("card");
 	for (var i = 0; i < cards.length; i++) {
 		var rv  = parseInt(cards[i].getAttribute('data-rating'));
-		shuffle_choices(cards[i]);
 		if(rating == -1){
-			cards[i].style.display = "block";
+			showCard(cards[i]);
 		}else{
 			if(rv == rating){
-				cards[i].style.display = "block";
+				showCard(cards[i]);
 			}else{
 				cards[i].style.display = "none";
 			}
@@ -611,7 +636,9 @@ function page_ready(){
 				update_rating_count();
 				//c.style.borderColor = (optval != 1)?"#F70000":"#38c172";
 				//var a = c.children[3];  
-				//a.style.display = (optval == 1)?"block":"none";
+				if(optval == 1){
+					hideCard(c);
+				}
 				
 				var state_rating = JSON.parse(localStorage.getItem("state_rating"))||{};
 				state_rating[c.id] = rating;
