@@ -39,7 +39,7 @@ body{
 	color: #BFC1C5;
 	border: 1px solid #BFC1BB;
 	padding: 10px 20px;
-	margin-bottom:20px;
+	margin:20px auto;
 	border-radius: 4px;
 	width: 100%;
 	display:none;
@@ -287,13 +287,14 @@ span.choi{
 .card {
 	margin: 20px auto;
 	transition: all 1s linear;
-	transition-property: opacity, height;
+	transition-property: opacity, height margin;
 	position: relative;
 	overflow:hidden;
 }
 .card.fade {
   opacity: 0;
   height: 0px!important;
+  margin: 0px auto;
 }
 </style>
 <?php
@@ -391,7 +392,17 @@ if(!empty($_GET['fname'])){
 }
 ?>
 <script type="text/javascript">
-
+var g_rating_group_counter = [0, 0, 0, 0, 0, 0];
+function findAncestor (el, cls) {
+    while ((el = el.parentElement) && !el.classList.contains(cls));
+    return el;
+}
+function update_rating_count(){
+	var list = document.querySelectorAll('.footbar a');
+	for (var i = 1; i < list.length; i++) {
+		list[i].innerText = g_rating_group_counter[i-1];
+	}
+}
 function shuffle_cards(){
 	//https://www.thetopsites.net/article/58361532.shtml
 	var c = document.querySelector('.wrapper');
@@ -399,7 +410,6 @@ function shuffle_cards(){
 		c.appendChild(c.children[Math.random() * i | 0]);
 	}
 }
-
 function shuffle_choices(card){
 	//https://www.thetopsites.net/article/58361532.shtml
 	var c = card.querySelector('ul');
@@ -407,11 +417,16 @@ function shuffle_choices(card){
 		c.appendChild(c.children[Math.random() * i | 0]);
 	}
 }
+function setInitialHeight(card){
+	card.style.display = "block";
+	card.style.height = card.clientHeight+"px";
+	card.style.display = "none";
+}
 function showCard(card){
 	shuffle_choices(card);
 	if(card.style.display != "block"){
 		card.style.display = "block";
-		card.style.height = card.clientHeight+"px";
+		if(card.classList.contains("fade")) card.classList.toggle('fade');
 		var radios = card.getElementsByTagName('input');
 		for(i=0; i<radios.length; i++ ) {
 			radios[i].checked = false;
@@ -422,7 +437,6 @@ function hideCard(card){
 	card.classList.toggle('fade');
 	card.addEventListener('transitionend', function(e) {
 		card.style.display = "none";
-		card.classList.toggle('fade');
 	}, { capture: false, once: true, passive: false });
 }
 function viewAll(){
@@ -435,7 +449,6 @@ function viewAll(){
 	}
 	loader.style.display = "none";
 }
-
 function filter_cards(){
 	var loader = document.getElementById("loader-wrapper");
 	var lblres = document.getElementById("search-result");
@@ -484,20 +497,94 @@ var card_click = function (){
 		x.className = classes.join(" ");
 	}
 }
-
 function search(){
 	if(event.key === 'Enter') {
 		filter_cards();
 	}
 }
-
-function page_ready(){
-	var els = document.getElementsByClassName("card");
-	for (var i = 0; i < els.length; i++) {
-		els[i].addEventListener('click', card_click, false);
+function load_cards_rating(sender, rating){
+	var p = findAncestor(sender,'footbar');
+	for(var i = 0; i<p.children.length; i++){
+		p.children[i].className = 'color'+(i==0?'all':(i-1));
 	}
+	sender.className = 'color'+rating+' active';
+	var cards = document.getElementsByClassName("card");
+	for (var i = 0; i < cards.length; i++) {
+		var rv  = parseInt(cards[i].getAttribute('data-rating'));
+		if(rating == -1){
+			showCard(cards[i]);
+		}else{
+			if(rv == rating){
+				showCard(cards[i]);
+			}else{
+				cards[i].style.display = "none";
+			}
+		}	
+	}
+	document.getElementById("search-result").style.display = "none";
+}
+function page_ready(){
+	var quest_click = function (){
+		var d = document.getElementById(this.parentElement.id); 
+		var x = d.querySelector('.choi');  
+		var s = x.style.display;
+		if(s == "none" || s==""){
+			x.style.display = "block";
+		}else{
+			x.style.display = "none";
+		}
+	}
+	var els = document.getElementsByClassName("card");
+	var state_rating = JSON.parse(localStorage.getItem("state_rating"));
+	for (var i = 0; i < els.length; i++) {
+		var card = els[i];
+		card.addEventListener('click', card_click, false);
+		if(state_rating !== null){
+			var r = parseInt(state_rating[card.id]||0);
+			card.setAttribute('data-rating', r.toString());
+			card.className = "card cardcolor" + r;
+			g_rating_group_counter[r]++;
+		}else{
+			g_rating_group_counter[0] = els.length;
+		}
+		setInitialHeight(card);
+		//card.addEventListener('click', card_click, false);
+		//card.children[0].addEventListener('click', quest_click, false);
+		card.children[1].className = 'opts nostyle';
+		var lbls = card.querySelectorAll("ul li input");
+		for(var j=0; j<lbls.length; j++){
+			lbls[j].onchange = function(){
+				var c = findAncestor(this, 'card');
+				var rating = parseInt(c.getAttribute('data-rating'));
+				var old_ra = rating;
+				var optval = parseInt(this.getAttribute('data-value'));
+				//(optval == 0 ) ? rating++ : rating--;
+				if(optval ==0) rating++;
+				if(rating > 6) rating = 0;
+				if(rating < 0) rating = 0;
+				c.setAttribute('data-rating', rating);
+				c.className = "card cardcolor" + rating;
+				
+				g_rating_group_counter[old_ra] = g_rating_group_counter[old_ra] - 1;
+				g_rating_group_counter[rating] = g_rating_group_counter[rating] + 1;
+				update_rating_count();
+				//c.style.borderColor = (optval != 1)?"#F70000":"#38c172";
+				//var a = c.children[3];  
+				if(optval == 1){
+					hideCard(c);
+				}
+				
+				var state_rating = JSON.parse(localStorage.getItem("state_rating"))||{};
+				state_rating[c.id] = rating;
+				localStorage.setItem("state_rating", JSON.stringify(state_rating));
+			};
+		}
+	}
+	update_rating_count();
+	window.scrollTo(0, parseInt(localStorage.getItem("page_scroll_top")||0));
 }
 document.addEventListener("DOMContentLoaded", page_ready);
+window.onscroll = function() {localStorage.setItem("page_scroll_top", window.pageYOffset);};
 </script>
 </head>
 <body>
@@ -556,101 +643,5 @@ document.addEventListener("DOMContentLoaded", page_ready);
 	  <a onclick="load_cards_rating(this, 4);" href="#" class="color4">0</a>
 	  <a onclick="load_cards_rating(this, 5);" href="#" class="color5">0</a>
 	</div>
-<script type="text/javascript">
-var g_rating_group_counter = [0, 0, 0, 0, 0, 0];
-function update_rating_count(){
-	var list = document.querySelectorAll('.footbar a');
-	for (var i = 1; i < list.length; i++) {
-		list[i].innerText = g_rating_group_counter[i-1];
-	}
-}
-function load_cards_rating(sender, rating){
-	var p = findAncestor(sender,'footbar');
-	for(var i = 0; i<p.children.length; i++){
-		p.children[i].className = 'color'+(i==0?'all':(i-1));
-	}
-	sender.className = 'color'+rating+' active';
-	var cards = document.getElementsByClassName("card");
-	for (var i = 0; i < cards.length; i++) {
-		var rv  = parseInt(cards[i].getAttribute('data-rating'));
-		if(rating == -1){
-			showCard(cards[i]);
-		}else{
-			if(rv == rating){
-				showCard(cards[i]);
-			}else{
-				cards[i].style.display = "none";
-			}
-		}	
-	}
-	document.getElementById("search-result").style.display = "none";
-}
-
-function findAncestor (el, cls) {
-    while ((el = el.parentElement) && !el.classList.contains(cls));
-    return el;
-}
-function page_ready(){
-	var quest_click = function (){
-		var d = document.getElementById(this.parentElement.id); 
-		var x = d.querySelector('.choi');  
-		var s = x.style.display;
-		if(s == "none" || s==""){
-			x.style.display = "block";
-		}else{
-			x.style.display = "none";
-		}
-	}
-	var els = document.getElementsByClassName("card");
-	var state_rating = JSON.parse(localStorage.getItem("state_rating"));
-	for (var i = 0; i < els.length; i++) {
-		var card = els[i];
-		if(state_rating !== null){
-			var r = parseInt(state_rating[card.id]||0);
-			card.setAttribute('data-rating', r.toString());
-			card.className = "card cardcolor" + r;
-			g_rating_group_counter[r]++;
-		}else{
-			g_rating_group_counter[0] = els.length;
-		}
-
-		//card.addEventListener('click', card_click, false);
-		//card.children[0].addEventListener('click', quest_click, false);
-		card.children[1].className = 'opts nostyle';
-		var lbls = card.querySelectorAll("ul li input");
-		for(var j=0; j<lbls.length; j++){
-			lbls[j].onchange = function(){
-				var c = findAncestor(this, 'card');
-				var rating = parseInt(c.getAttribute('data-rating'));
-				var old_ra = rating;
-				var optval = parseInt(this.getAttribute('data-value'));
-				//(optval == 0 ) ? rating++ : rating--;
-				if(optval ==0) rating++;
-				if(rating > 6) rating = 0;
-				if(rating < 0) rating = 0;
-				c.setAttribute('data-rating', rating);
-				c.className = "card cardcolor" + rating;
-				
-				g_rating_group_counter[old_ra] = g_rating_group_counter[old_ra] - 1;
-				g_rating_group_counter[rating] = g_rating_group_counter[rating] + 1;
-				update_rating_count();
-				//c.style.borderColor = (optval != 1)?"#F70000":"#38c172";
-				//var a = c.children[3];  
-				if(optval == 1){
-					hideCard(c);
-				}
-				
-				var state_rating = JSON.parse(localStorage.getItem("state_rating"))||{};
-				state_rating[c.id] = rating;
-				localStorage.setItem("state_rating", JSON.stringify(state_rating));
-			};
-		}
-	}
-	update_rating_count();
-	window.scrollTo(0, parseInt(localStorage.getItem("page_scroll_top")||0));
-}
-document.addEventListener("DOMContentLoaded", page_ready);
-window.onscroll = function() {localStorage.setItem("page_scroll_top", window.pageYOffset);};
-</script>
 </body>
 </html>
