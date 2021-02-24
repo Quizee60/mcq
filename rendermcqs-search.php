@@ -286,14 +286,15 @@ span.choi{
 }
 .card {
 	margin: 20px auto;
-	transition: all 1s linear;
-	transition-property: opacity, height margin;
+	transition: all 0.25s linear;
+	transition-property: opacity, min-height, margin;
+	min-height:300px
 	position: relative;
 	overflow:hidden;
 }
 .card.fade {
   opacity: 0;
-  height: 0px!important;
+  min-height: 0px!important;
   margin: 0px auto;
 }
 </style>
@@ -419,7 +420,7 @@ function shuffle_choices(card){
 }
 function setInitialHeight(card){
 	card.style.display = "block";
-	card.style.height = card.clientHeight+"px";
+	//card.style.minHeight = card.clientHeight+"px";
 	card.style.display = "none";
 }
 function showCard(card){
