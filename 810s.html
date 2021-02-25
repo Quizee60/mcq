@@ -315,7 +315,7 @@ var prevScrollpos = window.pageYOffset;
 window.addEventListener('scroll', function() {
 	var currentScrollPos = window.pageYOffset;
 	if (prevScrollpos > currentScrollPos) {
-		(prevScrollpos-currentScrollPos<100)?document.getElementById("topbar").style.top = "0":null;
+		document.getElementById("topbar").style.top = "0";
 	} else {
 		document.getElementById("topbar").style.top = "-460px";
 	}
