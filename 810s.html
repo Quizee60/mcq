@@ -311,15 +311,15 @@ span.choi{
 </style>
 <script type="text/javascript">
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-var prevScrollpos = window.pageYOffset;
+var lastScrollY = window.pageYOffset;
 window.addEventListener('scroll', function() {
-	var currentScrollPos = window.pageYOffset;
-	if (prevScrollpos > currentScrollPos) {
-		document.getElementById("topbar").style.top = "0";
+	var newScrollY = window.pageYOffset;
+	if (lastScrollY > newScrollY) {
+		document.getElementById("topbar").style.top = "0px";
 	} else {
-		(currentScrollPos>100)?document.getElementById("topbar").style.top = "-460px":null;
+		document.getElementById("topbar").style.top = (newScrollY>100)?"-460px":"0px";
 	}
-	prevScrollpos = currentScrollPos;
+	lastScrollY = newScrollY;
 });
 
 var g_rating_group_counter = [0, 0, 0, 0, 0, 0];
