@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Training Application Form</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -14,7 +16,7 @@
       margin: 0;
       outline: none;
       font-family: Roboto, Arial, sans-serif;
-      font-size: 14px;
+      font-size: 18px;
       color: #666;
       line-height: 22px;
       }
@@ -40,7 +42,7 @@
       padding: 20px;
       border-radius: 6px;
       background: #111111;
-      box-shadow: 0 0 20px 0 #095484; 
+      box-shadow: 0 0 20px 0 #FFF; 
       }
       .banner {
       position: relative;
@@ -75,12 +77,12 @@
       background: transparent;
       }
       .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder, a {
-      color: #095484;
+      color: #FFF;
       }
       .item input:hover, .item select:hover {
       border: 1px solid transparent;
-      box-shadow: 0 0 6px 0 #095484;
-      color: #095484;
+      box-shadow: 0 0 6px 0 #FFF;
+      color: #FFF;
       }
       .item {
       position: relative;
@@ -129,10 +131,10 @@
       width: 16px;
       height: 16px;
       border-radius: 2px;
-      border: 1px solid #095484;
+      border: 1px solid #FFF;
       }
       input[type=checkbox]:checked + .check:before {
-      background: #095484;
+      background: #FFF;
       }
       label.check:after {
       content: "";
@@ -159,7 +161,7 @@
       padding: 10px;
       border: none;
       border-radius: 5px; 
-      background: #095484;
+      background: #FFF;
       font-size: 16px;
       color: #fff;
       cursor: pointer;
@@ -198,22 +200,24 @@
 			var b_cal = priceToBuy(price, share, brate, rrate);
 			
 			form.elements['txtCost'].value = s_cal.cost;
-			form.elements['txtProfit'].value = s_cal.profit;
+			form.elements['txtProfit'].value = Math.ceil(s_cal.profit);
+			form.elements['txtReturn'].value = Math.ceil(s_cal.return);
 			
-			form.elements['txtBuyPrice'].value =  b_cal.pick_price;
-			form.elements['txtSalePrice'].value = s_cal.pick_price;
+			form.elements['txtBuyPrice'].value =  Math.ceil(b_cal.pick_price);
+			form.elements['txtSalePrice'].value = Math.ceil(s_cal.pick_price);
 		
 		}
 		
 		function priceToSale(mprice, nshare, brate, rrate){
 			var cost = nshare*mprice;
-			brate = brate/100; rrate = rrate/100;
+			brate = brate/100.0; rrate = rrate/100.0;
 			cost = cost + cost * brate;
-			eprt = cost + cost * rrate;
-			scom = (eprt*brate)/(1-brate);
+			prof = cost * rrate;
+			eprt = cost + prof;
+			scom = Math.ceil((eprt*brate)/(1-brate));
 			ppri = (eprt+ scom)/nshare;
 			
-			return {'cost': cost,'profit': eprt, 'pick_price': ppri.toFixed(2)};
+			return {'cost': cost, 'profit': prof, 'return': eprt.toFixed(2), 'pick_price': ppri.toFixed(2)};
 			/*
 			scom = ((eprt+ scom)/nshare)*nshare*brate
 			scom = (eprt/nshare+ scom/nshare)*nshare*brate
@@ -229,14 +233,15 @@
 		}
 		
 		function priceToBuy(mprice, nshare, brate, rrate){
-			var prof = nshare*mprice;
-			brate = brate/100; rrate = rrate/100;
-			prof = prof - prof * brate;
-			bpri = prof - prof * rrate;
-			scom = (bpri*brate)/(1+brate);
-			ppri = (bpri- scom)/nshare;
+			var pr2s = nshare*mprice;
+			brate = brate/100.0; rrate = rrate/100.0;
+			cost = pr2s + pr2s * brate;
+			prof = cost * rrate;
+			bpri = cost - prof;
+			bcom = Math.ceil((bpri*brate)/(1+brate));//bcom: buy commision
+			ppri = (bpri- bcom)/nshare;
 			
-			return {'cost': prof, 'profit': bpri, 'pick_price': ppri.toFixed(2)};
+			return {'cost': cost, 'profit': prof, 'return':0, 'pick_price': ppri.toFixed(2)};
 			/*
 			spri = (bpri - scom)/nshare;
 			scom = spri*nshare*brate;
@@ -252,42 +257,42 @@
 			
 			*/
 		}
+		function page_ready(){
+			var form = document.getElementById('myForm');
+			for (var i = 0; i < form.elements.length; i++) {
+				form.elements[i].addEventListener('click', function(){this.select();}, false);
+			}
+		}
+		document.addEventListener("DOMContentLoaded", page_ready);
 	</script>
   </head>
   <body>
     <div class="testbox">
       <form id="myForm" action="/">
-        <div class="banner">
-          <h1>Stock Calculation Form</h1>
-        </div>
         <h2>Input Parameters</h2>
 		<div class="item">
 			<p>Available Cash</p>
-          <input type="number" name="txtCash" value="0" onInput="doCalculation();"/>
+			<input type="number" name="txtCash" value="0" onInput="doCalculation();"/>
         </div>
         <div class="item">
-          <div class="name-item">
             <input type="number" name="txtShares" placeholder="Number of Shares" value="100" onInput="doCalculation();"/>
             <input type="number" name="txtMarketPrice" placeholder="Market Price" value="10000" onInput="doCalculation();" onClick="this.select();" />
-          </div>
         </div>
-        <div class="name-item">
+        <div class="item">
           <input type="number" name="txtBrokerRate" placeholder="Broker Rate %" value="0.5" onInput="doCalculation();" />
           <input type="number" name="txtReturnRate" placeholder="Return Rate %" onInput="doCalculation();" value="2" />
         </div>
 		<div class="item">
-			<div class="name-item">
-			  <input type="number" name="txtCost" placeholder="Cost" />
-			  <input type="number" name="txtProfit" placeholder="Expected Profit" />
-			</div>
-			<div class="name-item">
-			  <input type="number" name="txtCost1" placeholder="Cost" />
-			  <input type="number" name="txtProfit1" placeholder="Expected Profit" />
-			</div>
-        </div>
-        <div class="name-item">
-          <input type="number" name="txtBuyPrice" placeholder="Buy Price" />
-          <input type="number" name="txtSalePrice" placeholder="Sale Price" />
+			<p>Cost and Expected Return</p>
+				<input type="number" name="txtCost" placeholder="Cost" />
+				<input type="number" name="txtProfit" placeholder="Profit" />
+				<input type="number" name="txtReturn" placeholder="Expected Return" />
+		</div>
+        <div class="item">
+			<p>Sale Price</p>
+			<input type="number" name="txtSalePrice" placeholder="Sale Price" />
+			<p>Buy Price</p>
+			<input type="number" name="txtBuyPrice" placeholder="Buy Price" />
         </div>
         <!--div class="btn-block">
           <button type="submit" href="/">Send</button>
