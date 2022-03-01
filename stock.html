@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <style>
       html, body {
-      min-height: 100%;
+      /* min-height: 100%; */
 	  background-color: #0F243E;
       }
       body, div, form, input, select, p { 
@@ -197,18 +197,30 @@
 			}
 			form.elements['txtShares'].value = share;
 			var s_cal = priceToSale(price, share, brate, rrate);
-			var b_cal = priceToBuy(price, share, brate, rrate);
-			
+
+			form.elements['txtSalePrice'].value = Math.ceil(s_cal.pick_price);
 			form.elements['txtCost'].value = s_cal.cost;
 			form.elements['txtProfit'].value = Math.ceil(s_cal.profit);
 			form.elements['txtReturn'].value = Math.ceil(s_cal.return);
 			
+			var b_cal = priceToBuy(price, share, brate, rrate);
 			form.elements['txtBuyPrice'].value =  Math.ceil(b_cal.pick_price);
-			form.elements['txtSalePrice'].value = Math.ceil(s_cal.pick_price);
+			form.elements['txtCost1'].value = b_cal.cost;
+			form.elements['txtProfit1'].value = Math.ceil(b_cal.profit);
+			form.elements['txtReturn1'].value = Math.ceil(b_cal.return);
+			
 		
 		}
 		
 		function priceToSale(mprice, nshare, brate, rrate){
+			var brate = brate/100.0; rrate = (100-rrate)/100.0;
+			var Bc = mprice*nshare;
+			Bc = Bc + Math.ceil(Bc*brate);
+			var Sr = Math.ceil(Bc/rrate);
+			var Ps = Sr/(nshare*(1-brate));
+			return {'cost': Bc, 'profit': (Sr-Bc), 'return': Sr.toFixed(2), 'pick_price': Ps.toFixed(2)};
+
+			/*
 			var cost = nshare*mprice;
 			brate = brate/100.0; rrate = rrate/100.0;
 			cost = cost + cost * brate;
@@ -216,9 +228,9 @@
 			eprt = cost + prof;
 			scom = Math.ceil((eprt*brate)/(1-brate));
 			ppri = (eprt+ scom)/nshare;
-			
+
 			return {'cost': cost, 'profit': prof, 'return': eprt.toFixed(2), 'pick_price': ppri.toFixed(2)};
-			/*
+
 			scom = ((eprt+ scom)/nshare)*nshare*brate
 			scom = (eprt/nshare+ scom/nshare)*nshare*brate
 			scom = (eprt/nshare)*nshare*brate + (scom/nshare)*nshare*brate
@@ -233,6 +245,14 @@
 		}
 		
 		function priceToBuy(mprice, nshare, brate, rrate){
+			var brate = brate/100.0; rrate = (100-rrate)/100.0;
+			var Sr = mprice*nshare;
+			Sr = Sr - Math.ceil(Sr*brate);
+			var Bc = Math.ceil(Sr*rrate);
+			var Pb = Bc/(nshare*(1+brate));
+			
+			return {'cost': Bc, 'profit': (Sr-Bc), 'return': Sr.toFixed(2), 'pick_price': Pb.toFixed(2)};
+			/*
 			var pr2s = nshare*mprice;
 			brate = brate/100.0; rrate = rrate/100.0;
 			cost = pr2s + pr2s * brate;
@@ -242,7 +262,7 @@
 			ppri = (bpri- bcom)/nshare;
 			
 			return {'cost': cost, 'profit': prof, 'return':0, 'pick_price': ppri.toFixed(2)};
-			/*
+		
 			spri = (bpri - scom)/nshare;
 			scom = spri*nshare*brate;
 			cost = spri * nshare + scom;
@@ -275,25 +295,29 @@
 			<input type="number" name="txtCash" value="0" onInput="doCalculation();"/>
         </div>
         <div class="item">
-            <input type="number" name="txtShares" placeholder="Number of Shares" value="100" onInput="doCalculation();"/>
-            <input type="number" name="txtMarketPrice" placeholder="Market Price" value="10000" onInput="doCalculation();" onClick="this.select();" />
+            <input type="number" name="txtShares" placeholder="Number of Shares" value="1" onInput="doCalculation();"/>
+            <input type="number" name="txtMarketPrice" placeholder="Market Price" value="100" onInput="doCalculation();" onClick="this.select();" />
         </div>
         <div class="item">
-          <input type="number" name="txtBrokerRate" placeholder="Broker Rate %" value="0.5" onInput="doCalculation();" />
-          <input type="number" name="txtReturnRate" placeholder="Return Rate %" onInput="doCalculation();" value="2" />
+			<input type="number" name="txtBrokerRate" placeholder="Broker Rate %" value="0.5" onInput="doCalculation();" />
+			<input type="number" name="txtReturnRate" placeholder="Return Rate %" onInput="doCalculation();" value="2" />
         </div>
 		<div class="item">
-			<p>Cost and Expected Return</p>
-				<input type="number" name="txtCost" placeholder="Cost" />
-				<input type="number" name="txtProfit" placeholder="Profit" />
-				<input type="number" name="txtReturn" placeholder="Expected Return" />
-		</div>
-        <div class="item">
 			<p>Sale Price</p>
 			<input type="number" name="txtSalePrice" placeholder="Sale Price" />
+			<p>Cost and Expected Return When Sale</p>
+			<input type="number" name="txtCost" placeholder="Cost" />
+			<input type="number" name="txtProfit" placeholder="Profit" />
+			<input type="number" name="txtReturn" placeholder="Expected Return" />
+		</div>
+		<div class="item">
 			<p>Buy Price</p>
 			<input type="number" name="txtBuyPrice" placeholder="Buy Price" />
-        </div>
+			<p>Cost and Expected Return When Buy</p>
+			<input type="number" name="txtCost1" placeholder="Cost" />
+			<input type="number" name="txtProfit1" placeholder="Profit" />
+			<input type="number" name="txtReturn1" placeholder="Expected Return" />
+		</div>
         <!--div class="btn-block">
           <button type="submit" href="/">Send</button>
         </div-->
