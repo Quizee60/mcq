@@ -7,181 +7,181 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <style>
-      html, body {
-      /* min-height: 100%; */
-	  background-color: #0F243E;
-      }
-      body, div, form, input, select, p { 
-      padding: 0;
-      margin: 0;
-      outline: none;
-      font-family: Roboto, Arial, sans-serif;
-      font-size: 18px;
-      color: #666;
-      line-height: 22px;
-      }
-      h1 {
-      position: absolute;
-      margin: 0;
-      font-size: 32px;
-      color: #fff;
-      z-index: 2;
-      }
-      h2 {
-      font-weight: 400;
-      }
-      .testbox {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: inherit;
-      padding: 20px;
-      }
-      form {
-      width: 100%;
-      padding: 20px;
-      border-radius: 6px;
-      background: #111111;
-      box-shadow: 0 0 20px 0 #FFF; 
-      }
-      .banner {
-      position: relative;
-      height: 210px;
-      background-size: cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      }
-      .banner::after {
-      content: "";
-      background-color: rgba(0, 0, 0, 0.4); 
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      }
-      input, select {
-      margin-bottom: 10px;
-      border: 1px solid #BFC1C5;
-      border-radius: 3px;
-	  background-color:#242526;
-	  color:#BFC1C5;
-      }
-      input {
-      width: calc(100% - 10px);
-      padding: 5px;
-      }
-      select {
-      width: 100%;
-      padding: 7px 0;
-      background: transparent;
-      }
-      .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder, a {
-      color: #FFF;
-      }
-      .item input:hover, .item select:hover {
-      border: 1px solid transparent;
-      box-shadow: 0 0 6px 0 #FFF;
-      color: #FFF;
-      }
-      .item {
-      position: relative;
-      margin: 10px 0;
-      }
-      input[type="date"]::-webkit-inner-spin-button {
-      display: none;
-      }
-      .item i, input[type="date"]::-webkit-calendar-picker-indicator {
-      position: absolute;
-      font-size: 20px;
-      color: #a9a9a9;
-      }
-      .item i {
-      right: 2%;
-      top: 30px;
-      z-index: 1;
-      }
-      [type="date"]::-webkit-calendar-picker-indicator {
-      right: 1%;
-      z-index: 2;
-      opacity: 0;
-      cursor: pointer;
-      }
-      input[type=checkbox]  {
-      display: none;
-      }
-      label.check {
-      position: relative;
-      display: inline-block;
-      margin: 5px 20px 10px 0;
-      cursor: pointer;
-      }
-      .question span {
-      margin-left: 30px;
-      }
-      span.required {
-      margin-left: 0;
-      color: red;
-      }
-      label.check:before {
-      content: "";
-      position: absolute;
-      top: 2px;
-      left: 0;
-      width: 16px;
-      height: 16px;
-      border-radius: 2px;
-      border: 1px solid #FFF;
-      }
-      input[type=checkbox]:checked + .check:before {
-      background: #FFF;
-      }
-      label.check:after {
-      content: "";
-      position: absolute;
-      top: 6px;
-      left: 4px;
-      width: 8px;
-      height: 4px;
-      border: 3px solid #fff;
-      border-top: none;
-      border-right: none;
-      transform: rotate(-45deg);
-      opacity: 0;
-      }
-      input[type=checkbox]:checked + label:after {
-      opacity: 1;
-      }
-      .btn-block {
-      margin-top: 10px;
-      text-align: center;
-      }
-      button {
-      width: 150px;
-      padding: 10px;
-      border: none;
-      border-radius: 5px; 
-      background: #FFF;
-      font-size: 16px;
-      color: #fff;
-      cursor: pointer;
-      }
-      button:hover {
-      background: #0666a3;
-      }
-      @media (min-width: 568px) {
-      .name-item, .city-item {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      }
-      .name-item input, .city-item input {
-      width: calc(50% - 20px);
-      }
-      .city-item select {
-      width: calc(50% - 8px);
-      }
-      }
+html, body {
+	/* min-height: 100%; */
+	background-color: #0F243E;
+}
+body, div, form, input, select, p { 
+	padding: 0;
+	margin: 0;
+	outline: none;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 18px;
+	color: #666;
+	line-height: 22px;
+}
+h1 {
+	position: absolute;
+	margin: 0;
+	font-size: 32px;
+	color: #fff;
+	z-index: 2;
+}
+h2 {
+	font-weight: 400;
+}
+.testbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+	padding: 20px;
+}
+form {
+	width: 100%;
+	padding: 20px;
+	border-radius: 6px;
+	background: #111111;
+	box-shadow: 0 0 20px 0 #FFF; 
+}
+.banner {
+	position: relative;
+	height: 210px;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.banner::after {
+	content: "";
+	background-color: rgba(0, 0, 0, 0.4); 
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+input, select {
+	margin-bottom: 10px;
+	border: 1px solid #BFC1C5;
+	border-radius: 3px;
+	background-color:#242526;
+	color:#BFC1C5;
+}
+input {
+	width: calc(100% - 10px);
+	padding: 5px;
+}
+select {
+	width: 100%;
+	padding: 7px 0;
+	background: transparent;
+}
+.item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder, a {
+	color: #FFF;
+}
+.item input:hover, .item select:hover {
+	border: 1px solid transparent;
+	box-shadow: 0 0 6px 0 #FFF;
+	color: #FFF;
+}
+.item {
+position: relative;
+	margin: 10px 0;
+}
+input[type="date"]::-webkit-inner-spin-button {
+	display: none;
+}
+.item i, input[type="date"]::-webkit-calendar-picker-indicator {
+	position: absolute;
+	font-size: 20px;
+	color: #a9a9a9;
+}
+.item i {
+	right: 2%;
+	top: 30px;
+	z-index: 1;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+	right: 1%;
+	z-index: 2;
+	opacity: 0;
+	cursor: pointer;
+}
+input[type=checkbox]  {
+	display: none;
+}
+label.check {
+	position: relative;
+	display: inline-block;
+	margin: 5px 20px 10px 0;
+	cursor: pointer;
+}
+.question span {
+	margin-left: 30px;
+}
+span.required {
+	margin-left: 0;
+	color: red;
+}
+label.check:before {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	border-radius: 2px;
+	border: 1px solid #FFF;
+}
+input[type=checkbox]:checked + .check:before {
+	background: #FFF;
+}
+label.check:after {
+	content: "";
+	position: absolute;
+	top: 6px;
+	left: 4px;
+	width: 8px;
+	height: 4px;
+	border: 3px solid #fff;
+	border-top: none;
+	border-right: none;
+	transform: rotate(-45deg);
+	opacity: 0;
+}
+input[type=checkbox]:checked + label:after {
+	opacity: 1;
+}
+.btn-block {
+	margin-top: 10px;
+	text-align: center;
+}
+button {
+	width: 150px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px; 
+	background: #FFF;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
+button:hover {
+	background: #0666a3;
+}
+@media (min-width: 568px) {
+	  .name-item, .city-item {
+		  display: flex;
+		  flex-wrap: wrap;
+		  justify-content: space-between;
+	  }
+	  .name-item input, .city-item input {
+		width: calc(50% - 20px);
+	  }
+	  .city-item select {
+		width: calc(50% - 8px);
+	  }
+}
     </style>
 	<script type="text/javascript">
 		function doCalculation(){
@@ -198,84 +198,38 @@
 			form.elements['txtShares'].value = share;
 			var s_cal = priceToSale(price, share, brate, rrate);
 
-			form.elements['txtSalePrice'].value = Math.ceil(s_cal.pick_price);
+			form.elements['txtSalePrice'].value = s_cal.pick_price;
 			form.elements['txtCost'].value = s_cal.cost;
 			form.elements['txtProfit'].value = Math.ceil(s_cal.profit);
 			form.elements['txtReturn'].value = Math.ceil(s_cal.return);
 			
 			var b_cal = priceToBuy(price, share, brate, rrate);
-			form.elements['txtBuyPrice'].value =  Math.ceil(b_cal.pick_price);
+			form.elements['txtBuyPrice'].value =  b_cal.pick_price;
 			form.elements['txtCost1'].value = b_cal.cost;
 			form.elements['txtProfit1'].value = Math.ceil(b_cal.profit);
 			form.elements['txtReturn1'].value = Math.ceil(b_cal.return);
-			
-		
 		}
 		
 		function priceToSale(mprice, nshare, brate, rrate){
-			var brate = brate/100.0; rrate = (100-rrate)/100.0;
+			var brate = brate/100.0; rrate1 = (100-rrate)/100.0;
 			var Bc = mprice*nshare;
 			Bc = Bc + Math.ceil(Bc*brate);
-			var Sr = Math.ceil(Bc/rrate);
-			var Ps = Sr/(nshare*(1-brate));
-			return {'cost': Bc, 'profit': (Sr-Bc), 'return': Sr.toFixed(2), 'pick_price': Ps.toFixed(2)};
-
-			/*
-			var cost = nshare*mprice;
-			brate = brate/100.0; rrate = rrate/100.0;
-			cost = cost + cost * brate;
-			prof = cost * rrate;
-			eprt = cost + prof;
-			scom = Math.ceil((eprt*brate)/(1-brate));
-			ppri = (eprt+ scom)/nshare;
-
-			return {'cost': cost, 'profit': prof, 'return': eprt.toFixed(2), 'pick_price': ppri.toFixed(2)};
-
-			scom = ((eprt+ scom)/nshare)*nshare*brate
-			scom = (eprt/nshare+ scom/nshare)*nshare*brate
-			scom = (eprt/nshare)*nshare*brate + (scom/nshare)*nshare*brate
-			scom = (eprt/nshare)*nshare*brate + scom*(nshare*brate)/nshare 
-			
-			spri = (eprt+ scom)/nshare;
-			scom = spri*nshare*brate;
-			eprt = spri * nshare - scom;
-			scom = spri * nshare - eprt
-			scom = (eprt*brate)/(1-brate);
-			*/
+			var Sr = Bc/rrate1;
+			var Ps = Math.ceil(Sr/(nshare*(1-brate)));
+			/* recalculate with founded price */
+			Sr = Ps*nshare*(1-brate);
+			return {'cost': Bc, 'profit': (Sr-Bc), 'return': Sr, 'pick_price': Ps};
 		}
 		
 		function priceToBuy(mprice, nshare, brate, rrate){
 			var brate = brate/100.0; rrate = (100-rrate)/100.0;
 			var Sr = mprice*nshare;
 			Sr = Sr - Math.ceil(Sr*brate);
-			var Bc = Math.ceil(Sr*rrate);
-			var Pb = Bc/(nshare*(1+brate));
-			
-			return {'cost': Bc, 'profit': (Sr-Bc), 'return': Sr.toFixed(2), 'pick_price': Pb.toFixed(2)};
-			/*
-			var pr2s = nshare*mprice;
-			brate = brate/100.0; rrate = rrate/100.0;
-			cost = pr2s + pr2s * brate;
-			prof = cost * rrate;
-			bpri = cost - prof;
-			bcom = Math.ceil((bpri*brate)/(1+brate));//bcom: buy commision
-			ppri = (bpri- bcom)/nshare;
-			
-			return {'cost': cost, 'profit': prof, 'return':0, 'pick_price': ppri.toFixed(2)};
-		
-			spri = (bpri - scom)/nshare;
-			scom = spri*nshare*brate;
-			cost = spri * nshare + scom;
-			scom = cost - spri * nshare;
-			
-			scom = ((bpri - scom)/nshare)*nshare*brate
-			scom = (bpri/nshare - scom/nshare)*nshare*brate
-			scom = (bpri/nshare)*nshare*brate - (scom/nshare)*nshare*brate
-			scom = (bpri/nshare)*nshare*brate - scom*(nshare*brate)/nshare 
-			scom = bpri*brate - scom*brate
-			scom = (bpri*brate)/(1+brate);
-			
-			*/
+			var Bc = Sr*rrate;
+			var Pb = Math.ceil(Bc/(nshare*(1+brate)));
+			/* recalculate with founded price */
+			Bc = Math.ceil(Pb*nshare*(1+brate));
+			return {'cost': Bc, 'profit': (Sr-Bc), 'return': Sr, 'pick_price': Pb};
 		}
 		function page_ready(){
 			var form = document.getElementById('myForm');
