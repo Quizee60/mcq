@@ -17,7 +17,7 @@ body, div, form, input, select, p {
 	outline: none;
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 18px;
-	color: #666;
+	color: #ffeb3bd4;
 	line-height: 22px;
 }
 h1 {
@@ -163,17 +163,31 @@ button:hover {
 .column.first{
 	padding-right: 5px;
 }
+.column.first td{
+	color:#8bc34a;
+}
 .column.last{
 	padding-left: 5px;
+}
+.column.last td{
+	color:#ff9800;
 }
 table {
   border-collapse: collapse;
 }
-
+table.data{
+	width: 100%;
+	table-layout: fixed;
+}
 td, th {
-  border: 1px solid #999;
+  border: 1px solid #00bcd4;
   padding: 0.5rem;
-  text-align: left;
+}
+table.data td:first-of-type + td{
+	text-align: right;
+}
+table.data td:first-of-type + td div{
+	color: #00bcd4;
 }
     </style>
 	<script type="text/javascript">
@@ -202,19 +216,20 @@ Number.prototype.format = function(n, x) {
 			}
 			form.elements['txtShares'].value = share;
 			var s_cal = priceToSale(price, share, brate, rrate);
-
-			form.elements['txtSalePrice'].value = s_cal.pick_price.format();
-			form.elements['txtCost'].value = s_cal.cost.format();
-			form.elements['txtCostB'].value = s_cal.bcost.format();
-			form.elements['txtProfit'].value = s_cal.profit.format();
-			form.elements['txtReturn'].value = s_cal.return.format();
+			document.getElementById('lblEPS').innerText = s_cal.eps.format();
+			document.getElementById('txtPrice').innerText =  s_cal.pick_price.format();
+			document.getElementById('txtCost').innerText = s_cal.cost.format();
+			document.getElementById('txtCostB').innerText = s_cal.bcost.format();
+			document.getElementById('txtProfit').innerText = s_cal.profit.format();
+			document.getElementById('txtReturn').innerText = s_cal.return.format();
 			
 			var b_cal = priceToBuy(price, share, brate, rrate);
-			form.elements['txtBuyPrice'].value =  b_cal.pick_price.format();
-			form.elements['txtCost1'].value = b_cal.cost.format();
-			form.elements['txtCostB1'].value = b_cal.bcost.format();
-			form.elements['txtProfit1'].value = b_cal.profit.format();
-			form.elements['txtReturn1'].value = b_cal.return.format();
+			document.getElementById('lblEPS1').innerText = b_cal.eps.format();
+			document.getElementById('txtPrice1').innerText =  b_cal.pick_price.format();
+			document.getElementById('txtCost1').innerText = b_cal.cost.format();
+			document.getElementById('txtCostB1').innerText = b_cal.bcost.format();
+			document.getElementById('txtProfit1').innerText = b_cal.profit.format();
+			document.getElementById('txtReturn1').innerText = b_cal.return.format();
 		}
 		
 		function priceToSale(mprice, nshare, brate, rrate){
@@ -227,7 +242,8 @@ Number.prototype.format = function(n, x) {
 			/* recalculate with founded price */
 			var bcosts = Ps*nshare*brate;
 			Sr = Ps*nshare*(1-brate);
-			return {'cost': Bc, 'bcost': (bcostb+bcosts), 'profit': (Sr-Bc), 'return': Sr, 'pick_price': Ps};
+			var profit = (Sr-Bc);
+			return {'cost': Bc, 'bcost': (bcostb+bcosts), 'eps':(profit/nshare), 'profit':profit , 'return': Sr, 'pick_price': Ps};
 		}
 		
 		function priceToBuy(mprice, nshare, brate, rrate){
@@ -240,7 +256,8 @@ Number.prototype.format = function(n, x) {
 			/* recalculate with founded price */
 			var bcostb = Pb*nshare*brate;
 			Bc = Math.ceil(Pb*nshare*(1+brate));
-			return {'cost': Bc, 'bcost': (bcostb+bcosts), 'profit': (Sr-Bc), 'return': Sr, 'pick_price': Pb};
+			var profit = (Sr-Bc);
+			return {'cost': Bc, 'bcost': (bcostb+bcosts), 'eps':(profit/nshare), 'profit': profit, 'return': Sr, 'pick_price': Pb};
 		}
 		function page_ready(){
 			var form = document.getElementById('myForm');
@@ -270,24 +287,28 @@ Number.prototype.format = function(n, x) {
 		<div class="row">
 			<div class="column first">
 				<div class="item">
-					<p>Sale Price</p>
-					<input type="text" name="txtSalePrice" placeholder="Sale Price" />
-					<p>Cost and Expected Return When Sale</p>
-					<input type="text" name="txtCost" placeholder="Cost" />
-					<input type="text" name="txtCostB" placeholder="Broker Cost" />
-					<input type="text" name="txtProfit" placeholder="Profit" />
-					<input type="text" name="txtReturn" placeholder="Expected Return" />
+					<p>Price to Sale</p>
+					<table class="data">
+						<tr><td>Price:</td><td><div id="txtPrice"></div></td></tr>
+						<tr><td>EPS:</td><td><div id="lblEPS"></div></td></tr>
+						<tr><td>Cost:</td><td><div id="txtCost"></div></td></tr>
+						<tr><td>Tran. Cost:</td><td><div id="txtCostB"></div></td></tr>
+						<tr><td>Gain:</td><td><div id="txtProfit"></div></td></tr>
+						<tr><td>Return:</td><td><div id="txtReturn"></div></td></tr>
+					</table>
 				</div>
 			</div>
 			<div class="column last">
 				<div class="item">
-					<p>Buy Price</p>
-					<input type="text" name="txtBuyPrice" placeholder="Buy Price" />
-					<p>Cost and Expected Return When Buy</p>
-					<input type="text" name="txtCost1" placeholder="Cost" />
-					<input type="text" name="txtCostB1" placeholder="Broker Cost" />
-					<input type="text" name="txtProfit1" placeholder="Profit" />
-					<input type="text" name="txtReturn1" placeholder="Expected Return" />
+					<p>Price to Buy</p>
+					<table class="data">
+						<tr><td>Price:</td><td><div id="txtPrice1"></div></td></tr>
+						<tr><td>EPS:</td><td><div id="lblEPS1"></div></td></tr>
+						<tr><td>Cost:</td><td><div id="txtCost1"></div></td></tr>
+						<tr><td>Tran. Cost:</td><td><div id="txtCostB1"></div></td></tr>
+						<tr><td>Gain:</td><td><div id="txtProfit1"></div></td></tr>
+						<tr><td>Return:</td><td><div id="txtReturn1"></div></td></tr>
+					</table>
 				</div>
 			</div>
 		</div>
