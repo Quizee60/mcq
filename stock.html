@@ -35,37 +35,22 @@ h2 {
 	justify-content: center;
 	align-items: center;
 	height: inherit;
-	padding: 20px;
+	padding: 20px 6px;
 }
 form {
 	width: 100%;
 	padding: 20px;
 	border-radius: 6px;
 	background: #111111;
-	box-shadow: 0 0 20px 0 #FFF; 
-}
-.banner {
-	position: relative;
-	height: 210px;
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-.banner::after {
-	content: "";
-	background-color: rgba(0, 0, 0, 0.4); 
-	position: absolute;
-	width: 100%;
-	height: 100%;
+	box-shadow: 0 0 2px 0 #FFF; 
 }
 input, select {
 	margin-bottom: 10px;
-	border: 1px solid #BFC1C5;
 	border-radius: 3px;
 	background-color:#242526;
-	color:#BFC1C5;
+	border: 1px solid transparent;
+	box-shadow: 0 0 2px 0 #FFF;
+	color: #FFF;
 }
 input {
 	width: calc(100% - 10px);
@@ -80,12 +65,11 @@ select {
 	color: #FFF;
 }
 .item input:hover, .item select:hover {
-	border: 1px solid transparent;
-	box-shadow: 0 0 6px 0 #FFF;
-	color: #FFF;
+	border: 1px solid #BFC1C5;
+	color:#BFC1C5;
 }
 .item {
-position: relative;
+	position: relative;
 	margin: 10px 0;
 }
 input[type="date"]::-webkit-inner-spin-button {
@@ -169,21 +153,42 @@ button {
 button:hover {
 	background: #0666a3;
 }
-@media (min-width: 568px) {
-	  .name-item, .city-item {
-		  display: flex;
-		  flex-wrap: wrap;
-		  justify-content: space-between;
-	  }
-	  .name-item input, .city-item input {
-		width: calc(50% - 20px);
-	  }
-	  .city-item select {
-		width: calc(50% - 8px);
-	  }
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+.column.first{
+	padding-right: 5px;
+}
+.column.last{
+	padding-left: 5px;
+}
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
 }
     </style>
 	<script type="text/javascript">
+/**
+ * Number.prototype.format(n, x)
+ * 
+ * @param integer n: length of decimal
+ * @param integer x: length of sections
+ * https://stackoverflow.com/questions/149055/how-to-format-numbers-as-currency-strings
+ */
+Number.prototype.format = function(n, x) {
+    var re = '(\\d)(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
+    return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$1,');
+};
+
 		function doCalculation(){
 			var form = document.getElementById('myForm');
 			var cash = parseFloat(form.elements['txtCash'].value);
@@ -198,38 +203,44 @@ button:hover {
 			form.elements['txtShares'].value = share;
 			var s_cal = priceToSale(price, share, brate, rrate);
 
-			form.elements['txtSalePrice'].value = s_cal.pick_price;
-			form.elements['txtCost'].value = s_cal.cost;
-			form.elements['txtProfit'].value = Math.ceil(s_cal.profit);
-			form.elements['txtReturn'].value = Math.ceil(s_cal.return);
+			form.elements['txtSalePrice'].value = s_cal.pick_price.format();
+			form.elements['txtCost'].value = s_cal.cost.format();
+			form.elements['txtCostB'].value = s_cal.bcost.format();
+			form.elements['txtProfit'].value = s_cal.profit.format();
+			form.elements['txtReturn'].value = s_cal.return.format();
 			
 			var b_cal = priceToBuy(price, share, brate, rrate);
-			form.elements['txtBuyPrice'].value =  b_cal.pick_price;
-			form.elements['txtCost1'].value = b_cal.cost;
-			form.elements['txtProfit1'].value = Math.ceil(b_cal.profit);
-			form.elements['txtReturn1'].value = Math.ceil(b_cal.return);
+			form.elements['txtBuyPrice'].value =  b_cal.pick_price.format();
+			form.elements['txtCost1'].value = b_cal.cost.format();
+			form.elements['txtCostB1'].value = b_cal.bcost.format();
+			form.elements['txtProfit1'].value = b_cal.profit.format();
+			form.elements['txtReturn1'].value = b_cal.return.format();
 		}
 		
 		function priceToSale(mprice, nshare, brate, rrate){
 			var brate = brate/100.0; rrate1 = (100-rrate)/100.0;
 			var Bc = mprice*nshare;
-			Bc = Bc + Math.ceil(Bc*brate);
+			var bcostb = Math.ceil(Bc*brate);
+			Bc = Bc + bcostb;
 			var Sr = Bc/rrate1;
 			var Ps = Math.ceil(Sr/(nshare*(1-brate)));
 			/* recalculate with founded price */
+			var bcosts = Ps*nshare*brate;
 			Sr = Ps*nshare*(1-brate);
-			return {'cost': Bc, 'profit': (Sr-Bc), 'return': Sr, 'pick_price': Ps};
+			return {'cost': Bc, 'bcost': (bcostb+bcosts), 'profit': (Sr-Bc), 'return': Sr, 'pick_price': Ps};
 		}
 		
 		function priceToBuy(mprice, nshare, brate, rrate){
 			var brate = brate/100.0; rrate = (100-rrate)/100.0;
 			var Sr = mprice*nshare;
-			Sr = Sr - Math.ceil(Sr*brate);
+			var bcosts = Math.ceil(Sr*brate);
+			Sr = Sr - bcosts;
 			var Bc = Sr*rrate;
 			var Pb = Math.ceil(Bc/(nshare*(1+brate)));
 			/* recalculate with founded price */
+			var bcostb = Pb*nshare*brate;
 			Bc = Math.ceil(Pb*nshare*(1+brate));
-			return {'cost': Bc, 'profit': (Sr-Bc), 'return': Sr, 'pick_price': Pb};
+			return {'cost': Bc, 'bcost': (bcostb+bcosts), 'profit': (Sr-Bc), 'return': Sr, 'pick_price': Pb};
 		}
 		function page_ready(){
 			var form = document.getElementById('myForm');
@@ -256,21 +267,29 @@ button:hover {
 			<input type="number" name="txtBrokerRate" placeholder="Broker Rate %" value="0.5" onInput="doCalculation();" />
 			<input type="number" name="txtReturnRate" placeholder="Return Rate %" onInput="doCalculation();" value="2" />
         </div>
-		<div class="item">
-			<p>Sale Price</p>
-			<input type="number" name="txtSalePrice" placeholder="Sale Price" />
-			<p>Cost and Expected Return When Sale</p>
-			<input type="number" name="txtCost" placeholder="Cost" />
-			<input type="number" name="txtProfit" placeholder="Profit" />
-			<input type="number" name="txtReturn" placeholder="Expected Return" />
-		</div>
-		<div class="item">
-			<p>Buy Price</p>
-			<input type="number" name="txtBuyPrice" placeholder="Buy Price" />
-			<p>Cost and Expected Return When Buy</p>
-			<input type="number" name="txtCost1" placeholder="Cost" />
-			<input type="number" name="txtProfit1" placeholder="Profit" />
-			<input type="number" name="txtReturn1" placeholder="Expected Return" />
+		<div class="row">
+			<div class="column first">
+				<div class="item">
+					<p>Sale Price</p>
+					<input type="text" name="txtSalePrice" placeholder="Sale Price" />
+					<p>Cost and Expected Return When Sale</p>
+					<input type="text" name="txtCost" placeholder="Cost" />
+					<input type="text" name="txtCostB" placeholder="Broker Cost" />
+					<input type="text" name="txtProfit" placeholder="Profit" />
+					<input type="text" name="txtReturn" placeholder="Expected Return" />
+				</div>
+			</div>
+			<div class="column last">
+				<div class="item">
+					<p>Buy Price</p>
+					<input type="text" name="txtBuyPrice" placeholder="Buy Price" />
+					<p>Cost and Expected Return When Buy</p>
+					<input type="text" name="txtCost1" placeholder="Cost" />
+					<input type="text" name="txtCostB1" placeholder="Broker Cost" />
+					<input type="text" name="txtProfit1" placeholder="Profit" />
+					<input type="text" name="txtReturn1" placeholder="Expected Return" />
+				</div>
+			</div>
 		</div>
         <!--div class="btn-block">
           <button type="submit" href="/">Send</button>
