@@ -183,10 +183,12 @@ td, th {
   border: 1px solid #00bcd4;
   padding: 0.5rem;
 }
-table.data td:first-of-type + td{
+table.data td:first-of-type + td,
+table.data td:first-of-type + td + td{
 	text-align: right;
 }
-table.data td:first-of-type + td div{
+table.data td:first-of-type + td div,
+table.data td:first-of-type + td +td div{
 	color: #00bcd4;
 }
     </style>
@@ -284,33 +286,39 @@ Number.prototype.format = function(n, x) {
 			<input type="number" name="txtBrokerRate" placeholder="Broker Rate %" value="0.5" onInput="doCalculation();" />
 			<input type="number" name="txtReturnRate" placeholder="Return Rate %" onInput="doCalculation();" value="2" />
         </div>
-		<div class="row">
-			<div class="column first">
-				<div class="item">
-					<p>Price to Sale</p>
-					<table class="data">
-						<tr><td>Price:</td><td><div id="txtPrice"></div></td></tr>
-						<tr><td>EPS:</td><td><div id="lblEPS"></div></td></tr>
-						<tr><td>Cost:</td><td><div id="txtCost"></div></td></tr>
-						<tr><td>Tran. Cost:</td><td><div id="txtCostB"></div></td></tr>
-						<tr><td>Gain:</td><td><div id="txtProfit"></div></td></tr>
-						<tr><td>Return:</td><td><div id="txtReturn"></div></td></tr>
-					</table>
-				</div>
-			</div>
-			<div class="column last">
-				<div class="item">
-					<p>Price to Buy</p>
-					<table class="data">
-						<tr><td>Price:</td><td><div id="txtPrice1"></div></td></tr>
-						<tr><td>EPS:</td><td><div id="lblEPS1"></div></td></tr>
-						<tr><td>Cost:</td><td><div id="txtCost1"></div></td></tr>
-						<tr><td>Tran. Cost:</td><td><div id="txtCostB1"></div></td></tr>
-						<tr><td>Gain:</td><td><div id="txtProfit1"></div></td></tr>
-						<tr><td>Return:</td><td><div id="txtReturn1"></div></td></tr>
-					</table>
-				</div>
-			</div>
+		<div class="item">
+			<table class="data">
+				<tr>
+					<th>&nbsp;</th>
+					<th>Price to Sale</th>
+					<th>Price to Buy</th>
+				</tr>
+				<tr>
+					<td>Price:</td>
+					<td><div id="txtPrice"></div></td>
+					<td><div id="txtPrice1"></div></td>
+				</tr><tr>
+					<td>EPS:</td>
+					<td><div id="lblEPS"></div></td>
+					<td><div id="lblEPS1"></div></td>
+				</tr><tr>
+					<td>Cost:</td>
+					<td><div id="txtCost"></div></td>
+					<td><div id="txtCost1"></div></td>
+				</tr><tr>
+					<td>Tran. Cost:</td>
+					<td><div id="txtCostB"></div></td>
+					<td><div id="txtCostB1"></div></td>
+				</tr><tr>
+					<td>Gain:</td>
+					<td><div id="txtProfit"></div></td>
+					<td><div id="txtProfit1"></div></td>
+				</tr><tr>
+					<td>Return:</td>
+					<td><div id="txtReturn"></div></td>
+					<td><div id="txtReturn1"></div></td>
+				</tr>
+			</table>
 		</div>
         <!--div class="btn-block">
           <button type="submit" href="/">Send</button>
