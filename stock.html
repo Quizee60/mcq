@@ -3,7 +3,7 @@
   <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Training Application Form</title>
+    <title>Trading Calculation</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <style>
@@ -232,6 +232,13 @@ Number.prototype.format = function(n, x) {
 			document.getElementById('txtCostB1').innerText = b_cal.bcost.format();
 			document.getElementById('txtProfit1').innerText = b_cal.profit.format();
 			document.getElementById('txtReturn1').innerText = b_cal.return.format();
+			
+			var buycost = price*share;
+			var btransa = Math.ceil(buycost*(brate/100));
+			document.getElementById('lblCCost').innerText = buycost.format();
+			document.getElementById('lblTCost').innerText = btransa.format();
+			document.getElementById('lblBAmount').innerText = "B: "+(buycost+btransa).format();
+			document.getElementById('lblSAmount').innerText = "S: "+(buycost-btransa).format();
 		}
 		
 		function priceToSale(mprice, nshare, brate, rrate){
@@ -288,6 +295,12 @@ Number.prototype.format = function(n, x) {
         </div>
 		<div class="item">
 			<table class="data">
+				<tr>
+					<td>Output</td>
+					<td><div id="lblCCost">0</div><hr/><div id="lblTCost">0</div></td>
+					<td><div id="lblBAmount">0</div><hr/><div id="lblSAmount">0</div></td>
+				</tr>
+
 				<tr>
 					<th>&nbsp;</th>
 					<th>Price to Sale</th>
