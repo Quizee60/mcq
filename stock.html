@@ -218,20 +218,22 @@ Number.prototype.format = function(n, x) {
 			}
 			form.elements['txtShares'].value = share;
 			var s_cal = priceToSale(price, share, brate, rrate);
+			document.getElementById('lblSDiff').innerText = (s_cal.pick_price-price*1).format();
 			document.getElementById('lblEPS').innerText = s_cal.eps.format();
-			document.getElementById('txtPrice').innerText =  s_cal.pick_price.format();
-			document.getElementById('txtCost').innerText = s_cal.cost.format();
-			document.getElementById('txtCostB').innerText = s_cal.bcost.format();
-			document.getElementById('txtProfit').innerText = s_cal.profit.format();
-			document.getElementById('txtReturn').innerText = s_cal.return.format();
+			document.getElementById('lblPrice').innerText =  s_cal.pick_price.format();
+			document.getElementById('lblCost').innerText = s_cal.cost.format();
+			document.getElementById('lblCostB').innerText = s_cal.bcost.format();
+			document.getElementById('lblProfit').innerText = s_cal.profit.format();
+			document.getElementById('lblReturn').innerText = s_cal.return.format();
 			
 			var b_cal = priceToBuy(price, share, brate, rrate);
+			document.getElementById('lblBDiff').innerText = (1*price-b_cal.pick_price).format();
 			document.getElementById('lblEPS1').innerText = b_cal.eps.format();
-			document.getElementById('txtPrice1').innerText =  b_cal.pick_price.format();
-			document.getElementById('txtCost1').innerText = b_cal.cost.format();
-			document.getElementById('txtCostB1').innerText = b_cal.bcost.format();
-			document.getElementById('txtProfit1').innerText = b_cal.profit.format();
-			document.getElementById('txtReturn1').innerText = b_cal.return.format();
+			document.getElementById('lblPrice1').innerText =  b_cal.pick_price.format();
+			document.getElementById('lblCost1').innerText = b_cal.cost.format();
+			document.getElementById('lblCostB1').innerText = b_cal.bcost.format();
+			document.getElementById('lblProfit1').innerText = b_cal.profit.format();
+			document.getElementById('lblReturn1').innerText = b_cal.return.format();
 			
 			var buycost = price*share;
 			var btransa = Math.ceil(buycost*(brate/100));
@@ -303,33 +305,33 @@ Number.prototype.format = function(n, x) {
 
 				<tr>
 					<th>&nbsp;</th>
-					<th>Price to Sale</th>
-					<th>Price to Buy</th>
+					<th>Sale &#x2191; <span id="lblSDiff">0</span></th>
+					<th>Buy &#x2193; <span id="lblBDiff">0</span></th>
 				</tr>
 				<tr>
 					<td>Price:</td>
-					<td><div id="txtPrice"></div></td>
-					<td><div id="txtPrice1"></div></td>
+					<td><div id="lblPrice"></div></td>
+					<td><div id="lblPrice1"></div></td>
 				</tr><tr>
 					<td>EPS:</td>
 					<td><div id="lblEPS"></div></td>
 					<td><div id="lblEPS1"></div></td>
 				</tr><tr>
 					<td>Cost:</td>
-					<td><div id="txtCost"></div></td>
-					<td><div id="txtCost1"></div></td>
+					<td><div id="lblCost"></div></td>
+					<td><div id="lblCost1"></div></td>
 				</tr><tr>
 					<td>T-Cost:</td>
-					<td><div id="txtCostB"></div></td>
-					<td><div id="txtCostB1"></div></td>
+					<td><div id="lblCostB"></div></td>
+					<td><div id="lblCostB1"></div></td>
 				</tr><tr>
 					<td>Gain:</td>
-					<td><div id="txtProfit"></div></td>
-					<td><div id="txtProfit1"></div></td>
+					<td><div id="lblProfit"></div></td>
+					<td><div id="lblProfit1"></div></td>
 				</tr><tr>
 					<td>Return:</td>
-					<td><div id="txtReturn"></div></td>
-					<td><div id="txtReturn1"></div></td>
+					<td><div id="lblReturn"></div></td>
+					<td><div id="lblReturn1"></div></td>
 				</tr>
 			</table>
 		</div>
