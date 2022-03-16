@@ -191,8 +191,8 @@ table.data td:first-of-type + td div,
 table.data td:first-of-type + td +td div{
 	color: #00bcd4;
 }
-    </style>
-	<script type="text/javascript">
+</style>
+<script type="text/javascript">
 /**
  * Number.prototype.format(n, x)
  * 
@@ -205,79 +205,85 @@ Number.prototype.format = function(n, x) {
     return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$1,');
 };
 
-		function doCalculation(){
-			var form = document.getElementById('myForm');
-			var cash = parseFloat(form.elements['txtCash'].value);
-			var price= parseFloat(form.elements['txtMarketPrice'].value);
-			var share= parseFloat(form.elements['txtShares'].value);
-			var brate= parseFloat(form.elements['txtBrokerRate'].value);
-			var rrate= parseFloat(form.elements['txtReturnRate'].value);
+function calculateShare(){
+	var form = document.getElementById('myForm');
+	var cash = parseFloat(form.elements['txtCash'].value);
+	var price= parseFloat(form.elements['txtMarketPrice'].value);
+	if(cash && price){
+		var share = (cash/price).toFixed(0);
+		form.elements['txtShares'].value = share;
+		doCalculation();
+	}
+}
 
-			if(cash){
-				share = (cash/price).toFixed(0);
-			}
-			form.elements['txtShares'].value = share;
-			var s_cal = priceToSale(price, share, brate, rrate);
-			document.getElementById('lblSDiff').innerText = (s_cal.pick_price-price*1).format();
-			document.getElementById('lblEPS').innerText = s_cal.eps.format();
-			document.getElementById('lblPrice').innerText =  s_cal.pick_price.format();
-			document.getElementById('lblCost').innerText = s_cal.cost.format();
-			document.getElementById('lblCostB').innerText = s_cal.bcost.format();
-			document.getElementById('lblProfit').innerText = s_cal.profit.format();
-			document.getElementById('lblReturn').innerText = s_cal.return.format();
-			
-			var b_cal = priceToBuy(price, share, brate, rrate);
-			document.getElementById('lblBDiff').innerText = (1*price-b_cal.pick_price).format();
-			document.getElementById('lblEPS1').innerText = b_cal.eps.format();
-			document.getElementById('lblPrice1').innerText =  b_cal.pick_price.format();
-			document.getElementById('lblCost1').innerText = b_cal.cost.format();
-			document.getElementById('lblCostB1').innerText = b_cal.bcost.format();
-			document.getElementById('lblProfit1').innerText = b_cal.profit.format();
-			document.getElementById('lblReturn1').innerText = b_cal.return.format();
-			
-			var buycost = price*share;
-			var btransa = Math.ceil(buycost*(brate/100));
-			document.getElementById('lblCCost').innerText = buycost.format();
-			document.getElementById('lblTCost').innerText = btransa.format();
-			document.getElementById('lblBAmount').innerText = "B: "+(buycost+btransa).format();
-			document.getElementById('lblSAmount').innerText = "S: "+(buycost-btransa).format();
-		}
-		
-		function priceToSale(mprice, nshare, brate, rrate){
-			var brate = brate/100.0; rrate1 = (100-rrate)/100.0;
-			var Bc = mprice*nshare;
-			var bcostb = Math.ceil(Bc*brate);
-			Bc = Bc + bcostb;
-			var Sr = Bc/rrate1;
-			var Ps = Math.ceil(Sr/(nshare*(1-brate)));
-			/* recalculate with founded price */
-			var bcosts = Ps*nshare*brate;
-			Sr = Ps*nshare*(1-brate);
-			var profit = (Sr-Bc);
-			return {'cost': Bc, 'bcost': (bcostb+bcosts), 'eps':(profit/nshare), 'profit':profit , 'return': Sr, 'pick_price': Ps};
-		}
-		
-		function priceToBuy(mprice, nshare, brate, rrate){
-			var brate = brate/100.0; rrate = (100-rrate)/100.0;
-			var Sr = mprice*nshare;
-			var bcosts = Math.ceil(Sr*brate);
-			Sr = Sr - bcosts;
-			var Bc = Sr*rrate;
-			var Pb = Math.ceil(Bc/(nshare*(1+brate)));
-			/* recalculate with founded price */
-			var bcostb = Pb*nshare*brate;
-			Bc = Math.ceil(Pb*nshare*(1+brate));
-			var profit = (Sr-Bc);
-			return {'cost': Bc, 'bcost': (bcostb+bcosts), 'eps':(profit/nshare), 'profit': profit, 'return': Sr, 'pick_price': Pb};
-		}
-		function page_ready(){
-			var form = document.getElementById('myForm');
-			for (var i = 0; i < form.elements.length; i++) {
-				form.elements[i].addEventListener('click', function(){this.select();}, false);
-			}
-		}
-		document.addEventListener("DOMContentLoaded", page_ready);
-	</script>
+function doCalculation(){
+	var form = document.getElementById('myForm');
+	var price= parseFloat(form.elements['txtMarketPrice'].value);
+	var share= parseFloat(form.elements['txtShares'].value);
+	var brate= parseFloat(form.elements['txtBrokerRate'].value);
+	var rrate= parseFloat(form.elements['txtReturnRate'].value);
+
+	var s_cal = priceToSale(price, share, brate, rrate);
+	document.getElementById('lblSDiff').innerText = (s_cal.pick_price-price*1).format();
+	document.getElementById('lblEPS').innerText = s_cal.eps.format();
+	document.getElementById('lblPrice').innerText =  s_cal.pick_price.format();
+	document.getElementById('lblCost').innerText = s_cal.cost.format();
+	document.getElementById('lblCostB').innerText = s_cal.bcost.format();
+	document.getElementById('lblProfit').innerText = s_cal.profit.format();
+	document.getElementById('lblReturn').innerText = s_cal.return.format();
+	
+	var b_cal = priceToBuy(price, share, brate, rrate);
+	document.getElementById('lblBDiff').innerText = (1*price-b_cal.pick_price).format();
+	document.getElementById('lblEPS1').innerText = b_cal.eps.format();
+	document.getElementById('lblPrice1').innerText =  b_cal.pick_price.format();
+	document.getElementById('lblCost1').innerText = b_cal.cost.format();
+	document.getElementById('lblCostB1').innerText = b_cal.bcost.format();
+	document.getElementById('lblProfit1').innerText = b_cal.profit.format();
+	document.getElementById('lblReturn1').innerText = b_cal.return.format();
+	
+	var buycost = price*share;
+	var btransa = Math.ceil(buycost*(brate/100));
+	document.getElementById('lblCCost').innerText = buycost.format();
+	document.getElementById('lblTCost').innerText = btransa.format();
+	document.getElementById('lblBAmount').innerText = "B: "+(buycost+btransa).format();
+	document.getElementById('lblSAmount').innerText = "S: "+(buycost-btransa).format();
+}
+
+function priceToSale(mprice, nshare, brate, rrate){
+	var brate = brate/100.0; rrate1 = (100-rrate)/100.0;
+	var Bc = mprice*nshare;
+	var bcostb = Math.ceil(Bc*brate);
+	Bc = Bc + bcostb;
+	var Sr = Bc/rrate1;
+	var Ps = Math.ceil(Sr/(nshare*(1-brate)));
+	/* recalculate with founded price */
+	var bcosts = Ps*nshare*brate;
+	Sr = Ps*nshare*(1-brate);
+	var profit = (Sr-Bc);
+	return {'cost': Bc, 'bcost': (bcostb+bcosts), 'eps':(profit/nshare), 'profit':profit , 'return': Sr, 'pick_price': Ps};
+}
+
+function priceToBuy(mprice, nshare, brate, rrate){
+	var brate = brate/100.0; rrate = (100-rrate)/100.0;
+	var Sr = mprice*nshare;
+	var bcosts = Math.ceil(Sr*brate);
+	Sr = Sr - bcosts;
+	var Bc = Sr*rrate;
+	var Pb = Math.ceil(Bc/(nshare*(1+brate)));
+	/* recalculate with founded price */
+	var bcostb = Pb*nshare*brate;
+	Bc = Math.ceil(Pb*nshare*(1+brate));
+	var profit = (Sr-Bc);
+	return {'cost': Bc, 'bcost': (bcostb+bcosts), 'eps':(profit/nshare), 'profit': profit, 'return': Sr, 'pick_price': Pb};
+}
+function page_ready(){
+	var form = document.getElementById('myForm');
+	for (var i = 0; i < form.elements.length; i++) {
+		form.elements[i].addEventListener('click', function(){this.select();}, false);
+	}
+}
+document.addEventListener("DOMContentLoaded", page_ready);
+</script>
   </head>
   <body>
     <div class="testbox">
@@ -285,13 +291,9 @@ Number.prototype.format = function(n, x) {
         <h2>Input Parameters</h2>
 		<div class="item">
 			<p>Available Cash</p>
-			<input type="number" name="txtCash" value="0" onInput="doCalculation();"/>
-        </div>
-        <div class="item">
+			<input type="number" name="txtCash" value="0" onInput="calculateShare();"/>
             <input type="number" name="txtShares" placeholder="Number of Shares" value="1" onInput="doCalculation();"/>
             <input type="number" name="txtMarketPrice" placeholder="Market Price" value="100" onInput="doCalculation();" onClick="this.select();" />
-        </div>
-        <div class="item">
 			<input type="number" name="txtBrokerRate" placeholder="Broker Rate %" value="0.5" onInput="doCalculation();" />
 			<input type="number" name="txtReturnRate" placeholder="Return Rate %" onInput="doCalculation();" value="2" />
         </div>
