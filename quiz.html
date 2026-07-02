@@ -765,8 +765,13 @@
   }
 
   function getStoredRatings() {
-    var data = localStorage.getItem(RATINGS_STORAGE_KEY);
-    return data ? JSON.parse(data) : {};
+	try {
+      var data = localStorage.getItem(RATINGS_STORAGE_KEY);
+      return data ? JSON.parse(data) : {};
+    } catch (e) {
+      console.error("Storage read crash bypassed:", e);
+      return {}; // Safe fallback if storage data corrupts
+    }
   }
 
   function saveStateToStorage(cardId, rating, isCompleted) {
@@ -1027,18 +1032,27 @@
     
     var searchQuery = document.getElementById('search-input').value;
     var selectedSec = sectionFilter.value || 'all';
-
+	  
     filteredData = quizData.filter(function(card) {
-      if (activeStatusFilter === 'pending' && card.isCompleted) return false;
-      if (activeStatusFilter === 'reviewed' && !card.isCompleted) return false;
+		// 1. First, check if the card matches the search query string
+      	if (!matchCustomSearch(card, searchQuery)) return false;
+		
+      	var matchesSec = selectedSec === 'all' || String(card.sectionId) === String(selectedSec);
+      	if (!matchesSec) return false;
+		
+      	// 2. Separate Difficulty and Status conditions
+      	// If a specific difficulty is selected, prioritize it independently
+      	if (activeRatingFilter !== 'all') {
+        	return parseInt(card.rating, 10) === parseInt(activeDifficulty, 10);
+     	}
 
-      var matchesSec = selectedSec === 'all' || String(card.sectionId) === String(selectedSec);
-      if (!matchesSec) return false;
-
-      var matchesRating = activeRatingFilter === 'all' || card.rating === parseInt(activeRatingFilter, 10);
-      if (!matchesRating) return false;
-
-      return matchCustomSearch(card, searchQuery);
+      	// 3. Otherwise, if difficulty is 'all', fall back to sorting by the Status filter condition
+      	if (activeStatusFilter !== 'all') {
+        	var isCardFinished = !!card.isCompleted;
+        	if (activeStatusFilter === 'reviewed') return isCardFinished;
+	        if (activeStatusFilter === 'pending') return !isCardFinished;
+      	}
+		return true;
     });
 
     var criteria = sortCriteria.value;
@@ -1146,7 +1160,7 @@
   }
 
   cardContainer.addEventListener('click', function(event) {
-    if (event.target.classList.contains('star-node') || event.target.closest('mark')) return;
+    if (event.target.classList.contains('star-node')) return;
 
     var targetLabel = event.target.tagName === 'LABEL' ? event.target : event.target.closest('label');
     if (!targetLabel) return;
