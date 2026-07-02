@@ -393,21 +393,40 @@
 
     body.light-theme .section-tag { background: #f1f5f9; }
 
-    .star-rating-container {
+	.star-rating-container {
       display: flex;
+      flex-direction: row;      /* 💡 Keeps normal left-to-right layout */
       gap: 2px;
     }
 
     .star-node {
       font-size: 18px;
       cursor: pointer;
-      color: #475569;
+      color: #475569;           /* Default empty star color */
       transition: color 0.15s ease, transform 0.1s ease;
     }
     
-    .star-node:hover { transform: scale(1.2); }
-    .star-node.filled { color: #eab308; }
+    .star-node:hover { 
+      transform: scale(1.2); 
+    }
 
+    /* 1. Default saved state: only stars with the .filled class turn gold */
+    .star-node.filled { 
+      color: #eab308; 
+    }
+
+    /* 2. HOVER EFFECT: When mouse enters the container, force ALL stars to light up gold */
+    .star-rating-container:hover .star-node {
+      color: #eab308 !important;
+      text-shadow: 0 0 4px rgba(234, 179, 8, 0.4);
+    }
+
+    /* 3. HOVER CONTROL: Turn off all stars that sit AFTER (~ ) the hovered star back to gray */
+    .star-rating-container .star-node:hover ~ .star-node {
+      color: #475569 !important;
+      text-shadow: none !important;
+    }
+	
     .countdown-timer-line {
       display: none;
       margin: 10px 0;
@@ -1070,13 +1089,20 @@
         '<div class="card-header-bar">' +
           '<span class="section-tag">' + card.sectionName + '</span>' +
           '<div class="star-rating-container">';
-          
+    /*      
       for(var i = 1; i <= 5; i++) {
         var starClass = i <= card.rating ? 'star-node filled' : 'star-node';
         var starChar = i <= card.rating ? '★' : '☆';
         html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.id + '\', ' + i + ')">' + starChar + '</span>';
       }
-      
+	*/
+      // FIX: Change loop direction from (5 down to 1) to match row-reverse alignment
+      for(var i = 1; i <= 5; i++) {
+        var starClass = i <= card.rating ? 'star-node filled' : 'star-node';
+        var starChar = i <= card.rating ? '★' : '☆';
+        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.id + '\', ' + i + ')">' + starChar + '</span>';
+      }
+	  
       html += '</div>' +
         '</div>' +
         '<p class="ques"><strong>No #' + highlightedIndexNum + '</strong><br>' + highlightedQuestion + '</p>' +
