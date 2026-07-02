@@ -152,7 +152,7 @@
       border-radius: 2px;
       padding: 0 2px;
     }
-
+	
     .btn {
       padding: 12px 16px;
       border: none;
@@ -463,8 +463,58 @@
       border-color: #10b981 !important;
     }
 
-    .radio-wrp {
+	/* Ensure the parent option row label cleanly handles multi-line elements */
+	.opts label {
+	  display: block;          /* 1. Forces radio and text to sit side-by-side */
+	  align-items: flex-start; /* 2. Keeps the radio circle aligned with the first line of text */
+	  gap: 1px;              /* 3. Adds clean, fixed spacing between circle and text */
+	  line-height: 1.5;
+	  width: 100%;
+	  cursor: pointer;
+	}
+
+	/* Fix for multi-line highlighted text disruption */
+	.opts li mark,
+	.card-box mark {
+	  display: inline;         /* Change back to inline inside flex wrappers */
+	  line-height: inherit; 
+	}
+	
+    /* The new internal structural flex grid wrapper */
+    .choice-row-layout {
       display: flex;
+      align-items: center;  /* Aligns radio dot cleanly with the first text row */
+      gap: 12px;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .choice-row-layout input[type="radio"] {
+      margin: 0;        /* Micro-nudging alignment offset */
+      accent-color: #10b981;
+      transform: scale(1.1);
+      cursor: pointer;
+      flex-shrink: 0;           /* Guarantees radio button shape is never compressed */
+    }
+
+    /* Isolated text node wrapper allowing natural browser line breaks */
+    .choice-text-container {
+      display: inline;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+
+    mark.match-highlight {
+      background-color: var(--highlight-bg);
+      color: var(--highlight-text);
+      border-radius: 4px;
+      padding: 0 4px;
+      display: inline;          /* Flows natively inside text content streams */
+      line-height: inherit;
+    }
+
+    .radio-wrp {
+      display: block;
       align-items: center;
       padding: 12px 14px;
       cursor: pointer;
@@ -964,11 +1014,21 @@
       card.options.forEach(function(opt, oIdx) {
         var uniqueChoiceInputId = 'input_' + card.id + '_' + oIdx;
         var highlightedOptionText = highlightText(opt.text, searchQuery);
-
+/*
         html += '<li data-index="' + oIdx + '">' +
           '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
             '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.id + '" value="' + opt.value + '">' +
             highlightedOptionText +
+          '</label>' +
+        '</li>';
+*/		
+		html += '<li data-index="' + oIdx + '">' +
+          '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
+            // NEW WRAPPER LAYER: Restricts layout properties away from mixed text fragments
+            '<div class="choice-row-layout">' +
+              '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.id + '" value="' + opt.value + '">' +
+              '<span class="choice-text-container">' + highlightedOptionText + '</span>' +
+            '</div>' +
           '</label>' +
         '</li>';
       });
