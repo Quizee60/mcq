@@ -646,6 +646,131 @@
       from { transform: scale(0.95); opacity: 0; }
       to { transform: scale(1); opacity: 1; }
     }
+	
+	/* 1. Ensure the card container can act as a baseline coordinate anchor for the countdown */
+    .card-box {
+      position: relative; /* Anchor point for absolute children */
+    }
+
+    /* 2. Absolute top-middle countdown alignment (Stops layout shifting) */
+    .countdown-timer-line {
+      display: none;
+      position: absolute;
+      top: -12px;                  /* Floats halfway above the top border */
+      left: 50%;
+      transform: translateX(-50%); /* Centers horizontally precisely */
+      margin: 0 !important;
+      padding: 4px 12px;
+      background-color: #064e3b;
+      color: #34d399;
+      font-size: 11px;
+      font-weight: 700;
+      border-radius: 20px;         /* Pill shape design */
+      border: 1px solid #065f46;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+    }
+
+    /* 3. Note Component Layout Elements */
+    .card-actions-footer {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px dashed var(--border-default);
+    }
+
+    .btn-note-toggle {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    .btn-note-toggle:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+      color: var(--primary);
+    }
+    body.light-theme .btn-note-toggle:hover {
+      background-color: #f1f5f9;
+    }
+
+    .note-panel-wrapper {
+      display: none; /* Hidden by default */
+      margin-top: 10px;
+      animation: slideDownNote 0.2s ease-out;
+    }
+
+    .note-textarea {
+      width: 100%;
+      min-height: 70px;
+      background-color: rgba(0, 0, 0, 0.15);
+      border: 1px solid var(--border-default);
+      color: var(--text-main);
+      border-radius: 8px;
+      padding: 10px;
+      box-sizing: border-box;
+      font-family: inherit;
+      font-size: 13px;
+      resize: vertical;
+      outline: none;
+    }
+    body.light-theme .note-textarea {
+      background-color: #f8fafc;
+    }
+    .note-textarea:focus {
+      border-color: var(--primary);
+    }
+
+    @keyframes slideDownNote {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+	
+	/* Loading Indicator Components */
+    .loading-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+      text-align: center;
+      color: var(--text-muted);
+      gap: 16px;
+    }
+
+    .loading-spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid var(--border-default);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spinSpinner 0.8s linear infinite;
+    }
+
+    .loading-text {
+      font-size: 15px;
+      font-weight: 500;
+      animation: pulseText 1.5s ease-in-out infinite;
+    }
+
+    @keyframes spinSpinner {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes pulseText {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
   </style>
 </head>
 <body>
@@ -669,7 +794,24 @@
       </div>
     </div>
 
-    <div id="card-container"></div>
+    <div id="card-container">
+		<div class="progress-inline-card">
+		  <div class="progress-stats-row">
+			<span>Progress Status Tracker</span>
+			<span id="progress-text-display">0 / 0 Completed (0%)</span>
+		  </div>
+		  <div class="progress-track-bg">
+			<div id="progress-fill" class="progress-fill-bar"></div>
+		  </div>
+		</div>
+
+		<div id="card-container">
+		  <div class="loading-wrapper" id="app-initial-loader">
+			<div class="loading-spinner"></div>
+			<div class="loading-text">Loading examination database cards...</div>
+		  </div>
+		</div>
+	</div>
   </main>
 
   <aside class="sidebar-panel">
@@ -765,10 +907,14 @@
   }
 
   function getStoredRatings() {
-    var data = localStorage.getItem(RATINGS_STORAGE_KEY);
-    return data ? JSON.parse(data) : {};
+    try {
+      var data = localStorage.getItem(RATINGS_STORAGE_KEY);
+      return data ? JSON.parse(data) : {};
+    } catch (e) {
+      console.error("Storage read crash bypassed:", e);
+      return {}; // Safe fallback if storage data corrupts
+    }
   }
-
   function saveStateToStorage(cardId, rating, isCompleted) {
     var history = getStoredRatings();
     history[cardId] = { rating: rating, completed: isCompleted };
@@ -882,7 +1028,7 @@
     document.getElementById('progress-fill').style.width = percentage + '%';
   }
 
-  function updateFilterCounts() {
+  function updateFilterCounts_1() {
     var counts = { 0:0, 1:0, 2:0, 3:0, 4:0, 5:0 };
     var totalPending = 0;
     var totalReviewed = 0;
@@ -899,6 +1045,45 @@
         else totalPending++;
 
         if (counts[card.rating] !== undefined) counts[card.rating]++;
+      }
+    });
+
+    for (var i = 0; i <= 5; i++) {
+      var node = document.getElementById('badge-' + i);
+      if (node) node.innerText = counts[i];
+    }
+
+    document.getElementById('status-pending').innerText = '⏳ Pending Cards (' + totalPending + ')';
+    document.getElementById('status-reviewed').innerText = '✅ Reviewed Completed (' + totalReviewed + ')';
+    document.getElementById('status-all').innerText = '📚 All Cards (' + (totalPending + totalReviewed) + ')';
+  }
+  
+  function updateFilterCounts() {
+    var counts = { 0:0, 1:0, 2:0, 3:0, 4:0, 5:0 };
+    var totalPending = 0;
+    var totalReviewed = 0;
+
+    var selectedSec = sectionFilter ? sectionFilter.value : 'all';
+    var searchQuery = document.getElementById('search-input') ? document.getElementById('search-input').value : '';
+
+    quizData.forEach(function(card) {
+      var matchesSec = selectedSec === 'all' || String(card.sectionId) === String(selectedSec);
+      var matchesSearch = matchCustomSearch(card, searchQuery);
+
+      if (matchesSec && matchesSearch) {
+        // Track overall totals for the status buttons
+        if (card.isCompleted) totalReviewed++;
+        else totalPending++;
+
+        // 💡 FIX: Only increment difficulty count if the card matches the active status filter profile
+        var matchesStatus = false;
+        if (activeStatusFilter === 'all') matchesStatus = true;
+        else if (activeStatusFilter === 'completed' || activeStatusFilter === 'reviewed') matchesStatus = card.isCompleted;
+        else if (activeStatusFilter === 'pending') matchesStatus = !card.isCompleted;
+
+        if (matchesStatus && counts[card.rating] !== undefined) {
+          counts[card.rating]++;
+        }
       }
     });
 
@@ -973,6 +1158,7 @@
       var questionText = cardArr[2];
       var choicesSet = cardArr[3];
       var graphicString = cardArr[5]; 
+      var dbCardNote = cardArr[6];
       var catSectionId = cardArr[7]; 
       
       
@@ -997,6 +1183,7 @@
         question: questionText,
         options: shuffledOptions,
         image: (graphicString && graphicString.trim().length > 0) ? graphicString : null,
+        cardNote: (dbCardNote && dbCardNote.trim().length > 0) ? dbCardNote : null, // 💡 Store it safely on the object
         sectionId: String(catSectionId), 
         sectionName: assignedSectionName, 
         rating: currentSavedRating,         
@@ -1067,8 +1254,84 @@
     renderedCount = 0;
     renderNextBatch();
   }
-
+  
   function renderNextBatch() {
+    var nextBatch = filteredData.slice(renderedCount, renderedCount + batchSize);
+    if (nextBatch.length === 0) {
+      if (renderedCount === 0) {
+        cardContainer.innerHTML = '<div class="no-results">No elements match your active search profiles.</div>';
+      }
+      return;
+    }
+
+    var searchQuery = document.getElementById('search-input').value;
+    var storedNotes = JSON.parse(localStorage.getItem("7DDS_USER_NOTES_KEY_V1") || "{}");
+
+    var htmlStrings = nextBatch.map(function(card) {
+      var formattedQuestion = card.question.replace(/\\n/g, '<br>').replace(/\n/g, '<br>');
+      
+      var highlightedQuestion = highlightText(formattedQuestion, searchQuery);
+      var highlightedIndexNum = highlightText(String(card.displayIndex), searchQuery);
+	  // 💡 FALLBACK CHECK: Try user's localStorage notes first; if empty, use the database note from cardArr[6]
+      var savedNoteValue = storedNotes[card.id] !== undefined ? storedNotes[card.id] : (card.cardNote || "");
+      var html = '<div id="' + card.id + '" data-cardid="' + card.id + '" class="card-box rating-' + card.rating + '">' +
+        // 💡 Countdown line stays at the top edge of the element box
+        '<div class="countdown-timer-line" id="timer-display-' + card.id + '">Disappearing in 2s...</div>' +
+        '<div class="card-header-bar">' +
+          '<span class="section-tag">' + card.sectionName + '</span>' +
+          '<div class="star-rating-container">';
+          
+      for(var i = 1; i <= 5; i++) {
+        var starClass = i <= card.rating ? 'star-node filled' : 'star-node';
+        var starChar = i <= card.rating ? '★' : '☆';
+        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.id + '\', ' + i + ')">' + starChar + '</span>';
+      }
+	  
+      html += '</div>' +
+        '</div>' +
+        '<p class="ques"><strong>No #' + highlightedIndexNum + '</strong><br>' + highlightedQuestion + '</p>';
+        
+      if (card.image) {
+        html += '<div class="card-img-wrapper">' +
+                  '<img src="images/' + card.image + '" class="card-img" alt="Reference Graphic Reference" onclick="openImageModalDialog(\'images/' + card.image + '\')"/>' +
+                '</div>';
+      }
+      
+      html += '<ul class="opts">';
+      card.options.forEach(function(opt, oIdx) {
+        var uniqueChoiceInputId = 'input_' + card.id + '_' + oIdx;
+        var highlightedOptionText = highlightText(opt.text, searchQuery);
+		
+		html += '<li data-index="' + oIdx + '">' +
+          '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
+            '<div class="choice-row-layout">' +
+              '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.id + '" value="' + opt.value + '">' +
+              '<span class="choice-text-container">' + highlightedOptionText + '</span>' +
+            '</div>' +
+          '</label>' +
+        '</li>';
+      });
+      html += '</ul>';
+
+      // 💡 NEW FOOTER ELEMENT: Actions bar for toggle and textarea input panel
+      html += '<div class="card-actions-footer">' +
+                '<button class="btn-note-toggle" onclick="toggleNoteInputFieldPanel(\'' + card.id + '\')">' +
+                  '📝 <span id="note-btn-txt-' + card.id + '">' + (savedNoteValue ? 'Edit Note' : 'Add Note') + '</span>' +
+                '</button>' +
+              '</div>' +
+              '<div class="note-panel-wrapper" id="note-panel-' + card.id + '">' +
+                '<textarea class="note-textarea" id="note-input-' + card.id + '" placeholder="Write clinical hints, translation reference notes or key descriptions here..." oninput="saveNoteTextContentValue(\'' + card.id + '\')">' + savedNoteValue + '</textarea>' +
+              '</div>';
+
+      html += '</div>'; // End card-box
+      return html;
+    });
+
+    cardContainer.insertAdjacentHTML('beforeend', htmlStrings.join(''));
+    renderedCount += nextBatch.length;
+  }
+  
+  function renderNextBatch_1() {
     var nextBatch = filteredData.slice(renderedCount, renderedCount + batchSize);
     if (nextBatch.length === 0) {
       if (renderedCount === 0) {
@@ -1146,10 +1409,18 @@
   }
 
   cardContainer.addEventListener('click', function(event) {
-    if (event.target.classList.contains('star-node') || event.target.closest('mark')) return;
+	// 💡 EXCLUSION RULES: Skip click assessment for note management triggers
+    if (
+      event.target.classList.contains('star-node') || 
+      event.target.classList.contains('btn-note-toggle') ||
+      event.target.closest('.btn-note-toggle') ||
+      event.target.classList.contains('note-textarea')
+    ) return;
 
     var targetLabel = event.target.tagName === 'LABEL' ? event.target : event.target.closest('label');
     if (!targetLabel) return;
+	
+    if (event.target.classList.contains('star-node')) return;
 
     event.preventDefault();
 
@@ -1282,6 +1553,9 @@
   window.scrollToTop = function() { window.scrollTo({ top: 0, behavior: 'smooth' }); };
 
   document.addEventListener('DOMContentLoaded', function() {
+	// Ensure the loader is visible when starting the network request
+    var loaderNode = document.getElementById('app-initial-loader');
+    if (loaderNode) loaderNode.style.display = 'flex';
     fetch(DATA_SOURCE_FILE)
       .then(function(res) {
         if (!res.ok) throw new Error('File download error');
@@ -1293,6 +1567,39 @@
         cardContainer.innerHTML = '<div class="no-results" style="border-color:var(--danger)">Error: Unable to locate or access source file resource "' + DATA_SOURCE_FILE + '". If running locally, make sure you are using a local development server.</div>';
       });
   });
+  
+  // Open and close input drawer layout
+  window.toggleNoteInputFieldPanel = function(cardId) {
+    var panel = document.getElementById('note-panel-' + cardId);
+    var labelText = document.getElementById('note-btn-txt-' + cardId);
+    if (!panel) return;
+
+    if (panel.style.display === 'block') {
+      panel.style.display = 'none';
+    } else {
+      panel.style.display = 'block';
+      var inputField = document.getElementById('note-input-' + cardId);
+      if (inputField) inputField.focus(); // Auto focus area on touch screen devices
+    }
+  };
+
+  // Sync value changes cleanly inside LocalStorage data arrays
+  window.saveNoteTextContentValue = function(cardId) {
+    var inputVal = document.getElementById('note-input-' + cardId).value;
+    var labelText = document.getElementById('note-btn-txt-' + cardId);
+    
+    var storedNotes = JSON.parse(localStorage.getItem("7DDS_USER_NOTES_KEY_V1") || "{}");
+    
+    if (inputVal.trim().length > 0) {
+      storedNotes[cardId] = inputVal;
+      if (labelText) labelText.innerText = "Edit Note";
+    } else {
+      delete storedNotes[cardId];
+      if (labelText) labelText.innerText = "Add Note";
+    }
+    
+    localStorage.setItem("7DDS_USER_NOTES_KEY_V1", JSON.stringify(storedNotes));
+  };
   
   // Open modal lightbox view window
   window.openImageModalDialog = function(imgSrc) {
