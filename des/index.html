@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced 7DDS MCQs Examination Deck</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-color: #090d16;
+      --card-bg: #131c2e;
+      --text-main: #f1f5f9;
+      --text-muted: #64748b;
+      --border-default: #1e293b;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --success: #059669;
+      --danger: #dc2626;
+      --sidebar-width: 260px;
+      --highlight-bg: #eab308;
+      --highlight-text: #000000;
+    }
+
+    body.light-theme {
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border-default: #e2e8f0;
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --success: #10b981;
+      --danger: #ef4444;
+      --highlight-bg: #fde047;
+      --highlight-text: #000000;
+    }
+
+    body {
+      /* Replaced Kantumruuy Pro with Battambang */
+      font-family: "Battambang", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .app-layout-wrapper {
+      display: flex;
+      width: 100%;
+      max-width: 1100px;
+      gap: 24px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .main-content-column {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .sidebar-panel {
+      width: var(--sidebar-width);
+      flex-shrink: 0;
+      background: var(--card-bg);
+      border: 1px solid var(--border-default);
+      border-radius: 12px;
+      padding: 20px;
+      box-sizing: border-box;
+      position: sticky;
+      top: 20px;
+      max-height: calc(100vh - 40px);
+      overflow-y: auto;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .sidebar-panel::-webkit-scrollbar {
+      width: 6px;
+    }
+    .sidebar-panel::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .sidebar-panel::-webkit-scrollbar-thumb {
+      background-color: var(--border-default);
+      border-radius: 10px;
+    }
+
+    .search-engine-wrap {
+      background: var(--card-bg);
+      padding: 16px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      margin-bottom: 16px;
+      border: 1px solid var(--border-default);
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .main-search-bar {
+      display: flex;
+      position: relative;
+      align-items: center;
+    }
+
+    .main-search-bar input {
+      flex: 1;
+      padding: 12px 40px 12px 16px;
+      background-color: rgba(0, 0, 0, 0.15);
+      border: 1px solid var(--border-default);
+      color: var(--text-main);
+      border-radius: 8px;
+      font-size: 15px;
+      outline: none;
+      transition: border-color 0.2s, background-color 0.3s ease, color 0.3s ease;
+    }
+
+    body.light-theme .main-search-bar input {
+      background-color: #f1f5f9;
+    }
+
+    .main-search-bar input:focus {
+      border-color: var(--primary);
+    }
+
+    .search-clear-btn {
+      position: absolute;
+      right: 12px;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 14px;
+      cursor: pointer;
+      padding: 4px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      transition: color 0.2s;
+    }
+
+    .search-clear-btn:hover {
+      color: var(--danger);
+    }
+
+    mark.match-highlight {
+      background-color: var(--highlight-bg);
+      color: var(--highlight-text);
+      border-radius: 2px;
+      padding: 0 2px;
+    }
+	
+    .btn {
+      padding: 12px 16px;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.2s, color 0.2s;
+      white-space: nowrap;
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .btn-secondary {
+      background-color: rgba(0, 0, 0, 0.2);
+      border: 1px solid var(--border-default);
+      color: var(--text-main);
+    }
+    body.light-theme .btn-secondary {
+      background-color: #e2e8f0;
+      color: #0f172a;
+    }
+
+    .btn-action {
+      background-color: var(--primary);
+      color: white;
+      margin-bottom: 12px;
+    }
+
+    .btn-action:hover {
+      background-color: var(--primary-hover);
+    }
+
+    .btn-danger {
+      background-color: rgba(220, 38, 38, 0.15);
+      color: #f87171;
+      border: 1px solid #7f1d1d;
+    }
+
+    body.light-theme .btn-danger {
+      background-color: #fee2e2;
+      color: #dc2626;
+      border: 1px solid #fca5a5;
+    }
+
+    .btn-danger:hover {
+      background-color: var(--danger);
+      color: white;
+    }
+
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+
+    .filter-group select {
+      padding: 12px;
+      border: 1px solid var(--border-default);
+      background-color: var(--card-bg);
+      color: var(--text-main);
+      border-radius: 8px;
+      outline: none;
+      font-size: 15px;
+      font-weight: 500;
+      width: 100%;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+    }
+
+    .filter-group label, .filter-group .filter-group-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    .theme-toggle-wrap {
+      margin-bottom: 20px;
+    }
+
+    .status-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .btn-status {
+      background-color: rgba(0, 0, 0, 0.1);
+      border: 1px solid var(--border-default);
+      color: var(--text-main);
+      text-align: left;
+      padding: 10px 14px;
+      font-size: 13px;
+    }
+
+    body.light-theme .btn-status { background-color: #f1f5f9; }
+
+    .btn-status.active {
+      background-color: var(--primary) !important;
+      border-color: var(--primary) !important;
+      color: white !important;
+    }
+
+    .rating-square-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .btn-rating-square {
+      aspect-ratio: 1 / 1;
+      border-radius: 8px;
+      border: 1px solid var(--border-default);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 700;
+      color: white;
+      transition: transform 0.2s, box-shadow 0.2s, filter 0.2s;
+    }
+
+    .btn-rating-square:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.15);
+    }
+
+    .btn-rating-square.active {
+      outline: 3px solid var(--text-main);
+      outline-offset: 1px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+
+    .rate-color-0 { background-color: #475569; }
+    .rate-color-1 { background-color: #2563eb; }
+    .rate-color-2 { background-color: #059669; }
+    .rate-color-3 { background-color: #d97706; }
+    .rate-color-4 { background-color: #ea580c; }
+    .rate-color-5 { background-color: #dc2626; }
+
+    .btn-rating-square .rate-num { font-size: 15px; margin-bottom: 2px; }
+    .btn-rating-square .rate-count { font-size: 10px; opacity: 0.85; font-weight: 500; }
+
+    .sidebar-divider {
+      height: 1px;
+      background: var(--border-default);
+      margin: 20px 0;
+    }
+
+    .progress-inline-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-default);
+      border-radius: 12px;
+      padding: 14px 20px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .progress-stats-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+
+    .progress-track-bg {
+      width: 100%;
+      height: 8px;
+      background: #1e293b;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    body.light-theme .progress-track-bg { background: #cbd5e1; }
+
+    .progress-fill-bar {
+      width: 0%;
+      height: 100%;
+      background: #10b981;
+      transition: width 0.4s ease;
+    }
+
+    .card-header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .card-box {
+      background: var(--card-bg);
+      border: 1px solid var(--border-default);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      position: relative;
+      opacity: 1;
+      transform: translateY(0);
+      transition: border-color 0.3s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease;
+    }
+
+    .card-box.rating-0 { border-left: 6px solid #475569; } 
+    .card-box.rating-1 { border-left: 6px solid #2563eb; } 
+    .card-box.rating-2 { border-left: 6px solid #059669; } 
+    .card-box.rating-3 { border-left: 6px solid #d97706; } 
+    .card-box.rating-4 { border-left: 6px solid #ea580c; } 
+    .card-box.rating-5 { border-left: 6px solid #dc2626; } 
+
+    .card-box.fade-out {
+      opacity: 0 !important;
+      transform: translateY(-15px) scale(0.98);
+    }
+
+    .section-tag {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 4px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      border-radius: 4px;
+      color: var(--text-muted);
+      border: 1px solid var(--border-default);
+    }
+
+    body.light-theme .section-tag { background: #f1f5f9; }
+
+	.star-rating-container {
+      display: flex;
+      flex-direction: row;      /* 💡 Keeps normal left-to-right layout */
+      gap: 2px;
+    }
+
+    .star-node {
+      font-size: 18px;
+      cursor: pointer;
+      color: #475569;           /* Default empty star color */
+      transition: color 0.15s ease, transform 0.1s ease;
+    }
+    
+    .star-node:hover { 
+      transform: scale(1.2); 
+    }
+
+    /* 1. Default saved state: only stars with the .filled class turn gold */
+    .star-node.filled { 
+      color: #eab308; 
+    }
+
+    /* 2. HOVER EFFECT: When mouse enters the container, force ALL stars to light up gold */
+    .star-rating-container:hover .star-node {
+      color: #eab308 !important;
+      text-shadow: 0 0 4px rgba(234, 179, 8, 0.4);
+    }
+
+    /* 3. HOVER CONTROL: Turn off all stars that sit AFTER (~ ) the hovered star back to gray */
+    .star-rating-container .star-node:hover ~ .star-node {
+      color: #475569 !important;
+      text-shadow: none !important;
+    }
+	
+    .countdown-timer-line {
+      display: none;
+      margin: 10px 0;
+      padding: 6px 12px;
+      background-color: #064e3b;
+      color: #34d399;
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 6px;
+      border: 1px solid #065f46;
+    }
+
+    .ques {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 16px 0;
+      line-height: 1.7;
+    }
+
+    .card-img {
+      max-width: 100%;
+      height: auto;
+      margin: 14px 0;
+      border-radius: 8px;
+      border: 1px solid var(--border-default);
+      display: block;
+    }
+
+    .opts {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .opts li {
+      margin-bottom: 10px;
+      border: 1px solid var(--border-default);
+      background-color: rgba(0, 0, 0, 0.15);
+      border-radius: 8px;
+      transition: background-color 0.2s, border-color 0.2s;
+    }
+
+    body.light-theme .opts li { background-color: #f8fafc; }
+    .opts li:hover { background-color: rgba(0, 0, 0, 0.05); border-color: var(--text-muted); }
+
+    .opts li.choice-success {
+      background-color: #064e3b !important;
+      border-color: #10b981 !important;
+    }
+
+    body.light-theme .opts li.choice-success {
+      background-color: #d1fae5 !important;
+      border-color: #10b981 !important;
+    }
+
+	/* Wrapper container to ensure full-width block alignment */
+    .card-img-wrapper {
+      display: flex;
+      justify-content: center;  /* Centers the image horizontally */
+      width: 100%;
+      margin: 14px 0;           /* Uniform vertical spacing between question text and choices */
+    }
+
+    .card-img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border-default);
+      display: block;
+      margin: 0;                /* Resets default margins so the flex wrapper handles it perfectly */
+    }
+	
+	/* Ensure the parent option row label cleanly handles multi-line elements */
+	.opts label {
+	  display: block;          /* 1. Forces radio and text to sit side-by-side */
+	  align-items: flex-start; /* 2. Keeps the radio circle aligned with the first line of text */
+	  gap: 1px;              /* 3. Adds clean, fixed spacing between circle and text */
+	  line-height: 1.5;
+	  width: 100%;
+	  cursor: pointer;
+	}
+
+	/* Fix for multi-line highlighted text disruption */
+	.opts li mark,
+	.card-box mark {
+	  display: inline;         /* Change back to inline inside flex wrappers */
+	  line-height: inherit; 
+	}
+	
+    /* The new internal structural flex grid wrapper */
+    .choice-row-layout {
+      display: flex;
+      align-items: center;  /* Aligns radio dot cleanly with the first text row */
+      gap: 12px;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .choice-row-layout input[type="radio"] {
+      margin: 0;        /* Micro-nudging alignment offset */
+      accent-color: #10b981;
+      transform: scale(1.1);
+      cursor: pointer;
+      flex-shrink: 0;           /* Guarantees radio button shape is never compressed */
+    }
+
+    /* Isolated text node wrapper allowing natural browser line breaks */
+    .choice-text-container {
+      display: inline;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+
+    mark.match-highlight {
+      background-color: var(--highlight-bg);
+      color: var(--highlight-text);
+      border-radius: 4px;
+      padding: 0 4px;
+      display: inline;          /* Flows natively inside text content streams */
+      line-height: inherit;
+    }
+
+    .radio-wrp {
+      display: block;
+      align-items: center;
+      padding: 12px 14px;
+      cursor: pointer;
+      width: 100%;
+      box-sizing: border-box;
+      line-height: 1.6;
+    }
+
+    .radio-wrp input {
+      margin-right: 14px;
+      accent-color: #10b981;
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .app-layout-wrapper { flex-direction: column-reverse; }
+      .sidebar-panel { width: 100%; position: relative; top: 0; max-height: none; }
+    }
+
+    #scroll-top-btn {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background-color: #3b82f6;
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s;
+      z-index: 100;
+    }
+
+    #scroll-top-btn.show { opacity: 1; visibility: visible; }
+	
+	/* Constrain the inline card image size */
+    .card-img-wrapper {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 14px 0;
+    }
+
+    .card-img {
+      max-width: 240px;         /* 💡 Scales down the card image cleanly */
+      max-height: 180px;
+      object-fit: contain;
+      border-radius: 8px;
+      border: 1px solid var(--border-default);
+      display: block;
+      cursor: zoom-in;          /* Changes mouse cursor to a magnifying lens zoom indicator */
+      transition: transform 0.2s ease;
+    }
+
+    .card-img:hover {
+      transform: scale(1.02);   /* Soft scale effect on hover */
+    }
+
+    /* Modal dialog pop-up container */
+    .img-modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.85); /* Smooth dark background mask */
+      display: none;            /* Hidden by default */
+      justify-content: center;
+      align-items: center;
+      z-index: 2000;            /* Forces it above the scroll-to-top button */
+      cursor: zoom-out;
+    }
+
+    .img-modal-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+      border-radius: 6px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+      animation: modalZoomIn 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    @keyframes modalZoomIn {
+      from { transform: scale(0.95); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+	
+	/* 1. Ensure the card container can act as a baseline coordinate anchor for the countdown */
+    .card-box {
+      position: relative; /* Anchor point for absolute children */
+    }
+
+    /* 2. Absolute top-middle countdown alignment (Stops layout shifting) */
+    .countdown-timer-line {
+      display: none;
+      position: absolute;
+      top: -12px;                  /* Floats halfway above the top border */
+      left: 50%;
+      transform: translateX(-50%); /* Centers horizontally precisely */
+      margin: 0 !important;
+      padding: 4px 12px;
+      background-color: #064e3b;
+      color: #34d399;
+      font-size: 11px;
+      font-weight: 700;
+      border-radius: 20px;         /* Pill shape design */
+      border: 1px solid #065f46;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+    }
+
+    /* 3. Note Component Layout Elements */
+    .card-actions-footer {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px dashed var(--border-default);
+    }
+
+    .btn-note-toggle {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    .btn-note-toggle:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+      color: var(--primary);
+    }
+    body.light-theme .btn-note-toggle:hover {
+      background-color: #f1f5f9;
+    }
+
+    .note-panel-wrapper {
+      display: none; /* Hidden by default */
+      margin-top: 10px;
+      animation: slideDownNote 0.2s ease-out;
+    }
+
+    .note-textarea {
+      width: 100%;
+      min-height: 70px;
+      background-color: rgba(0, 0, 0, 0.15);
+      border: 1px solid var(--border-default);
+      color: var(--text-main);
+      border-radius: 8px;
+      padding: 10px;
+      box-sizing: border-box;
+      font-family: inherit;
+      font-size: 13px;
+      resize: vertical;
+      outline: none;
+    }
+    body.light-theme .note-textarea {
+      background-color: #f8fafc;
+    }
+    .note-textarea:focus {
+      border-color: var(--primary);
+    }
+
+    @keyframes slideDownNote {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+	
+	/* Loading Indicator Components */
+    .loading-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+      text-align: center;
+      color: var(--text-muted);
+      gap: 16px;
+    }
+
+    .loading-spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid var(--border-default);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spinSpinner 0.8s linear infinite;
+    }
+
+    .loading-text {
+      font-size: 15px;
+      font-weight: 500;
+      animation: pulseText 1.5s ease-in-out infinite;
+    }
+
+    @keyframes spinSpinner {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes pulseText {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="app-layout-wrapper">
+  <main class="main-content-column">
+    <div class="search-engine-wrap">
+      <div class="main-search-bar">
+        <input type="text" id="search-input" placeholder="Search (e.g. 10-25, @answer, @image, @note, query 1 + query 2)..." oninput="handleSearchInputChange()">
+        <button id="search-clear-btn" class="search-clear-btn" onclick="clearSearchBoxField()">❌</button>
+      </div>
+    </div>
+
+    <div class="progress-inline-card">
+      <div class="progress-stats-row">
+        <span>Progress Status Tracker</span>
+        <span id="progress-text-display">0 / 0 Completed (0%)</span>
+      </div>
+      <div class="progress-track-bg">
+        <div id="progress-fill" class="progress-fill-bar"></div>
+      </div>
+    </div>
+
+    <div id="card-container">
+		<div class="progress-inline-card">
+		  <div class="progress-stats-row">
+			<span>Progress Status Tracker</span>
+			<span id="progress-text-display">0 / 0 Completed (0%)</span>
+		  </div>
+		  <div class="progress-track-bg">
+			<div id="progress-fill" class="progress-fill-bar"></div>
+		  </div>
+		</div>
+
+		<div id="card-container">
+		  <div class="loading-wrapper" id="app-initial-loader">
+			<div class="loading-spinner"></div>
+			<div class="loading-text">Loading examination database cards...</div>
+		  </div>
+		</div>
+	</div>
+  </main>
+
+  <aside class="sidebar-panel">
+    <div class="theme-toggle-wrap">
+      <button id="theme-toggle-btn" class="btn btn-secondary" onclick="toggleThemeEngine()">☀️ Light Mode Layout</button>
+    </div>
+
+    <div class="filter-group">
+      <label for="section-filter">Subject Category</label>
+      <select id="section-filter" onchange="applyFilters()"></select>
+    </div>
+
+    <div class="filter-group">
+      <label for="sort-criteria">Sort By</label>
+      <select id="sort-criteria" onchange="applyFilters()">
+        <option value="shuffle">🔀 Shuffled / Random</option>
+        <option value="index">🔢 Question No #</option>
+        <option value="question">📝 Question Content</option>
+        <option value="answer">🎯 Correct Answer Text</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="sort-direction">Sort Direction</label>
+      <select id="sort-direction" onchange="applyFilters()">
+        <option value="asc">🔺 Ascending Order</option>
+        <option value="desc">🔻 Descending Order</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <span class="filter-group-title">Card Status Selection</span>
+      <div class="status-stack">
+        <button id="status-pending" class="btn btn-status active" onclick="setStatusFilter('pending')">⏳ Pending Cards</button>
+        <button id="status-reviewed" class="btn btn-status" onclick="setStatusFilter('reviewed')">✅ Reviewed Completed</button>
+        <button id="status-all" class="btn btn-status" onclick="setStatusFilter('all')">📚 All Cards</button>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <span class="filter-group-title">Difficulty Grid Filtering</span>
+      <div class="rating-square-grid">
+        <div class="btn-rating-square rate-color-0" data-rating="0" onclick="setRatingFilter('0')"><span class="rate-num">0</span><span class="rate-count" id="badge-0">0</span></div>
+        <div class="btn-rating-square rate-color-1" data-rating="1" onclick="setRatingFilter('1')"><span class="rate-num">1</span><span class="rate-count" id="badge-1">0</span></div>
+        <div class="btn-rating-square rate-color-2" data-rating="2" onclick="setRatingFilter('2')"><span class="rate-num">2</span><span class="rate-count" id="badge-2">0</span></div>
+        <div class="btn-rating-square rate-color-3" data-rating="3" onclick="setRatingFilter('3')"><span class="rate-num">3</span><span class="rate-count" id="badge-3">0</span></div>
+        <div class="btn-rating-square rate-color-4" data-rating="4" onclick="setRatingFilter('4')"><span class="rate-num">4</span><span class="rate-count" id="badge-4">0</span></div>
+        <div class="btn-rating-square rate-color-5" data-rating="5" onclick="setRatingFilter('5')"><span class="rate-num">5</span><span class="rate-count" id="badge-5">0</span></div>
+      </div>
+      <button id="clear-rating-btn" class="btn btn-secondary" style="padding:6px; font-size:11px;" onclick="setRatingFilter('all')">Clear Rating Selection Filter</button>
+    </div>
+
+    <div class="sidebar-divider"></div>
+
+    <button class="btn btn-action" onclick="shuffleActiveDeck()">🔀 Shuffle Cards</button>
+    <button class="btn btn-danger" onclick="resetEntireQuizHistory()">🔄 Reset Ratings</button>
+  </aside>
+
+</div>
+
+<button id="scroll-top-btn" onclick="scrollToTop()">▲</button>
+
+<script>
+  var CARD_REMOVE_DELAY_MS = 2000; 
+  var DATA_SOURCE_FILE = "des_mcqs_data.json"; 
+  var RATINGS_STORAGE_KEY = "RATINGS_STORAGE_KEY_DES_MCQ";
+  var THEME_STORAGE_KEY = "PAGE_DECK_ACTIVE_THEME_KEY";
+  var CARD_USER_NOTES_KEY = "CARD_NOTES_KEY";
+
+  var quizData = [];       
+  var filteredData = [];   
+  var renderedCount = 0;   
+  var batchSize = 5;     
+  
+  var activeStatusFilter = 'pending'; 
+  var activeRatingFilter = 'all';     
+
+  var cardContainer = document.getElementById('card-container');
+  var sectionFilter = document.getElementById('section-filter');
+  var sortCriteria = document.getElementById('sort-criteria');
+  var sortDirection = document.getElementById('sort-direction');
+  var scrollTopBtn = document.getElementById('scroll-top-btn');
+  var themeToggleBtn = document.getElementById('theme-toggle-btn');
+  var searchClearBtn = document.getElementById('search-clear-btn');
+
+  function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+    return array;
+  }
+
+  function getStoredRatings() {
+    try {
+      var data = localStorage.getItem(RATINGS_STORAGE_KEY);
+      return data ? JSON.parse(data) : {};
+    } catch (e) {
+      console.error("Storage read crash bypassed:", e);
+      return {}; // Safe fallback if storage data corrupts
+    }
+  }
+  function saveStateToStorage(cardId, rating, isCompleted) {
+    var history = getStoredRatings();
+    history[cardId] = { rating: rating, completed: isCompleted };
+    localStorage.setItem(RATINGS_STORAGE_KEY, JSON.stringify(history));
+    updateFilterCounts();
+  }
+
+  function toggleThemeEngine() {
+    var isLight = document.body.classList.toggle('light-theme');
+    localStorage.setItem(THEME_STORAGE_KEY, isLight ? 'light' : 'dark');
+    updateThemeButtonLabel(isLight);
+  }
+
+  function updateThemeButtonLabel(isLight) {
+    if (isLight) {
+      themeToggleBtn.innerHTML = "🌙 Dark Mode Layout";
+    } else {
+      themeToggleBtn.innerHTML = "☀️ Light Mode Layout";
+    }
+  }
+
+  function handleSearchInputChange() {
+    var inputVal = document.getElementById('search-input').value;
+    if (inputVal.trim().length > 0) {
+      searchClearBtn.style.display = 'flex';
+    } else {
+      searchClearBtn.style.display = 'none';
+    }
+    applyFilters();
+  }
+
+  function clearSearchBoxField() {
+    document.getElementById('search-input').value = '';
+    searchClearBtn.style.display = 'none';
+    
+    activeRatingFilter = 'all';
+    document.querySelectorAll('.btn-rating-square').forEach(function(s) { s.classList.remove('active'); });
+
+    applyFilters();
+    document.getElementById('search-input').focus();
+  }
+
+  function matchCustomSearch(card, queryStr) {
+    var query = queryStr.trim().toLowerCase();
+    if (!query) return true;
+
+    // 💡 NEW FEATURE: If user types exactly "@image", only return cards that have an image string
+    if (query === '@image') {
+      return !!card.image; 
+    }
+	
+	if (query === '@note') {
+      return !!card.cardNote; 
+    }
+	
+    if (query.indexOf('+') !== -1) {
+      var tokens = query.split('+').map(function(t) { return t.trim(); }).filter(function(t) { return t.length > 0; });
+      return tokens.every(function(token) { return cardMatchesToken(card, token); });
+    }
+
+    if (query.indexOf('@') === 0) {
+      var targetAnsText = query.slice(1).trim();
+      var correctOpt = card.options.find(function(o) { return o.value === 1; });
+      return correctOpt ? correctOpt.text.toLowerCase().indexOf(targetAnsText) !== -1 : false;
+    }
+
+    var rangeMatch = query.match(/^(\d+)-(\d*)$/);
+    if (rangeMatch) {
+      var minBound = parseInt(rangeMatch[1], 10) || 0;
+      var maxBound = rangeMatch[2] ? parseInt(rangeMatch[2], 10) : Infinity;
+      var qNum = parseInt(card.displayIndex, 10);
+      return qNum >= minBound && qNum <= maxBound;
+    }
+
+    return cardMatchesToken(card, query);
+  }
+
+  function cardMatchesToken(card, token) {
+    var inQuestion = card.question.toLowerCase().indexOf(token) !== -1;
+    var inOptions = card.options.some(function(opt) { return opt.text.toLowerCase().indexOf(token) !== -1; });
+    var inIndexNum = String(card.displayIndex).toLowerCase().indexOf(token) !== -1;
+    return inQuestion || inOptions || inIndexNum;
+  }
+
+  function highlightText(text, searchStr) {
+    var query = searchStr.trim();
+    if (!query) return text;
+    
+    if (query.indexOf('@') === 0 || /^(\d+)-(\d*)$/.test(query)) return text;
+
+    var tokens = [];
+    if (query.indexOf('+') !== -1) {
+      tokens = query.split('+').map(function(t) { return t.trim(); }).filter(function(t) { return t.length > 0; });
+    } else {
+      tokens = [query];
+    }
+
+    var processedText = text;
+    tokens.forEach(function(token) {
+      if (!token) return;
+      var escapedToken = token.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      var regex = new RegExp('(' + escapedToken + ')', 'gi');
+      processedText = processedText.replace(regex, '<mark class="match-highlight">$1</mark>');
+    });
+
+    return processedText;
+  }
+
+  function calculateProgressMetrics() {
+    var totalCards = quizData.length;
+    var completedCards = quizData.filter(function(c) { return c.isCompleted; }).length;
+    var percentage = totalCards > 0 ? Math.round((completedCards / totalCards) * 100) : 0;
+    
+    document.getElementById('progress-text-display').innerText = completedCards + ' / ' + totalCards + ' Completed (' + percentage + '%)';
+    document.getElementById('progress-fill').style.width = percentage + '%';
+  }
+
+  function updateFilterCounts_1() {
+    var counts = { 0:0, 1:0, 2:0, 3:0, 4:0, 5:0 };
+    var totalPending = 0;
+    var totalReviewed = 0;
+
+    var selectedSec = sectionFilter ? sectionFilter.value : 'all';
+    var searchQuery = document.getElementById('search-input') ? document.getElementById('search-input').value : '';
+
+    quizData.forEach(function(card) {
+      var matchesSec = selectedSec === 'all' || String(card.sectionId) === String(selectedSec);
+      var matchesSearch = matchCustomSearch(card, searchQuery);
+
+      if (matchesSec && matchesSearch) {
+        if (card.isCompleted) totalReviewed++;
+        else totalPending++;
+
+        if (counts[card.rating] !== undefined) counts[card.rating]++;
+      }
+    });
+
+    for (var i = 0; i <= 5; i++) {
+      var node = document.getElementById('badge-' + i);
+      if (node) node.innerText = counts[i];
+    }
+
+    document.getElementById('status-pending').innerText = '⏳ Pending Cards (' + totalPending + ')';
+    document.getElementById('status-reviewed').innerText = '✅ Reviewed Completed (' + totalReviewed + ')';
+    document.getElementById('status-all').innerText = '📚 All Cards (' + (totalPending + totalReviewed) + ')';
+  }
+  
+  function updateFilterCounts() {
+    var counts = { 0:0, 1:0, 2:0, 3:0, 4:0, 5:0 };
+    var totalPending = 0;
+    var totalReviewed = 0;
+
+    var selectedSec = sectionFilter ? sectionFilter.value : 'all';
+    var searchQuery = document.getElementById('search-input') ? document.getElementById('search-input').value : '';
+
+    quizData.forEach(function(card) {
+      var matchesSec = selectedSec === 'all' || String(card.sectionId) === String(selectedSec);
+      var matchesSearch = matchCustomSearch(card, searchQuery);
+
+      if (matchesSec && matchesSearch) {
+        // Track overall totals for the status buttons
+        if (card.isCompleted) totalReviewed++;
+        else totalPending++;
+
+        // 💡 FIX: Only increment difficulty count if the card matches the active status filter profile
+        var matchesStatus = false;
+        if (activeStatusFilter === 'all') matchesStatus = true;
+        else if (activeStatusFilter === 'completed' || activeStatusFilter === 'reviewed') matchesStatus = card.isCompleted;
+        else if (activeStatusFilter === 'pending') matchesStatus = !card.isCompleted;
+
+        if (matchesStatus && counts[card.rating] !== undefined) {
+          counts[card.rating]++;
+        }
+      }
+    });
+
+    for (var i = 0; i <= 5; i++) {
+      var node = document.getElementById('badge-' + i);
+      if (node) node.innerText = counts[i];
+    }
+
+    document.getElementById('status-pending').innerText = '⏳ Pending Cards (' + totalPending + ')';
+    document.getElementById('status-reviewed').innerText = '✅ Reviewed Completed (' + totalReviewed + ')';
+    document.getElementById('status-all').innerText = '📚 All Cards (' + (totalPending + totalReviewed) + ')';
+  }
+
+  function setStatusFilter(statusType) {
+    activeStatusFilter = statusType;
+    document.querySelectorAll('.btn-status').forEach(function(b) { b.classList.remove('active'); });
+    if (statusType === 'pending') document.getElementById('status-pending').classList.add('active');
+    if (statusType === 'reviewed') document.getElementById('status-reviewed').classList.add('active');
+    if (statusType === 'all') document.getElementById('status-all').classList.add('active');
+    applyFilters();
+  }
+
+  function setRatingFilter(ratingValue) {
+    activeRatingFilter = ratingValue;
+    document.querySelectorAll('.btn-rating-square').forEach(function(s) { s.classList.remove('active'); });
+    var activeNode = document.querySelector('.btn-rating-square[data-rating="' + ratingValue + '"]');
+    if (activeNode) activeNode.classList.add('active');
+    applyFilters();
+  }
+
+  function manualUpdateCardRating(cardId, newRating) {
+    var cardState = quizData.find(function(c) { return c.id === cardId; });
+    if (!cardState) return;
+    
+    cardState.rating = parseInt(newRating, 10);
+    saveStateToStorage(cardState.id, cardState.rating, cardState.isCompleted);
+    
+    var cardBox = document.getElementById(cardId);
+    if (cardBox) {
+      cardBox.className = 'card-box rating-' + cardState.rating;
+      
+      var stars = cardBox.querySelectorAll('.star-node');
+      stars.forEach(function(star) {
+        var starVal = parseInt(star.dataset.value, 10);
+        if (starVal <= cardState.rating) {
+          star.classList.add('filled');
+          star.innerText = '★';
+        } else {
+          star.classList.remove('filled');
+          star.innerText = '☆';
+        }
+      });
+    }
+    
+    updateFilterCounts();
+    if (activeRatingFilter !== 'all') {
+      applyFilters();
+    }
+  }
+
+  function initializeEngine(rawJson) {
+    var storedHistory = getStoredRatings();
+
+    sectionFilter.innerHTML = '<option value="all">All Subjects</option>';
+    rawJson.sections.forEach(function(name, idx) {
+      sectionFilter.innerHTML += '<option value="' + idx + '">' + name + '</option>';
+    });
+
+    var parsedCards = rawJson.cards.map(function(cardObj) {
+	  var cardId = cardObj.id; 
+      var displayIdx = cardObj.number;
+      var questionText = cardObj.question;
+      var choicesSet = cardObj.options;
+      var graphicString = cardObj.image; 
+      var dbCardNote = cardObj.notes;
+      var catSectionId = cardObj.section_index; 
+      
+      
+      var shuffledOptions = shuffleArray(choicesSet.slice());
+      var correctIdx = shuffledOptions.findIndex(function(opt) { return opt.value === 1; });
+      
+      var uniqueStringKey = "card_uid_index_" + cardId;
+      
+      var record = storedHistory[uniqueStringKey] || { rating: 0, completed: false };
+      var currentSavedRating = record.rating !== undefined ? parseInt(record.rating, 10) : 0;
+      var isCompletedState = record.completed ? true : false;
+
+      var parsedSectionIndex = parseInt(catSectionId, 10);
+      var assignedSectionName = rawJson.sections[parsedSectionIndex] || 'Unknown';
+
+      var correctOptObj = choicesSet.find(function(o) { return o.value === 1; });
+      var answerTextString = correctOptObj ? correctOptObj.text : '';
+
+      return {
+        id: uniqueStringKey, 
+        displayIndex: displayIdx, 
+        question: questionText,
+        options: shuffledOptions,
+        image: (graphicString && graphicString.trim().length > 0) ? graphicString : null,
+        cardNote: (dbCardNote && dbCardNote.trim().length > 0) ? dbCardNote : null, // 💡 Store it safely on the object
+        sectionId: String(catSectionId), 
+        sectionName: assignedSectionName, 
+        rating: currentSavedRating,         
+        isCompleted: isCompletedState,    
+        isProcessing: false, 
+        correctIndex: correctIdx,
+        correctAnswerText: answerTextString 
+      };
+    });
+
+    quizData = shuffleArray(parsedCards);
+    
+    var savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+    if (savedTheme === 'light') {
+      document.body.classList.add('light-theme');
+      updateThemeButtonLabel(true);
+    } else {
+      updateThemeButtonLabel(false);
+    }
+
+    updateFilterCounts();
+    calculateProgressMetrics();
+    applyFilters();
+  }
+
+  function applyFilters() {
+    updateFilterCounts();
+    
+    var searchQuery = document.getElementById('search-input').value;
+    var selectedSec = sectionFilter.value || 'all';
+
+    filteredData = quizData.filter(function(card) {
+      if (activeStatusFilter === 'pending' && card.isCompleted) return false;
+      if (activeStatusFilter === 'reviewed' && !card.isCompleted) return false;
+
+      var matchesSec = selectedSec === 'all' || String(card.sectionId) === String(selectedSec);
+      if (!matchesSec) return false;
+
+      var matchesRating = activeRatingFilter === 'all' || card.rating === parseInt(activeRatingFilter, 10);
+      if (!matchesRating) return false;
+
+      return matchCustomSearch(card, searchQuery);
+    });
+
+    var criteria = sortCriteria.value;
+    var direction = sortDirection.value;
+
+    if (criteria !== 'shuffle') {
+      filteredData.sort(function(cardA, cardB) {
+        var comparison = 0;
+
+        if (criteria === 'index') {
+          comparison = parseInt(cardA.displayIndex, 10) - parseInt(cardB.displayIndex, 10);
+        } else if (criteria === 'question') {
+          comparison = cardA.question.localeCompare(cardA.question, 'km');
+        } else if (criteria === 'answer') {
+          comparison = cardA.correctAnswerText.localeCompare(cardB.correctAnswerText, 'km');
+        }
+
+        return direction === 'asc' ? comparison : -comparison;
+      });
+    }
+	if(criteria === 'shuffle'){
+		shuffleArray(filteredData);
+	}
+
+    cardContainer.innerHTML = '';
+    renderedCount = 0;
+    renderNextBatch();
+  }
+  
+  function renderNextBatch() {
+    var nextBatch = filteredData.slice(renderedCount, renderedCount + batchSize);
+    if (nextBatch.length === 0) {
+      if (renderedCount === 0) {
+        cardContainer.innerHTML = '<div class="no-results">No elements match your active search profiles.</div>';
+      }
+      return;
+    }
+
+    var searchQuery = document.getElementById('search-input').value;
+    var storedNotes = JSON.parse(localStorage.getItem(CARD_USER_NOTES_KEY) || "{}");
+
+    var htmlStrings = nextBatch.map(function(card) {
+      var formattedQuestion = card.question.replace(/\\n/g, '<br>').replace(/\n/g, '<br>');
+      
+      var highlightedQuestion = highlightText(formattedQuestion, searchQuery);
+      var highlightedIndexNum = highlightText(String(card.displayIndex), searchQuery);
+	  // 💡 FALLBACK CHECK: Try user's localStorage notes first; if empty, use the database note from card.cardNote
+      var savedNoteValue = storedNotes[card.id] !== undefined ? storedNotes[card.id] : (card.cardNote || "");
+      var html = '<div id="' + card.id + '" data-cardid="' + card.id + '" class="card-box rating-' + card.rating + '">' +
+        // 💡 Countdown line stays at the top edge of the element box
+        '<div class="countdown-timer-line" id="timer-display-' + card.id + '">Disappearing in 2s...</div>' +
+        '<div class="card-header-bar">' +
+          '<span class="section-tag">' + card.sectionName + '</span>' +
+          '<div class="star-rating-container">';
+          
+      for(var i = 1; i <= 5; i++) {
+        var starClass = i <= card.rating ? 'star-node filled' : 'star-node';
+        var starChar = i <= card.rating ? '★' : '☆';
+        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.id + '\', ' + i + ')">' + starChar + '</span>';
+      }
+	  
+      html += '</div>' +
+        '</div>' +
+        '<p class="ques"><strong>No #' + highlightedIndexNum + '</strong><br>' + highlightedQuestion + '</p>';
+        
+      if (card.image) {
+        html += '<div class="card-img-wrapper">' +
+                  '<img src="./' + card.image + '" class="card-img" alt="Reference Graphic Reference" onclick="openImageModalDialog(\'./' + card.image + '\')"/>' +
+                '</div>';
+      }
+      
+      html += '<ul class="opts">';
+      card.options.forEach(function(opt, oIdx) {
+        var uniqueChoiceInputId = 'input_' + card.id + '_' + oIdx;
+        var highlightedOptionText = highlightText(opt.text, searchQuery);
+		
+		html += '<li data-index="' + oIdx + '">' +
+          '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
+            '<div class="choice-row-layout">' +
+              '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.id + '" value="' + opt.value + '">' +
+              '<span class="choice-text-container">' + highlightedOptionText + '</span>' +
+            '</div>' +
+          '</label>' +
+        '</li>';
+      });
+      html += '</ul>';
+
+      // 💡 NEW FOOTER ELEMENT: Actions bar for toggle and textarea input panel
+      html += '<div class="card-actions-footer">' +
+                '<button class="btn-note-toggle" onclick="toggleNoteInputFieldPanel(\'' + card.id + '\')">' +
+                  '📝 <span id="note-btn-txt-' + card.id + '">' + (savedNoteValue ? 'Edit Note' : 'Add Note') + '</span>' +
+                '</button>' +
+              '</div>' +
+              '<div class="note-panel-wrapper" id="note-panel-' + card.id + '">' +
+                '<textarea class="note-textarea" id="note-input-' + card.id + '" placeholder="Write clinical hints, translation reference notes or key descriptions here..." oninput="saveNoteTextContentValue(\'' + card.id + '\')">' + savedNoteValue + '</textarea>' +
+              '</div>';
+
+      html += '</div>'; // End card-box
+      return html;
+    });
+
+    cardContainer.insertAdjacentHTML('beforeend', htmlStrings.join(''));
+    renderedCount += nextBatch.length;
+  }
+  
+  function renderNextBatch_1() {
+    var nextBatch = filteredData.slice(renderedCount, renderedCount + batchSize);
+    if (nextBatch.length === 0) {
+      if (renderedCount === 0) {
+        cardContainer.innerHTML = '<div class="no-results">No elements match your active search profiles.</div>';
+      }
+      return;
+    }
+
+    var searchQuery = document.getElementById('search-input').value;
+
+    var htmlStrings = nextBatch.map(function(card) {
+      var formattedQuestion = card.question.replace(/\\n/g, '<br>').replace(/\n/g, '<br>');
+      
+      var highlightedQuestion = highlightText(formattedQuestion, searchQuery);
+      var highlightedIndexNum = highlightText(String(card.displayIndex), searchQuery);
+
+      var html = '<div id="' + card.id + '" data-cardid="' + card.id + '" class="card-box rating-' + card.rating + '">' +
+        '<div class="card-header-bar">' +
+          '<span class="section-tag">' + card.sectionName + '</span>' +
+          '<div class="star-rating-container">';
+    /*      
+      for(var i = 1; i <= 5; i++) {
+        var starClass = i <= card.rating ? 'star-node filled' : 'star-node';
+        var starChar = i <= card.rating ? '★' : '☆';
+        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.id + '\', ' + i + ')">' + starChar + '</span>';
+      }
+	*/
+      // FIX: Change loop direction from (5 down to 1) to match row-reverse alignment
+      for(var i = 1; i <= 5; i++) {
+        var starClass = i <= card.rating ? 'star-node filled' : 'star-node';
+        var starChar = i <= card.rating ? '★' : '☆';
+        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.id + '\', ' + i + ')">' + starChar + '</span>';
+      }
+	  
+      html += '</div>' +
+        '</div>' +
+        '<p class="ques"><strong>No #' + highlightedIndexNum + '</strong><br>' + highlightedQuestion + '</p>' +
+        '<div class="countdown-timer-line" id="timer-display-' + card.id + '">Disappearing in 2s...</div>';
+        
+      if (card.image) {
+        // Updated click interaction target string line
+        html += '<div class="card-img-wrapper">' +
+                  '<img src="./' + card.image + '" class="card-img" alt="Reference Graphic Reference" onclick="openImageModalDialog(\'./' + card.image + '\')"/>' +
+                '</div>';
+      }
+      
+      html += '<ul class="opts">';
+      card.options.forEach(function(opt, oIdx) {
+        var uniqueChoiceInputId = 'input_' + card.id + '_' + oIdx;
+        var highlightedOptionText = highlightText(opt.text, searchQuery);
+/*
+        html += '<li data-index="' + oIdx + '">' +
+          '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
+            '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.id + '" value="' + opt.value + '">' +
+            highlightedOptionText +
+          '</label>' +
+        '</li>';
+*/		
+		html += '<li data-index="' + oIdx + '">' +
+          '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
+            // NEW WRAPPER LAYER: Restricts layout properties away from mixed text fragments
+            '<div class="choice-row-layout">' +
+              '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.id + '" value="' + opt.value + '">' +
+              '<span class="choice-text-container">' + highlightedOptionText + '</span>' +
+            '</div>' +
+          '</label>' +
+        '</li>';
+      });
+      html += '</ul></div>';
+      return html;
+    });
+
+    cardContainer.insertAdjacentHTML('beforeend', htmlStrings.join(''));
+    renderedCount += nextBatch.length;
+  }
+
+  cardContainer.addEventListener('click', function(event) {
+	// 💡 EXCLUSION RULES: Skip click assessment for note management triggers
+    if (
+      event.target.classList.contains('star-node') || 
+      event.target.classList.contains('btn-note-toggle') ||
+      event.target.closest('.btn-note-toggle') ||
+      event.target.classList.contains('note-textarea')
+    ) return;
+
+    var targetLabel = event.target.tagName === 'LABEL' ? event.target : event.target.closest('label');
+    if (!targetLabel) return;
+	
+    if (event.target.classList.contains('star-node')) return;
+
+    event.preventDefault();
+
+    var chosenLi = targetLabel.closest('.opts li');
+    if (!chosenLi) return;
+
+    var cardBox = chosenLi.closest('.card-box');
+    var cardId = cardBox.dataset.cardid;
+    var cardState = quizData.find(function(c) { return c.id === cardId; });
+
+    if (!cardState || cardState.isProcessing) return;
+
+    var targetInputNode = chosenLi.querySelector('input[type="radio"]');
+    if (targetInputNode) targetInputNode.checked = true;
+
+    var clickedIndex = parseInt(chosenLi.dataset.index, 10);
+    var isCorrect = (clickedIndex === cardState.correctIndex);
+
+    if (isCorrect) {
+      cardState.isProcessing = true;
+      chosenLi.classList.add('choice-success');
+      // cardBox.querySelectorAll('input').forEach(function(input) { input.disabled = true; });
+	  // MASK THE WHOLE BLOCK: Blocks clicks on ALL options for this question card
+	  var optionsList = cardBox.querySelector('.opts');
+	  if (optionsList) {
+		optionsList.style.pointerEvents = 'none';
+	  }
+      cardState.isCompleted = true;
+      saveStateToStorage(cardState.id, cardState.rating, true);
+
+      var countdownDisplay = document.getElementById('timer-display-' + cardId);
+      if (countdownDisplay) {
+        countdownDisplay.style.display = 'block';
+        var secondsLeft = Math.round(CARD_REMOVE_DELAY_MS / 1000);
+        countdownDisplay.innerText = 'Disappearing in ' + secondsLeft + 's...';
+        
+        var clockInterval = setInterval(function() {
+          secondsLeft--;
+          if (secondsLeft > 0) countdownDisplay.innerText = 'Disappearing in ' + secondsLeft + 's...';
+          else clearInterval(clockInterval);
+        }, 1000);
+      }
+
+      var fadePadWindowTime = Math.max(0, CARD_REMOVE_DELAY_MS - 400);
+      setTimeout(function() {
+        cardBox.classList.add('fade-out');
+      }, fadePadWindowTime);
+
+      setTimeout(function() {
+        cardBox.remove();
+	    // FIX HERE: Reset the flag so it is fresh when loaded back in later filter views!
+        cardState.isProcessing = false;
+        updateFilterCounts();
+        calculateProgressMetrics(); 
+        if (cardContainer.querySelectorAll('.card-box').length < 3) renderNextBatch();
+      }, CARD_REMOVE_DELAY_MS);
+
+    } else {
+      cardState.rating = Math.min(cardState.rating + 1, 5);
+      saveStateToStorage(cardState.id, cardState.rating, false);
+
+      cardBox.className = 'card-box rating-' + cardState.rating;
+      
+      var stars = cardBox.querySelectorAll('.star-node');
+      stars.forEach(function(star) {
+        var starVal = parseInt(star.dataset.value, 10);
+        if (starVal <= cardState.rating) {
+          star.classList.add('filled');
+          star.innerText = '★';
+        } else {
+          star.classList.remove('filled');
+          star.innerText = '☆';
+        }
+      });
+
+      cardBox.classList.add('flash-wrong');
+      setTimeout(function() { cardBox.classList.remove('flash-wrong'); }, 500);
+    }
+  });
+
+  window.shuffleActiveDeck = function() {
+    if(sortCriteria) sortCriteria.value = 'shuffle';
+    shuffleArray(quizData);
+    applyFilters();
+  };
+
+  window.resetEntireQuizHistory = function() {
+    if (!confirm("Clear your quiz data history and reshuffle?")) return;
+    localStorage.removeItem(RATINGS_STORAGE_KEY);
+    quizData.forEach(function(card) {
+      card.rating = 0;
+      card.isCompleted = false;
+      card.isProcessing = false;
+      shuffleArray(card.options);
+    });
+
+    shuffleArray(quizData);
+    document.getElementById('search-input').value = '';
+    searchClearBtn.style.display = 'none';
+    activeRatingFilter = 'all';
+    activeStatusFilter = 'pending';
+    if(sectionFilter) sectionFilter.value = 'all';
+    if(sortCriteria) sortCriteria.value = 'shuffle';
+
+    document.querySelectorAll('.btn-status').forEach(function(b) { b.classList.remove('active'); });
+    var pendingBtn = document.getElementById('status-pending');
+    if (pendingBtn) pendingBtn.classList.add('active');
+    
+    document.querySelectorAll('.btn-rating-square').forEach(function(s) { s.classList.remove('active'); });
+
+    updateFilterCounts();
+    calculateProgressMetrics();
+    applyFilters();
+  };
+
+  window.onscroll = function() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      scrollTopBtn.classList.add('show');
+    } else {
+      scrollTopBtn.classList.remove('show');
+    }
+
+    var totalPageHeight = document.documentElement.scrollHeight;
+    var currentScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    var viewportHeight = window.innerHeight;
+
+    if ((totalPageHeight - currentScrollTop - viewportHeight) < 200) renderNextBatch();
+  };
+
+  window.scrollToTop = function() { window.scrollTo({ top: 0, behavior: 'smooth' }); };
+
+  document.addEventListener('DOMContentLoaded', function() {
+	// Ensure the loader is visible when starting the network request
+    var loaderNode = document.getElementById('app-initial-loader');
+    if (loaderNode) loaderNode.style.display = 'flex';
+    fetch(DATA_SOURCE_FILE)
+      .then(function(res) {
+        if (!res.ok) throw new Error('File download error');
+        return res.json();
+      })
+      .then(function(data) { initializeEngine(data); })
+      .catch(function(err) {
+        console.error(err);
+        cardContainer.innerHTML = '<div class="no-results" style="border-color:var(--danger)">Error: Unable to locate or access source file resource "' + DATA_SOURCE_FILE + '". If running locally, make sure you are using a local development server.</div>';
+      });
+  });
+  
+  // Open and close input drawer layout
+  window.toggleNoteInputFieldPanel = function(cardId) {
+    var panel = document.getElementById('note-panel-' + cardId);
+    var labelText = document.getElementById('note-btn-txt-' + cardId);
+    if (!panel) return;
+
+    if (panel.style.display === 'block') {
+      panel.style.display = 'none';
+    } else {
+      panel.style.display = 'block';
+      var inputField = document.getElementById('note-input-' + cardId);
+      if (inputField) inputField.focus(); // Auto focus area on touch screen devices
+    }
+  };
+
+  // Sync value changes cleanly inside LocalStorage data arrays
+  window.saveNoteTextContentValue = function(cardId) {
+    var inputVal = document.getElementById('note-input-' + cardId).value;
+    var labelText = document.getElementById('note-btn-txt-' + cardId);
+    
+    var storedNotes = JSON.parse(localStorage.getItem(CARD_USER_NOTES_KEY) || "{}");
+    
+    if (inputVal.trim().length > 0) {
+      storedNotes[cardId] = inputVal;
+      if (labelText) labelText.innerText = "Edit Note";
+    } else {
+      delete storedNotes[cardId];
+      if (labelText) labelText.innerText = "Add Note";
+    }
+    
+    localStorage.setItem(CARD_USER_NOTES_KEY, JSON.stringify(storedNotes));
+  };
+  
+  // Open modal lightbox view window
+  window.openImageModalDialog = function(imgSrc) {
+    var modal = document.getElementById('image-lightbox-modal');
+    var targetImg = document.getElementById('lightbox-target-img');
+    if (modal && targetImg) {
+      targetImg.src = imgSrc;
+      modal.style.display = 'flex';
+      document.body.style.overflow = 'hidden'; // Lock main window scroll while open
+    }
+  };
+
+  // Close modal lightbox view window 
+  window.closeImageModalDialog = function() {
+    var modal = document.getElementById('image-lightbox-modal');
+    if (modal) {
+      modal.style.display = 'none';
+      document.body.style.overflow = ''; // Unlock background scrolling back
+    }
+  };
+</script>
+<div id="image-lightbox-modal" class="img-modal-overlay" onclick="closeImageModalDialog()">
+  <img id="lightbox-target-img" src="" alt="Expanded View Preview">
+</div>
+</body>
+</html>
