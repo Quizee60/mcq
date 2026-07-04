@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DES MCQs Examination Study</title>
+  <title>Advanced 7DDS MCQs Examination Deck</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -828,6 +828,7 @@
       <label for="sort-criteria">Sort By</label>
       <select id="sort-criteria" onchange="applyFilters()">
         <option value="shuffle">🔀 Shuffled / Random</option>
+        <option value="keyid">🔢 Question ID #</option>
         <option value="index">🔢 Question No #</option>
         <option value="question">📝 Question Content</option>
         <option value="answer">🎯 Correct Answer Text</option>
@@ -1120,11 +1121,11 @@
   }
 
   function manualUpdateCardRating(cardId, newRating) {
-    var cardState = quizData.find(function(c) { return c.id === cardId; });
+    var cardState = quizData.find(function(c) { return c.cardId === cardId; });
     if (!cardState) return;
     
     cardState.rating = parseInt(newRating, 10);
-    saveStateToStorage(cardState.id, cardState.rating, cardState.isCompleted);
+    saveStateToStorage(cardState.cardId, cardState.rating, cardState.isCompleted);
     
     var cardBox = document.getElementById(cardId);
     if (cardBox) {
@@ -1158,7 +1159,7 @@
     });
 
     var parsedCards = rawJson.cards.map(function(cardObj) {
-	  var cardId = cardObj.id; 
+	  var keyId = cardObj.id; 
       var displayIdx = cardObj.number;
       var questionText = cardObj.question;
       var choicesSet = cardObj.options;
@@ -1170,7 +1171,7 @@
       var shuffledOptions = shuffleArray(choicesSet.slice());
       var correctIdx = shuffledOptions.findIndex(function(opt) { return opt.value === 1; });
       
-      var uniqueStringKey = "card_uid_index_" + cardId;
+      var uniqueStringKey = "card_uid_index_" + keyId;
       
       var record = storedHistory[uniqueStringKey] || { rating: 0, completed: false };
       var currentSavedRating = record.rating !== undefined ? parseInt(record.rating, 10) : 0;
@@ -1183,7 +1184,8 @@
       var answerTextString = correctOptObj ? correctOptObj.text : '';
 
       return {
-        id: uniqueStringKey, 
+        id: keyId,
+        cardId: uniqueStringKey,
         displayIndex: displayIdx, 
         question: questionText,
         options: shuffledOptions,
@@ -1214,6 +1216,15 @@
     applyFilters();
   }
 
+  const getCardComparisonDisplayIndex = (displayIndex) => {
+	  if (!displayIndex) return 0;
+	  // Convert to string and split by underscore
+	  const parts = String(displayIndex).split('_');  
+	  // always get the first number to short by Subject
+	  const targetValue = parts.length > 1 ? parts[0] : parts[0];
+	  return parseInt(targetValue, 10) || 0;
+  };
+  
   function applyFilters() {
     updateFilterCounts();
     
@@ -1238,15 +1249,16 @@
 
     if (criteria !== 'shuffle') {
       filteredData.sort(function(cardA, cardB) {
-        var comparison = 0;
-
-        if (criteria === 'index') {
-          comparison = parseInt(cardA.displayIndex, 10) - parseInt(cardB.displayIndex, 10);
-        } else if (criteria === 'question') {
-          comparison = cardA.question.localeCompare(cardA.question, 'km');
-        } else if (criteria === 'answer') {
-          comparison = cardA.correctAnswerText.localeCompare(cardB.correctAnswerText, 'km');
-        }
+         var comparison = 0;
+         if (criteria === 'keyid') {
+			comparison = parseInt(cardA.id, 10) - parseInt(cardB.id, 10);
+		}else if (criteria === 'index') {
+			comparison = getCardComparisonDisplayIndex(cardA.displayIndex) - getCardComparisonDisplayIndex(cardB.displayIndex);
+         } else if (criteria === 'question') {
+			comparison = cardA.question.localeCompare(cardA.question, 'km');
+		} else if (criteria === 'answer') {
+			comparison = cardA.correctAnswerText.localeCompare(cardB.correctAnswerText, 'km');
+         }
 
         return direction === 'asc' ? comparison : -comparison;
       });
@@ -1278,10 +1290,10 @@
       var highlightedQuestion = highlightText(formattedQuestion, searchQuery);
       var highlightedIndexNum = highlightText(String(card.displayIndex), searchQuery);
 	  // 💡 FALLBACK CHECK: Try user's localStorage notes first; if empty, use the database note from card.cardNote
-      var savedNoteValue = storedNotes[card.id] !== undefined ? storedNotes[card.id] : (card.cardNote || "");
-      var html = '<div id="' + card.id + '" data-cardid="' + card.id + '" class="card-box rating-' + card.rating + '">' +
+      var savedNoteValue = storedNotes[card.cardId] !== undefined ? storedNotes[card.cardId] : (card.cardNote || "");
+      var html = '<div id="' + card.cardId + '" data-cardid="' + card.cardId + '" class="card-box rating-' + card.rating + '">' +
         // 💡 Countdown line stays at the top edge of the element box
-        '<div class="countdown-timer-line" id="timer-display-' + card.id + '">Disappearing in 2s...</div>' +
+        '<div class="countdown-timer-line" id="timer-display-' + card.cardId + '">Disappearing in 2s...</div>' +
         '<div class="card-header-bar">' +
           '<span class="section-tag">' + card.sectionName + '</span>' +
           '<div class="star-rating-container">';
@@ -1289,7 +1301,7 @@
       for(var i = 1; i <= 5; i++) {
         var starClass = i <= card.rating ? 'star-node filled' : 'star-node';
         var starChar = i <= card.rating ? '★' : '☆';
-        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.id + '\', ' + i + ')">' + starChar + '</span>';
+        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.cardId + '\', ' + i + ')">' + starChar + '</span>';
       }
 	  
       html += '</div>' +
@@ -1304,13 +1316,13 @@
       
       html += '<ul class="opts">';
       card.options.forEach(function(opt, oIdx) {
-        var uniqueChoiceInputId = 'input_' + card.id + '_' + oIdx;
+        var uniqueChoiceInputId = 'input_' + card.cardId + '_' + oIdx;
         var highlightedOptionText = highlightText(opt.text, searchQuery);
 		
 		html += '<li data-index="' + oIdx + '">' +
           '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
             '<div class="choice-row-layout">' +
-              '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.id + '" value="' + opt.value + '">' +
+              '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.cardId + '" value="' + opt.value + '">' +
               '<span class="choice-text-container">' + highlightedOptionText + '</span>' +
             '</div>' +
           '</label>' +
@@ -1320,12 +1332,12 @@
 
       // 💡 NEW FOOTER ELEMENT: Actions bar for toggle and textarea input panel
       html += '<div class="card-actions-footer">' +
-                '<button class="btn-note-toggle" onclick="toggleNoteInputFieldPanel(\'' + card.id + '\')">' +
-                  '📝 <span id="note-btn-txt-' + card.id + '">' + (savedNoteValue ? 'Edit Note' : 'Add Note') + '</span>' +
+                '<button class="btn-note-toggle" onclick="toggleNoteInputFieldPanel(\'' + card.cardId + '\')">' +
+                  '📝 <span id="note-btn-txt-' + card.cardId + '">' + (savedNoteValue ? 'Edit Note' : 'Add Note') + '</span>' +
                 '</button>' +
               '</div>' +
-              '<div class="note-panel-wrapper" id="note-panel-' + card.id + '">' +
-                '<textarea class="note-textarea" id="note-input-' + card.id + '" placeholder="Write clinical hints, translation reference notes or key descriptions here..." oninput="saveNoteTextContentValue(\'' + card.id + '\')">' + savedNoteValue + '</textarea>' +
+              '<div class="note-panel-wrapper" id="note-panel-' + card.cardId + '">' +
+                '<textarea class="note-textarea" id="note-input-' + card.cardId + '" placeholder="Write clinical hints, translation reference notes or key descriptions here..." oninput="saveNoteTextContentValue(\'' + card.cardId + '\')">' + savedNoteValue + '</textarea>' +
               '</div>';
 
       html += '</div>'; // End card-box
@@ -1353,7 +1365,7 @@
       var highlightedQuestion = highlightText(formattedQuestion, searchQuery);
       var highlightedIndexNum = highlightText(String(card.displayIndex), searchQuery);
 
-      var html = '<div id="' + card.id + '" data-cardid="' + card.id + '" class="card-box rating-' + card.rating + '">' +
+      var html = '<div id="' + card.cardId + '" data-cardid="' + card.cardId + '" class="card-box rating-' + card.rating + '">' +
         '<div class="card-header-bar">' +
           '<span class="section-tag">' + card.sectionName + '</span>' +
           '<div class="star-rating-container">';
@@ -1361,20 +1373,20 @@
       for(var i = 1; i <= 5; i++) {
         var starClass = i <= card.rating ? 'star-node filled' : 'star-node';
         var starChar = i <= card.rating ? '★' : '☆';
-        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.id + '\', ' + i + ')">' + starChar + '</span>';
+        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.cardId + '\', ' + i + ')">' + starChar + '</span>';
       }
 	*/
       // FIX: Change loop direction from (5 down to 1) to match row-reverse alignment
       for(var i = 1; i <= 5; i++) {
         var starClass = i <= card.rating ? 'star-node filled' : 'star-node';
         var starChar = i <= card.rating ? '★' : '☆';
-        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.id + '\', ' + i + ')">' + starChar + '</span>';
+        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.cardId + '\', ' + i + ')">' + starChar + '</span>';
       }
 	  
       html += '</div>' +
         '</div>' +
         '<p class="ques"><strong>No #' + highlightedIndexNum + '</strong><br>' + highlightedQuestion + '</p>' +
-        '<div class="countdown-timer-line" id="timer-display-' + card.id + '">Disappearing in 2s...</div>';
+        '<div class="countdown-timer-line" id="timer-display-' + card.cardId + '">Disappearing in 2s...</div>';
         
       if (card.image) {
         // Updated click interaction target string line
@@ -1385,12 +1397,12 @@
       
       html += '<ul class="opts">';
       card.options.forEach(function(opt, oIdx) {
-        var uniqueChoiceInputId = 'input_' + card.id + '_' + oIdx;
+        var uniqueChoiceInputId = 'input_' + card.cardId + '_' + oIdx;
         var highlightedOptionText = highlightText(opt.text, searchQuery);
 /*
         html += '<li data-index="' + oIdx + '">' +
           '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
-            '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.id + '" value="' + opt.value + '">' +
+            '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.cardId + '" value="' + opt.value + '">' +
             highlightedOptionText +
           '</label>' +
         '</li>';
@@ -1399,7 +1411,7 @@
           '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
             // NEW WRAPPER LAYER: Restricts layout properties away from mixed text fragments
             '<div class="choice-row-layout">' +
-              '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.id + '" value="' + opt.value + '">' +
+              '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.cardId + '" value="' + opt.value + '">' +
               '<span class="choice-text-container">' + highlightedOptionText + '</span>' +
             '</div>' +
           '</label>' +
@@ -1434,7 +1446,7 @@
 
     var cardBox = chosenLi.closest('.card-box');
     var cardId = cardBox.dataset.cardid;
-    var cardState = quizData.find(function(c) { return c.id === cardId; });
+    var cardState = quizData.find(function(c) { return c.cardId === cardId; });
 
     if (!cardState || cardState.isProcessing) return;
 
@@ -1454,7 +1466,7 @@
 		optionsList.style.pointerEvents = 'none';
 	  }
       cardState.isCompleted = true;
-      saveStateToStorage(cardState.id, cardState.rating, true);
+      saveStateToStorage(cardState.cardId, cardState.rating, true);
 
       var countdownDisplay = document.getElementById('timer-display-' + cardId);
       if (countdownDisplay) {
@@ -1485,7 +1497,7 @@
 
     } else {
       cardState.rating = Math.min(cardState.rating + 1, 5);
-      saveStateToStorage(cardState.id, cardState.rating, false);
+      saveStateToStorage(cardState.cardId, cardState.rating, false);
 
       cardBox.className = 'card-box rating-' + cardState.rating;
       
