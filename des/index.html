@@ -906,6 +906,25 @@
   var scrollTopBtn = document.getElementById('scroll-top-btn');
   var themeToggleBtn = document.getElementById('theme-toggle-btn');
   var searchClearBtn = document.getElementById('search-clear-btn');
+  
+  var QUIZ_FILTER_STATE_KEY = "QUIZES_FILTER_STATE";
+  // 1. Saves all active filters into a single variable string (expires in 30 days)
+  function saveAllFiltersState() {
+    var stateObj = {
+      sectionId: sectionFilter ? sectionFilter.value : 'all',
+      sortCriteria: sortCriteria ? sortCriteria.value : 'shuffle',
+      sortDirection: sortDirection ? sortDirection.value : 'asc',
+      statusFilter: activeStatusFilter,
+      ratingFilter: activeRatingFilter
+    };
+    localStorage.setItem(QUIZ_FILTER_STATE_KEY, JSON.stringify(stateObj));
+  }
+
+  // 2. Extracts and parses the single variable safely
+  function getAllFiltersState() {
+	  var savedData = localStorage.getItem(QUIZ_FILTER_STATE_KEY);
+	  return savedData ? JSON.parse(savedData) : null;
+	}
 
   function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
@@ -1220,6 +1239,31 @@
       updateThemeButtonLabel(false);
     }
 
+	// 💡 RESTORE STATE: Read the single  variable state block if it exists
+    var savedState = getAllFiltersState();
+    if (savedState) {
+      if (sectionFilter) sectionFilter.value = savedState.sectionId || 'all';
+      if (sortCriteria) sortCriteria.value = savedState.sortCriteria || 'shuffle';
+      if (sortDirection) sortDirection.value = savedState.sortDirection || 'asc';
+      
+      activeStatusFilter = savedState.statusFilter || 'pending';
+      activeRatingFilter = savedState.ratingFilter || 'all';
+    } else {
+      // System fallback states if no  exists yet
+      activeStatusFilter = 'pending';
+      activeRatingFilter = 'all';
+    }
+
+    // Update UI highlights based on restored values
+    document.querySelectorAll('.btn-status').forEach(function(b) { b.classList.remove('active'); });
+    if (activeStatusFilter === 'pending' && document.getElementById('status-pending')) document.getElementById('status-pending').classList.add('active');
+    if (activeStatusFilter === 'reviewed' && document.getElementById('status-reviewed')) document.getElementById('status-reviewed').classList.add('active');
+    if (activeStatusFilter === 'all' && document.getElementById('status-all')) document.getElementById('status-all').classList.add('active');
+
+    document.querySelectorAll('.btn-rating-square').forEach(function(s) { s.classList.remove('active'); });
+    var savedRatingNode = document.querySelector('.btn-rating-square[data-rating="' + activeRatingFilter + '"]');
+    if (savedRatingNode) savedRatingNode.classList.add('active');
+	
     updateFilterCounts();
     calculateProgressMetrics();
     applyFilters();
@@ -1235,6 +1279,7 @@
   };
   
   function applyFilters() {
+    saveAllFiltersState();
     updateFilterCounts();
     
     var searchQuery = document.getElementById('search-input').value;
