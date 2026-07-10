@@ -939,7 +939,14 @@
     return array;
   }
 
-  function getStoredRatings() {
+  function saveRatingState(cardId, rating, isCompleted) {
+    var history = getRatingState();
+    history[cardId] = { rating: rating, completed: isCompleted };
+    localStorage.setItem(RATINGS_STORAGE_KEY, JSON.stringify(history));
+    updateFilterCounts();
+  }
+  
+  function getRatingState() {
     try {
       var data = localStorage.getItem(RATINGS_STORAGE_KEY);
       return data ? JSON.parse(data) : {};
@@ -948,13 +955,7 @@
       return {}; // Safe fallback if storage data corrupts
     }
   }
-  function saveStateToStorage(cardId, rating, isCompleted) {
-    var history = getStoredRatings();
-    history[cardId] = { rating: rating, completed: isCompleted };
-    localStorage.setItem(RATINGS_STORAGE_KEY, JSON.stringify(history));
-    updateFilterCounts();
-  }
-
+  
   function toggleThemeEngine() {
     var isLight = document.body.classList.toggle('light-theme');
     localStorage.setItem(THEME_STORAGE_KEY, isLight ? 'light' : 'dark');
@@ -1126,7 +1127,7 @@
     if (!cardState) return;
     
     cardState.rating = parseInt(newRating, 10);
-    saveStateToStorage(cardState.cardId, cardState.rating, cardState.isCompleted);
+    saveRatingState(cardState.cardId, cardState.rating, cardState.isCompleted);
     
     var cardBox = document.getElementById(cardId);
     if (cardBox) {
@@ -1152,7 +1153,7 @@
   }
 
   function initializeEngine(rawJson) {
-    var storedHistory = getStoredRatings();
+    var ratingStateHistory = getRatingState();
 
     sectionFilter.innerHTML = '<option value="all">All Subjects</option>';
     rawJson.sections.forEach(function(name, idx) {
@@ -1164,7 +1165,7 @@
       var displayIdx = cardObj.number;
       var questionText = cardObj.question;
       var choicesSet = cardObj.options;
-      var graphicString = cardObj.image; 
+      var cardImagePath = cardObj.image; 
       var dbCardNote = cardObj.notes;
       var catSectionId = cardObj.section_index; 
       
@@ -1174,7 +1175,7 @@
       
       var uniqueStringKey = "card_uid_index_" + keyId;
       
-      var record = storedHistory[uniqueStringKey] || { rating: 0, completed: false };
+      var record = ratingStateHistory[uniqueStringKey] || { rating: 0, completed: false };
       var currentSavedRating = record.rating !== undefined ? parseInt(record.rating, 10) : 0;
       var isCompletedState = record.completed ? true : false;
 
@@ -1190,7 +1191,7 @@
         displayIndex: displayIdx, 
         question: questionText,
         options: shuffledOptions,
-        image: (graphicString && graphicString.trim().length > 0) ? graphicString : null,
+        image: (cardImagePath && cardImagePath.trim().length > 0) ? cardImagePath : null,
         cardNote: (dbCardNote && dbCardNote.trim().length > 0) ? dbCardNote : null, // 💡 Store it safely on the object
         sectionId: String(catSectionId), 
         sectionName: assignedSectionName, 
@@ -1345,15 +1346,16 @@
       }
       
       html += '<ul class="opts">';
-	  shuffleArray(card.options);
-      card.options.forEach(function(opt, oIdx) {
+	  var shuffledOptions = shuffleArray(card.options.slice());
+      card.correctIndex   = shuffledOptions.findIndex(function(opt) { return opt.value === 1; });
+      shuffledOptions.forEach(function(opt, oIdx) {
         var uniqueChoiceInputId = 'input_' + card.cardId + '_' + oIdx;
         var highlightedOptionText = highlightText(opt.text, searchQuery);
-		
+		//hide the correct answer in Html rendering
 		html += '<li data-index="' + oIdx + '">' +
           '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
             '<div class="choice-row-layout">' +
-              '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.cardId + '" value="' + opt.value + '">' +
+              '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.cardId + '" value="' + oIdx + '">' +
               '<span class="choice-text-container">' + highlightedOptionText + '</span>' +
             '</div>' +
           '</label>' +
@@ -1413,6 +1415,7 @@
     if (isCorrect) {
       cardState.isProcessing = true;
       chosenLi.classList.add('choice-success');
+	  // input.disabled = true; it will cause the clicking radio unchecked
       // cardBox.querySelectorAll('input').forEach(function(input) { input.disabled = true; });
 	  // MASK THE WHOLE BLOCK: Blocks clicks on ALL options for this question card
 	  var optionsList = cardBox.querySelector('.opts');
@@ -1420,7 +1423,7 @@
 		optionsList.style.pointerEvents = 'none';
 	  }
       cardState.isCompleted = true;
-      saveStateToStorage(cardState.cardId, cardState.rating, true);
+      saveRatingState(cardState.cardId, cardState.rating, true);
 
       var countdownDisplay = document.getElementById('timer-display-' + cardId);
       if (countdownDisplay) {
@@ -1451,7 +1454,7 @@
 
     } else {
       cardState.rating = Math.min(cardState.rating + 1, 5);
-      saveStateToStorage(cardState.cardId, cardState.rating, false);
+      saveRatingState(cardState.cardId, cardState.rating, false);
 
       cardBox.className = 'card-box rating-' + cardState.rating;
       
@@ -1485,7 +1488,6 @@
       card.rating = 0;
       card.isCompleted = false;
       card.isProcessing = false;
-      shuffleArray(card.options);
     });
 
     shuffleArray(quizData);
