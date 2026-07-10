@@ -830,7 +830,7 @@
 
     <div class="filter-group">
       <label for="section-filter">Subject Category</label>
-      <select id="section-filter" onchange="applyFilters()"></select>
+      <select id="section-filter" onchange="applyFilters(FILTER_SUBJECT)"></select>
     </div>
 
     <div class="filter-group">
@@ -908,6 +908,9 @@
   var searchClearBtn = document.getElementById('search-clear-btn');
   
   var QUIZ_FILTER_STATE_KEY = "QUIZES_FILTER_STATE";
+  var FILTER_SUBJECT = "SUBJECT";
+  var FILTER_STATUS  = "STATUS";
+  var FILTER_RATING  = "RATING";
   // 1. Saves all active filters into a single variable string (expires in 30 days)
   function saveAllFiltersState() {
     var stateObj = {
@@ -1062,36 +1065,6 @@
     document.getElementById('progress-fill').style.width = percentage + '%';
   }
 
-  function updateFilterCounts_1() {
-    var counts = { 0:0, 1:0, 2:0, 3:0, 4:0, 5:0 };
-    var totalPending = 0;
-    var totalReviewed = 0;
-
-    var selectedSec = sectionFilter ? sectionFilter.value : 'all';
-    var searchQuery = document.getElementById('search-input') ? document.getElementById('search-input').value : '';
-
-    quizData.forEach(function(card) {
-      var matchesSec = selectedSec === 'all' || String(card.sectionId) === String(selectedSec);
-      var matchesSearch = matchCustomSearch(card, searchQuery);
-
-      if (matchesSec && matchesSearch) {
-        if (card.isCompleted) totalReviewed++;
-        else totalPending++;
-
-        if (counts[card.rating] !== undefined) counts[card.rating]++;
-      }
-    });
-
-    for (var i = 0; i <= 5; i++) {
-      var node = document.getElementById('badge-' + i);
-      if (node) node.innerText = counts[i];
-    }
-
-    document.getElementById('status-pending').innerText = '⏳ Pending Cards (' + totalPending + ')';
-    document.getElementById('status-reviewed').innerText = '✅ Reviewed Completed (' + totalReviewed + ')';
-    document.getElementById('status-all').innerText = '📚 All Cards (' + (totalPending + totalReviewed) + ')';
-  }
-  
   function updateFilterCounts() {
     var counts = { 0:0, 1:0, 2:0, 3:0, 4:0, 5:0 };
     var totalPending = 0;
@@ -1137,7 +1110,7 @@
     if (statusType === 'pending') document.getElementById('status-pending').classList.add('active');
     if (statusType === 'reviewed') document.getElementById('status-reviewed').classList.add('active');
     if (statusType === 'all') document.getElementById('status-all').classList.add('active');
-    applyFilters();
+    applyFilters(FILTER_STATUS);
   }
 
   function setRatingFilter(ratingValue) {
@@ -1145,7 +1118,7 @@
     document.querySelectorAll('.btn-rating-square').forEach(function(s) { s.classList.remove('active'); });
     var activeNode = document.querySelector('.btn-rating-square[data-rating="' + ratingValue + '"]');
     if (activeNode) activeNode.classList.add('active');
-    applyFilters();
+    applyFilters(FILTER_RATING);
   }
 
   function manualUpdateCardRating(cardId, newRating) {
@@ -1174,7 +1147,7 @@
     
     updateFilterCounts();
     if (activeRatingFilter !== 'all') {
-      applyFilters();
+      applyFilters(FILTER_RATING);
     }
   }
 
@@ -1278,7 +1251,10 @@
 	  return parseInt(targetValue, 10) || 0;
   };
   
-  function applyFilters() {
+  function applyFilters(sender="") {
+	if(sender === FILTER_SUBJECT || sender === FILTER_STATUS){
+		setRatingFilter('all');
+	}
     saveAllFiltersState();
     updateFilterCounts();
     
@@ -1369,6 +1345,7 @@
       }
       
       html += '<ul class="opts">';
+	  shuffleArray(card.options);
       card.options.forEach(function(opt, oIdx) {
         var uniqueChoiceInputId = 'input_' + card.cardId + '_' + oIdx;
         var highlightedOptionText = highlightText(opt.text, searchQuery);
@@ -1395,83 +1372,6 @@
               '</div>';
 
       html += '</div>'; // End card-box
-      return html;
-    });
-
-    cardContainer.insertAdjacentHTML('beforeend', htmlStrings.join(''));
-    renderedCount += nextBatch.length;
-  }
-  
-  function renderNextBatch_1() {
-    var nextBatch = filteredData.slice(renderedCount, renderedCount + batchSize);
-    if (nextBatch.length === 0) {
-      if (renderedCount === 0) {
-        cardContainer.innerHTML = '<div class="no-results">No elements match your active search profiles.</div>';
-      }
-      return;
-    }
-
-    var searchQuery = document.getElementById('search-input').value;
-
-    var htmlStrings = nextBatch.map(function(card) {
-      var formattedQuestion = card.question.replace(/\\n/g, '<br>').replace(/\n/g, '<br>');
-      
-      var highlightedQuestion = highlightText(formattedQuestion, searchQuery);
-      var highlightedIndexNum = highlightText(String(card.displayIndex), searchQuery);
-
-      var html = '<div id="' + card.cardId + '" data-cardid="' + card.cardId + '" class="card-box rating-' + card.rating + '">' +
-        '<div class="card-header-bar">' +
-          '<span class="section-tag">' + card.sectionName + '</span>' +
-          '<div class="star-rating-container">';
-    /*      
-      for(var i = 1; i <= 5; i++) {
-        var starClass = i <= card.rating ? 'star-node filled' : 'star-node';
-        var starChar = i <= card.rating ? '★' : '☆';
-        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.cardId + '\', ' + i + ')">' + starChar + '</span>';
-      }
-	*/
-      // FIX: Change loop direction from (5 down to 1) to match row-reverse alignment
-      for(var i = 1; i <= 5; i++) {
-        var starClass = i <= card.rating ? 'star-node filled' : 'star-node';
-        var starChar = i <= card.rating ? '★' : '☆';
-        html += '<span class="' + starClass + '" data-value="' + i + '" onclick="manualUpdateCardRating(\'' + card.cardId + '\', ' + i + ')">' + starChar + '</span>';
-      }
-	  
-      html += '</div>' +
-        '</div>' +
-        '<p class="ques"><strong>No #' + highlightedIndexNum + '</strong><br>' + highlightedQuestion + '</p>' +
-        '<div class="countdown-timer-line" id="timer-display-' + card.cardId + '">Disappearing in 2s...</div>';
-        
-      if (card.image) {
-        // Updated click interaction target string line
-        html += '<div class="card-img-wrapper">' +
-                  '<img src="./' + card.image + '" class="card-img" alt="Reference Graphic Reference" onclick="openImageModalDialog(\'./' + card.image + '\')"/>' +
-                '</div>';
-      }
-      
-      html += '<ul class="opts">';
-      card.options.forEach(function(opt, oIdx) {
-        var uniqueChoiceInputId = 'input_' + card.cardId + '_' + oIdx;
-        var highlightedOptionText = highlightText(opt.text, searchQuery);
-/*
-        html += '<li data-index="' + oIdx + '">' +
-          '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
-            '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.cardId + '" value="' + opt.value + '">' +
-            highlightedOptionText +
-          '</label>' +
-        '</li>';
-*/		
-		html += '<li data-index="' + oIdx + '">' +
-          '<label class="radio-wrp" for="' + uniqueChoiceInputId + '">' +
-            // NEW WRAPPER LAYER: Restricts layout properties away from mixed text fragments
-            '<div class="choice-row-layout">' +
-              '<input type="radio" id="' + uniqueChoiceInputId + '" name="group-quiz-' + card.cardId + '" value="' + opt.value + '">' +
-              '<span class="choice-text-container">' + highlightedOptionText + '</span>' +
-            '</div>' +
-          '</label>' +
-        '</li>';
-      });
-      html += '</ul></div>';
       return html;
     });
 
